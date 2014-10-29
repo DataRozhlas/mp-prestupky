@@ -1,20 +1,37 @@
 window.ig.Infobar = class Infobar
-  (parentElement, @typy) ->
+  (parentElement, typy) ->
+    @typy = typy.map -> {name: it, value: 0}
     @element = parentElement.append \div
       ..attr \class \infobar
     @total = @element.append \span
       ..attr \class \total
     @initTimeHistogram!
+    @initDayHistogram!
+    @initTypy!
+
 
   initTimeHistogram: ->
     @timeHistogram = [0 til 24].map -> value: 0
     @timeHistogramElm = @element.append \div
       ..attr \class "histogram time"
-    @timeHistogramBars = @timeHistogramElm.selectAll \div.bar .data @timeHistogram .enter!append \div
+    timeHistogramBars = @timeHistogramElm.selectAll \div.bar .data @timeHistogram .enter!append \div
       ..attr \class \bar
-    @timeHistogramBarFills = @timeHistogramBars.append \div
+    @timeHistogramBarFills = timeHistogramBars.append \div
       ..attr \class \fill
 
+
+  initDayHistogram: ->
+    @dayHistogram = [0 til 7].map -> value: 0
+    @dayHistogramElm = @element.append \div
+      ..attr \class "histogram day"
+    dayHistogramBars = @dayHistogramElm.selectAll \div.bar .data @dayHistogram .enter!append \div
+      ..attr \class \bar
+    @dayHistogramBarFills = dayHistogramBars.append \div
+      ..attr \class \fill
+
+  initTypy: ->
+    @typyElm = @element.append \ol
+      ..attr \class \typy
 
   draw: (bounds) ->
     (err, data) <~ downloadBounds bounds
@@ -23,14 +40,54 @@ window.ig.Infobar = class Infobar
     for line in data
       if line.date
         @timeHistogram[line.date.getHours!].value++
+        day = line.date.getDay! - 1
+        if day == -1 then day = 6 # nedele na konec tydne
+        @dayHistogram[day].value++
+      @typy[line.typId].value++
+    @redrawTimeHistogram!
+    @redrawDayHistogram!
+    @redrawTypy!
+
+
+  redrawTimeHistogram: ->
     timeHistogramMax = d3.max @timeHistogram.map (.value)
     @timeHistogramBarFills
       ..style \height ->
         "#{it.value / timeHistogramMax * 100}%"
 
 
+  redrawDayHistogram: ->
+    dayHistogramMax = d3.max @dayHistogram.map (.value)
+    @dayHistogramBarFills
+      ..style \height ->
+        "#{it.value / dayHistogramMax * 100}%"
+
+
+  redrawTypy: ->
+    usableTypy = @typy.filter (.value > 0)
+    usableTypy.sort (a, b) -> b.value - a.value
+    height = 24px
+    for typ, index in usableTypy
+      typ.index = index
+    max = d3.sum usableTypy.map (.value)
+
+    @typyElm.selectAll \li .data usableTypy
+      ..enter!append \li
+        ..append \span
+          ..attr \class \name
+          ..html (.name)
+        ..append \div
+          ..attr \class \fill
+      ..exit!remove!
+      ..style \top -> "#{it.index * height}px"
+      ..select \div.fill
+        ..style \width -> "#{it.value / max * 100}%"
+
+
   reset: ->
     for item in @timeHistogram
+      item.value = 0
+    for item in @dayHistogram
       item.value = 0
 
 
@@ -64,6 +121,7 @@ downloadFiles = (files, cb) ->
             ..setHours hour
         line.x = parseFloat line.x
         line.y = parseFloat line.y
+        line.typId = parseInt line.typ, 10
         # TODO: typ, spachano date
         line
       cb
