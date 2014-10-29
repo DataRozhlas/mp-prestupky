@@ -30,7 +30,7 @@ window.ig.Map = class Map
 
     @map.addLayer baseLayer
     # @map.addLayer labelLayer
-    # @initSelectionRectangle!
+    @initSelectionRectangle!
 
   drawHeatmap: ->
     (err, data) <~ d3.tsv "../data/processed/grouped.tsv", (line) ->
@@ -46,8 +46,6 @@ window.ig.Map = class Map
 
     L.heatLayer latLngs, radius: 7
       ..addTo @map
-    @map
-      ..on \mousedown (evt) ~> console.log evt.latlng
 
 
   initSelectionRectangle: ->
@@ -66,13 +64,14 @@ window.ig.Map = class Map
         @selectionRectangle.setBounds [@startLatlng, @endLatlng]
       ..on \mouseup ~>
         @selectionRectangleDrawing = no
-        console.log @startLatlng.lat, @startLatlng.lng, @endLatlng.lat, @endLatlng.lng
+        @setSelection [[@startLatlng.lat, @startLatlng.lng], [@endLatlng.lat, @endLatlng.lng]]
+        # console.log [@startLatlng.lat, @startLatlng.lng], [@endLatlng.lat, @endLatlng.lng]
 
     # @map.addLayer L.rectangle do
     #   * [bounds.y.0, bounds.x.0], [bounds.y.1, bounds.x.1]
 
   setSelection: (bounds) ->
-    L.rectangle bounds
-      ..addTo @map
+    # L.rectangle bounds
+    #   ..addTo @map
     @emit \selection bounds
 

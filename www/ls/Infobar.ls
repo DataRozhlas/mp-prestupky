@@ -39,7 +39,9 @@ window.ig.Infobar = class Infobar
     @reset!
     for line in data
       if line.date
-        @timeHistogram[line.date.getHours!].value++
+        if line.hasHours
+          h = line.date.getHours!
+          @timeHistogram[h].value++
         day = line.date.getDay! - 1
         if day == -1 then day = 6 # nedele na konec tydne
         @dayHistogram[day].value++
@@ -70,7 +72,6 @@ window.ig.Infobar = class Infobar
     for typ, index in usableTypy
       typ.index = index
     max = d3.sum usableTypy.map (.value)
-
     @typyElm.selectAll \li .data usableTypy
       ..enter!append \li
         ..append \span
@@ -85,10 +86,9 @@ window.ig.Infobar = class Infobar
 
 
   reset: ->
-    for item in @timeHistogram
-      item.value = 0
-    for item in @dayHistogram
-      item.value = 0
+    for field in [@timeHistogram, @dayHistogram, @typy]
+      for item in field
+        item.value = 0
 
 
 downloadBounds = (bounds, cb) ->
@@ -118,7 +118,9 @@ downloadFiles = (files, cb) ->
             ..setFullYear year
             ..setMonth month - 1
             ..setDate day
-            ..setHours hour
+          if !isNaN hour
+            line.date.setHours hour
+            line.hasHours = yes
         line.x = parseFloat line.x
         line.y = parseFloat line.y
         line.typId = parseInt line.typ, 10

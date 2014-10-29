@@ -8,7 +8,7 @@ init = ->
   infobar = new ig.Infobar container, typy
   map
     ..on \selection infobar~draw
-    ..setSelection [[50.04110381590842 14.339] [50.0385 14.34316635131836]]
+    # ..setSelection [[50.04110381590842 14.339] [50.0385 14.34316635131836]]
 if d3?
   init!
 else
