@@ -19,8 +19,12 @@ currentTypIndex = 0
 reader.on \data (line) ->
   [..._,typ,x,y] = line
   return if x == 'x'
-  x = parseFloat x .toFixed 5
-  y = parseFloat y .toFixed 5
+  x = parseFloat x
+  x -= 0.0011
+  x .= toFixed 5
+  y = parseFloat y
+  y -= 0.00074
+  y .= toFixed 5
   return unless x and y
   typId = if typIndices[typ]
     that
@@ -36,4 +40,5 @@ reader.on \data (line) ->
 output = for id, count of out
   id += "\t#count"
 console.log "writing #{output.length} lines"
+output.unshift "x\ty\ttyp\tcount"
 <~ fs.writeFile "#__dirname/../data/processed/grouped.tsv" output.join "\n"

@@ -31,8 +31,12 @@ currentTypIndex = 0
 reader.on \data (line) ->
   [..._, spachano,oblast,addr,ulice,cislo,typ,x,y] = line
   return if x == 'x'
-  x = parseFloat x .toFixed 5
-  y = parseFloat y .toFixed 5
+  x = parseFloat x
+  x -= 0.0011
+  x .= toFixed 5
+  y = parseFloat y
+  y -= 0.00074
+  y .= toFixed 5
   return unless x and y
   xIndex = (Math.floor x / 0.01)
   yIndex = (Math.floor y / 0.005)
