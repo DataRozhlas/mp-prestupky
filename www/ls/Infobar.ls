@@ -104,7 +104,7 @@ downloadBounds = (bounds, cb) ->
 
 downloadFiles = (files, cb) ->
   (err, data) <- async.map files, (file, cb) ->
-    d3.tsv do
+    (err, data) <~ d3.tsv do
       "../data/processed/tiles/#file"
       (line) ->
         if line.spachano
@@ -126,7 +126,7 @@ downloadFiles = (files, cb) ->
         line.typId = parseInt line.typ, 10
         # TODO: typ, spachano date
         line
-      cb
+    cb null, data || []
   all = [].concat ...data
   cb null, all
 
