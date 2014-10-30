@@ -1,6 +1,6 @@
 ig = window.ig
 init = ->
-  typy = for line in window.ig.data.typy.split "\n"
+  ig.typy = typy = for line in window.ig.data.typy.split "\n"
     line
   container = d3.select ig.containers.base
   map = new ig.Map ig.containers.base

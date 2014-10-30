@@ -11,10 +11,10 @@ window.ig.Map = class Map
     @map = L.map do
       * mapElement
       * minZoom: 6,
-        maxZoom: 17,
-        zoom: 16,
-        # center: [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
-        center: [50.03815124242662, 14.339518547058107]
+        maxZoom: 18,
+        zoom: 12,
+        center: [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
+        # center: [50.03815124242662, 14.339518547058107]
         maxBounds: [[48.4,11.8], [51.2,18.9]]
 
     baseLayer = L.tileLayer do
@@ -31,6 +31,12 @@ window.ig.Map = class Map
     @map.addLayer baseLayer
     # @map.addLayer labelLayer
     @initSelectionRectangle!
+    document.addEventListener "keydown" (evt) ~>
+      if evt.ctrlKey
+        @enableSelectionRectangle!
+    document.addEventListener "keyup" (evt) ~>
+      if !evt.ctrlKey
+        @disableSelectionRectangle!
 
   drawHeatmap: ->
     (err, data) <~ d3.tsv "../data/processed/grouped.tsv", (line) ->
@@ -39,20 +45,26 @@ window.ig.Map = class Map
       line.typ = parseInt line.typ, 10
       line.count = parseInt line.count, 10
       line
+    # data .= filter -> -1 != window.ig.typy[it.typ].indexOf "rychlost"
     latLngs = for item in data
       latlng = L.latLng item.y, item.x
         ..alt = item.count
       latlng
 
-    L.heatLayer latLngs, radius: 7
+    options =
+      radius: 8
+    L.heatLayer latLngs, options
       ..addTo @map
 
 
   initSelectionRectangle: ->
     @selectionRectangleDrawing = no
     @selectionRectangle = L.rectangle do
-      * [bounds.y.0, bounds.x.0], [bounds.y.1, bounds.x.1]
+      * [0,0], [0, 0]
     @selectionRectangle.addTo @map
+
+  enableSelectionRectangle: ->
+    @selectionRectangleEnabled = yes
     @map
       ..dragging.disable!
       ..on \mousedown (evt) ~>
@@ -62,13 +74,17 @@ window.ig.Map = class Map
         return unless @selectionRectangleDrawing
         @endLatlng = evt.latlng
         @selectionRectangle.setBounds [@startLatlng, @endLatlng]
+        @setSelection [[@startLatlng.lat, @startLatlng.lng], [@endLatlng.lat, @endLatlng.lng]]
       ..on \mouseup ~>
         @selectionRectangleDrawing = no
-        @setSelection [[@startLatlng.lat, @startLatlng.lng], [@endLatlng.lat, @endLatlng.lng]]
-        # console.log [@startLatlng.lat, @startLatlng.lng], [@endLatlng.lat, @endLatlng.lng]
 
-    # @map.addLayer L.rectangle do
-    #   * [bounds.y.0, bounds.x.0], [bounds.y.1, bounds.x.1]
+  disableSelectionRectangle: ->
+    @selectionRectangleEnabled = no
+    @map
+      ..dragging.enable!
+      ..off \mousedown
+      ..off \mousemove
+      ..off \mouseup
 
   setSelection: (bounds) ->
     # L.rectangle bounds
