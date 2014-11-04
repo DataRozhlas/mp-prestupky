@@ -31,11 +31,15 @@ window.ig.Infobar = class Infobar
       ..attr \class "histogram time"
     timeHistogramBars = @timeHistogramElm.selectAll \div.bar .data @timeHistogram .enter!append \div
       ..attr \class \bar
+      ..append \span
+        ..attr \class \legend
+        ..html (d, i) -> i
     @timeHistogramBarFills = timeHistogramBars.append \div
       ..attr \class \fill
 
 
   initDayHistogram: ->
+    dny = <[Po Út St Čt Pá So Ne]>
     @dayHistogram = [0 til 7].map -> value: 0
     histogramContainer = @element.append \div
       ..attr \class "histogram-container"
@@ -45,6 +49,9 @@ window.ig.Infobar = class Infobar
       ..attr \class "histogram day"
     dayHistogramBars = @dayHistogramElm.selectAll \div.bar .data @dayHistogram .enter!append \div
       ..attr \class \bar
+      ..append \div
+        ..attr \class \legend
+        ..html (d, i) -> dny[i]
     @dayHistogramBarFills = dayHistogramBars.append \div
       ..attr \class \fill
 
