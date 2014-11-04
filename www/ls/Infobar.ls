@@ -2,9 +2,20 @@ window.ig.Infobar = class Infobar
   (parentElement, typy) ->
     @typy = typy.map -> {name: it, value: 0}
     @element = parentElement.append \div
-      ..attr \class \infobar
-    @total = @element.append \span
+      ..attr \class "infobar nodata"
+    @heading = @element.append \h2
+      ..html "Statistiky přestupků"
+    @element.append \span
+      ..attr \class \subtitle
+      ..html "Vyberte myší část města, o jejíž struktuře přestupků se chcete dozvědět víc"
+    totalElm = @element.append \span
       ..attr \class \total
+    @total = totalElm.append \span
+      ..attr \class \value
+      ..html "0"
+    totalElm.append \span
+      ..attr \class \suffix
+      ..html " přestupků vybráno"
     @initTimeHistogram!
     @initDayHistogram!
     @initTypy!
@@ -12,7 +23,11 @@ window.ig.Infobar = class Infobar
 
   initTimeHistogram: ->
     @timeHistogram = [0 til 24].map -> value: 0
-    @timeHistogramElm = @element.append \div
+    histogramContainer = @element.append \div
+      ..attr \class "histogram-container"
+      ..append \h3
+        ..html "Rozdělení podle denní doby"
+    @timeHistogramElm = histogramContainer.append \div
       ..attr \class "histogram time"
     timeHistogramBars = @timeHistogramElm.selectAll \div.bar .data @timeHistogram .enter!append \div
       ..attr \class \bar
@@ -22,7 +37,11 @@ window.ig.Infobar = class Infobar
 
   initDayHistogram: ->
     @dayHistogram = [0 til 7].map -> value: 0
-    @dayHistogramElm = @element.append \div
+    histogramContainer = @element.append \div
+      ..attr \class "histogram-container"
+      ..append \h3
+        ..html "Rozdělení podle dne v týdnu"
+    @dayHistogramElm = histogramContainer.append \div
       ..attr \class "histogram day"
     dayHistogramBars = @dayHistogramElm.selectAll \div.bar .data @dayHistogram .enter!append \div
       ..attr \class \bar
@@ -30,12 +49,18 @@ window.ig.Infobar = class Infobar
       ..attr \class \fill
 
   initTypy: ->
-    @typyElm = @element.append \ol
+    typyCont = @element.append \div
+      ..attr \class \typy
+      ..append \h3
+        ..html "Nejčastější přestupky"
+
+    @typyElm = typyCont.append \ol
       ..attr \class \typy
 
   draw: (bounds) ->
+    @element.classed \nodata no
     (err, data) <~ downloadBounds bounds
-    @total.html data.length
+    @total.html ig.utils.formatNumber data.length
     @reset!
     for line in data
       if line.date
