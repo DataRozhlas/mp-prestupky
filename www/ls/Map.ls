@@ -29,7 +29,7 @@ window.ig.Map = class Map
         opacity: 0.75
 
     @map.addLayer baseLayer
-    # @map.addLayer labelLayer
+    @map.addLayer labelLayer
     @initSelectionRectangle!
     document.addEventListener "keydown" (evt) ~>
       if evt.ctrlKey
