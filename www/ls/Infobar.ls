@@ -90,45 +90,53 @@ window.ig.Infobar = class Infobar
       for item in field
         item.value = 0
 
-
+currBounds = null
 downloadBounds = (bounds, cb) ->
   xBounds = [bounds.0.1, bounds.1.1]
   yBounds = [bounds.0.0, bounds.1.0]
   [xBounds, yBounds].forEach -> it.sort (a, b) -> a - b
   files = getRequiredFiles xBounds, yBounds
+  currBounds := [xBounds, yBounds]
   (err, lines) <~ downloadFiles files
+  return if lines is null
   inboundLines = lines.filter ({x, y}) ->
-    xBounds.0 < x < xBounds.1 and yBounds.0 < y < yBounds.1
+    currBounds.0.0 < x < currBounds.0.1 and currBounds.1.0 < y < currBounds.1.1
   cb err, inboundLines
 
-
+cache = {}
 downloadFiles = (files, cb) ->
-  (err, data) <- async.map files, (file, cb) ->
-    (err, data) <~ d3.tsv do
-      "../data/processed/tiles/#file"
-      (line) ->
-        if line.spachano
-          [year, month, day, hour] =
-            parseInt (line.spachano.substr 0, 2), 10
-            parseInt (line.spachano.substr 2, 2), 10
-            parseInt (line.spachano.substr 4, 2), 10
-            parseInt (line.spachano.substr 6, 2), 10
-          line.date = new Date!
-            ..setTime 0
-            ..setFullYear year
-            ..setMonth month - 1
-            ..setDate day
-          if !isNaN hour
-            line.date.setHours hour
-            line.hasHours = yes
-        line.x = parseFloat line.x
-        line.y = parseFloat line.y
-        line.typId = parseInt line.typ, 10
-        # TODO: typ, spachano date
-        line
-    cb null, data || []
-  all = [].concat ...data
-  cb null, all
+  id = files.join '+'
+  if cache[id] isnt void
+    cb null, cache[id]
+  else
+    cache[id] = null
+    (err, data) <- async.map files, (file, cb) ->
+      (err, data) <~ d3.tsv do
+        "../data/processed/tiles/#file"
+        (line) ->
+          if line.spachano
+            [year, month, day, hour] =
+              parseInt (line.spachano.substr 0, 2), 10
+              parseInt (line.spachano.substr 2, 2), 10
+              parseInt (line.spachano.substr 4, 2), 10
+              parseInt (line.spachano.substr 6, 2), 10
+            line.date = new Date!
+              ..setTime 0
+              ..setFullYear year
+              ..setMonth month - 1
+              ..setDate day
+            if !isNaN hour
+              line.date.setHours hour
+              line.hasHours = yes
+          line.x = parseFloat line.x
+          line.y = parseFloat line.y
+          line.typId = parseInt line.typ, 10
+          # TODO: typ, spachano date
+          line
+      cb null, data || []
+    all = [].concat ...data
+    cache[id] = all
+    cb null, all
 
 
 
