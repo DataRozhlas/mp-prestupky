@@ -3,8 +3,8 @@ require! {
   fs
   async
 }
-file = "brno_odtahy_6_13_9_14"
-targetDir = "brno-odtahy"
+file = "praha_odtah_6_13_5_14"
+targetDir = "praha-odtahy"
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
@@ -14,10 +14,10 @@ out = {}
 typIndices = {}
 currentTypIndex = 0
 reader.on \data (line) ->
-  if 'brno' != file.substr 0, 4
-    [..._,typ,x,y] = line
+  if 'praha_prest_6_13_5_14' == file
+    [..._, spachano,oblast,addr,ulice,cislo,typ,x,y] = line
   else
-    [..._,typ,_,x,y] = line
+    [..._, spachano,_,typ,_,x,y] = line
   return if x == 'x'
   x = parseFloat x
   x -= 0.0011
