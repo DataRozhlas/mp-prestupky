@@ -94,7 +94,5 @@ window.ig.Map = class Map
       ..off \mouseup
 
   setSelection: (bounds) ->
-    # L.rectangle bounds
-    #   ..addTo @map
     @emit \selection bounds
 
