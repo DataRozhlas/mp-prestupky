@@ -1,10 +1,12 @@
 ig = window.ig
 init = ->
-  ig.typy = typy = for text, id in window.ig.data.typy.split "\n"
-    {text, id}
+  ig.dir = dir = (window.location.hash.substr 1) || "praha-prestupky"
   container = d3.select ig.containers.base
   map = new ig.Map ig.containers.base
-    ..drawHeatmap!
+    ..drawHeatmap dir
+  (err, data) <~ d3.text "../data/processed/#dir/typy.tsv"
+  ig.typy = typy = for text, id in data.split "\n"
+    {text, id}
   infobar = new ig.Infobar container, typy
   map
     ..on \selection infobar~draw

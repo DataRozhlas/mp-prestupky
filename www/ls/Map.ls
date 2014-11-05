@@ -1,6 +1,3 @@
-bounds =
-  x: [14.2633323501339 14.6895150599435]
-  y: [49.9529729169694 50.1716609107504]
 
 window.ig.Map = class Map
   (parentElement) ->
@@ -8,14 +5,24 @@ window.ig.Map = class Map
       ..id = \map
     window.ig.Events @
     parentElement.appendChild mapElement
+    if "praha" is ig.dir.substr 0, 5
+      bounds =
+        x: [14.263 14.689]
+        y: [49.952 50.171]
+      maxBounds = [[49.94,14.24], [50.18,14.7]]
+    else
+      bounds =
+        x: [16.475 16.716]
+        y: [49.124 49.289]
+      maxBounds = [[49.11 16.46] [49.30 16.74]]
+
     @map = L.map do
       * mapElement
       * minZoom: 6,
         maxZoom: 18,
         zoom: 12,
         center: [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
-        # center: [50.03815124242662, 14.339518547058107]
-        maxBounds: [[48.4,11.8], [51.2,18.9]]
+        maxBounds: maxBounds
 
     baseLayer = L.tileLayer do
       * "https://samizdat.cz/tiles/ton_b1/{z}/{x}/{y}.png"
@@ -38,8 +45,8 @@ window.ig.Map = class Map
       if !evt.ctrlKey
         @disableSelectionRectangle!
 
-  drawHeatmap: ->
-    (err, data) <~ d3.tsv "../data/processed/grouped.tsv", (line) ->
+  drawHeatmap: (dir) ->
+    (err, data) <~ d3.tsv "../data/processed/#dir/grouped.tsv", (line) ->
       line.x = parseFloat line.x
       line.y = parseFloat line.y
       line.typ = parseInt line.typ, 10

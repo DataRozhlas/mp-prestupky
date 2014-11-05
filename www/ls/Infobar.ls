@@ -5,7 +5,10 @@ window.ig.Infobar = class Infobar
     @element = parentElement.append \div
       ..attr \class "infobar nodata"
     @heading = @element.append \h2
-      ..html "Statistiky přestupků"
+    @heading.html if ig.dir.split "-" .1 == "odtahy"
+      "Statistiky odtahů"
+    else
+      "Statistiky přestupků"
     @element.append \span
       ..attr \class \subtitle
       ..html "Vyberte myší část města, o jejíž struktuře přestupků se chcete dozvědět víc"
@@ -117,7 +120,7 @@ window.ig.Infobar = class Infobar
     typyCont = @element.append \div
       ..attr \class \typy
       ..append \h3
-        ..html "Nejčastější přestupky"
+        ..html if ig.dir.split "-" .1 == "odtahy" then "Nejčastější důvody odtahů" else "Nejčastější přestupky"
 
     @typyElm = typyCont.append \ol
       ..attr \class \typy
@@ -235,7 +238,7 @@ downloadFiles = (files, cb) ->
     cache[id] = null
     (err, data) <- async.map files, (file, cb) ->
       (err, data) <~ d3.tsv do
-        "../data/processed/tiles/#file"
+        "../data/processed/#{ig.dir}/tiles/#file"
         (line) ->
           if line.spachano
             [year, month, day, hour] =
