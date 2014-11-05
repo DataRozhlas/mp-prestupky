@@ -1,6 +1,7 @@
 window.ig.Infobar = class Infobar
   (parentElement, typy) ->
-    @typy = typy.map -> {name: it, value: 0}
+    @typy = typy.map -> {name: it.text, id: it.id, value: 0}
+    @typyAssoc = @typy.slice!
     @element = parentElement.append \div
       ..attr \class "infobar nodata"
     @heading = @element.append \h2
@@ -16,10 +17,12 @@ window.ig.Infobar = class Infobar
     totalElm.append \span
       ..attr \class \suffix
       ..html " přestupků vybráno"
+    @timeFilters = []
+    @dateFilters = []
+    @typFilters  = []
     @initTimeHistogram!
     @initDayHistogram!
     @initTypy!
-
 
   initTimeHistogram: ->
     @timeHistogram = [0 til 24].map -> value: 0
@@ -29,14 +32,66 @@ window.ig.Infobar = class Infobar
         ..html "Rozdělení podle denní doby"
     @timeHistogramElm = histogramContainer.append \div
       ..attr \class "histogram time"
-    timeHistogramBars = @timeHistogramElm.selectAll \div.bar .data @timeHistogram .enter!append \div
+    @timeHistogramBars = @timeHistogramElm.selectAll \div.bar .data @timeHistogram .enter!append \div
       ..attr \class \bar
+      ..on \click (d, i) ~> @toggleTimeFilter i
       ..append \span
         ..attr \class \legend
         ..html (d, i) -> i
-    @timeHistogramBarFills = timeHistogramBars.append \div
+    @timeHistogramBarFillsUnfiltered = @timeHistogramBars.append \div
+      ..attr \class "fill bg"
+    @timeHistogramBarFills = @timeHistogramBars.append \div
       ..attr \class \fill
 
+  toggleTimeFilter: (startHour) ->
+    index = @timeFilters.indexOf startHour
+    if -1 isnt index
+      @timeFilters.splice index, 1
+    else
+      @timeFilters.push startHour
+    @updateFilteredView!
+
+  toggleDateFilter: (day) ->
+    index = @dateFilters.indexOf day
+    if -1 isnt index
+      @dateFilters.splice index, 1
+    else
+      @dateFilters.push day
+    @updateFilteredView!
+
+  toggleTypFilter: (typ) ->
+    typId = typ.id
+    if typ.isFiltered
+      @typFilters.splice do
+        @typFilters.indexOf typId
+        1
+    else
+      @typFilters.push typId
+    typ.isFiltered = !typ.isFiltered
+    @updateFilteredView!
+
+
+  updateFilteredView: ->
+    @refilter!
+    @recomputeGraphs!
+    @refilterTimeHistogram!
+    @refilterDayHistogram!
+    @refilterTypy!
+
+  refilter: ->
+    timeFiltersLen = @timeFilters.length
+    dateFiltersLen = @dateFilters.length
+    typFiltersLen  = @typFilters.length
+    @filteredData = @fullData.filter (datum) ~>
+      if timeFiltersLen
+        return false unless datum.hasHours
+        return false if datum.date.getHours! not in @timeFilters
+      if dateFiltersLen
+        return false unless datum.date
+        return false if datum.day not in @dateFilters
+      if typFiltersLen
+        return false if datum.typId not in @typFilters
+      return true
 
   initDayHistogram: ->
     dny = <[Po Út St Čt Pá So Ne]>
@@ -49,9 +104,12 @@ window.ig.Infobar = class Infobar
       ..attr \class "histogram day"
     dayHistogramBars = @dayHistogramElm.selectAll \div.bar .data @dayHistogram .enter!append \div
       ..attr \class \bar
+      ..on \click (d, i) ~> @toggleDateFilter i
       ..append \div
         ..attr \class \legend
         ..html (d, i) -> dny[i]
+    @dayHistogramBarFillsUnfiltered = dayHistogramBars.append \div
+      ..attr \class "fill bg"
     @dayHistogramBarFills = dayHistogramBars.append \div
       ..attr \class \fill
 
@@ -67,35 +125,51 @@ window.ig.Infobar = class Infobar
   draw: (bounds) ->
     @element.classed \nodata no
     (err, data) <~ downloadBounds bounds
-    @total.html ig.utils.formatNumber data.length
+    @filteredData = @fullData = data
+    @recomputeGraphs!
+    for typ in @typy
+      typ.fullValue = typ.value
+    @redrawGraphs!
+
+  recomputeGraphs: ->
+    @total.html ig.utils.formatNumber @filteredData.length
     @reset!
-    for line in data
+    for line in @filteredData
       if line.date
         if line.hasHours
           h = line.date.getHours!
           @timeHistogram[h].value++
-        day = line.date.getDay! - 1
-        if day == -1 then day = 6 # nedele na konec tydne
-        @dayHistogram[day].value++
-      @typy[line.typId].value++
+        @dayHistogram[line.day].value++
+      @typyAssoc[line.typId].value++
+
+  redrawGraphs: ->
     @redrawTimeHistogram!
     @redrawDayHistogram!
     @redrawTypy!
 
-
   redrawTimeHistogram: ->
-    timeHistogramMax = d3.max @timeHistogram.map (.value)
-    @timeHistogramBarFills
-      ..style \height ->
-        "#{it.value / timeHistogramMax * 100}%"
+    @timeHistogramMax = d3.max @timeHistogram.map (.value)
+    @timeHistogramBarFillsUnfiltered
+      ..style \height ~>
+        "#{it.value / @timeHistogramMax * 100}%"
+    @refilterTimeHistogram!
 
+  refilterTimeHistogram: ->
+    @timeHistogramBarFills
+      ..style \height ~>
+        "#{it.value / @timeHistogramMax * 100}%"
 
   redrawDayHistogram: ->
-    dayHistogramMax = d3.max @dayHistogram.map (.value)
-    @dayHistogramBarFills
-      ..style \height ->
-        "#{it.value / dayHistogramMax * 100}%"
+    @dayHistogramMax = d3.max @dayHistogram.map (.value)
+    @dayHistogramBarFillsUnfiltered
+      ..style \height ~>
+        "#{it.value / @dayHistogramMax * 100}%"
+    @refilterDayHistogram!
 
+  refilterDayHistogram: ->
+    @dayHistogramBarFills
+      ..style \height ~>
+        "#{it.value / @dayHistogramMax * 100}%"
 
   redrawTypy: ->
     usableTypy = @typy.filter (.value > 0)
@@ -103,19 +177,36 @@ window.ig.Infobar = class Infobar
     height = 24px
     for typ, index in usableTypy
       typ.index = index
-    max = d3.sum usableTypy.map (.value)
+    @typyMax = d3.sum usableTypy.map (.value)
     @typyElm.selectAll \li .data usableTypy
       ..enter!append \li
         ..append \span
           ..attr \class \name
           ..html (.name)
         ..append \div
-          ..attr \class \fill
+          ..attr \class "fill bg"
+        ..append \div
+          ..attr \class "fill fg"
+        ..on \click ~> @toggleTypFilter it
       ..exit!remove!
       ..style \top -> "#{it.index * height}px"
-      ..select \div.fill
-        ..style \width -> "#{it.value / max * 100}%"
+      ..selectAll \div.fill
+        ..style \width ~> "#{it.value / @typyMax * 100}%"
 
+  refilterTypy: ->
+    height = 24px
+    @typy.sort (a, b) ->
+      | b.value - a.value => that
+      | b.fullValue - a.fullValue => that
+      | otherwise => 0
+    for typ, index in @typy
+      typ.index = index
+    @typyElm.classed \filtered @typFilters.length
+    @typyElm.selectAll \li
+      ..style \top -> "#{it.index * height}px"
+      ..classed \filtered (.isFiltered)
+      ..select \div.fill.fg
+        ..style \width ~> "#{it.value / @typyMax * 100}%"
 
   reset: ->
     for field in [@timeHistogram, @dayHistogram, @typy]
@@ -160,6 +251,8 @@ downloadFiles = (files, cb) ->
             if !isNaN hour
               line.date.setHours hour
               line.hasHours = yes
+            line.day = line.date.getDay! - 1
+            if line.day == -1 then line.day = 6 # nedele na konec tydne
           line.x = parseFloat line.x
           line.y = parseFloat line.y
           line.typId = parseInt line.typ, 10
@@ -170,9 +263,6 @@ downloadFiles = (files, cb) ->
     cache[id] = all
     cb null, all
 
-
-
-
 getRequiredFiles = (x, y) ->
   xIndices = x.map getXIndex
   yIndices = y.map getYIndex
@@ -181,7 +271,6 @@ getRequiredFiles = (x, y) ->
     for yIndex in [yIndices.0 to yIndices.1]
       files.push "#{xIndex}-#{yIndex}.tsv"
   files
-
 
 getXIndex = -> Math.floor it / 0.01
 getYIndex = -> Math.floor it / 0.005
