@@ -5,3 +5,22 @@
   bottom 0px
   width (1000px - infobarWidth)
   width calc(100% \- 330px)
+.draggerButton
+  position absolute
+  top 9px
+  left 50px
+  width 29px
+  height 29px
+  border 2px solid #b
+  background white
+  text-align center
+  border-radius 3px
+  &:hover
+    cursor pointer
+    background #f3f3f3
+  &:active
+    background #ddd
+  &.active
+    background ColorHeading
+    border-color darken(ColorHeading, 40%)
+    color white

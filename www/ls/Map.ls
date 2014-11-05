@@ -38,12 +38,35 @@ window.ig.Map = class Map
     @map.addLayer baseLayer
     @map.addLayer labelLayer
     @initSelectionRectangle!
+    draggerButton = document.createElement 'div'
+      ..innerHTML = '◰'
+      ..className = 'draggerButton'
+      ..setAttribute \title "Zapnout režim výběru oblasti a vypnout posouvání mapy myší"
+    parentElement.appendChild draggerButton
+    @draggingButtonEnabled = no
+    self = @
+    draggerButton.addEventListener "mousedown" (.preventDefault!)
+    draggerButton.addEventListener "click" (evt) ->
+      self.draggingButtonEnabled = !self.draggingButtonEnabled
+      if self.draggingButtonEnabled
+        @className = "draggerButton active"
+        self.enableSelectionRectangle!
+      else
+        @className = "draggerButton"
+        self.disableSelectionRectangle!
+
     document.addEventListener "keydown" (evt) ~>
       if evt.ctrlKey
-        @enableSelectionRectangle!
+        if @draggingButtonEnabled
+          @disableSelectionRectangle!
+        else
+          @enableSelectionRectangle!
     document.addEventListener "keyup" (evt) ~>
       if !evt.ctrlKey
-        @disableSelectionRectangle!
+        if @draggingButtonEnabled
+          @enableSelectionRectangle!
+        else
+          @disableSelectionRectangle!
 
   drawHeatmap: (dir) ->
     (err, data) <~ d3.tsv "../data/processed/#dir/grouped.tsv", (line) ->
