@@ -3,7 +3,10 @@ require! {
   fs
   async
 }
-stream = fs.createReadStream "#__dirname/../data/praha_prest_6_13_5_14.csv"
+file = "praha_odtah_6_13_5_14"
+targetDir = "praha-odtahy"
+
+stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
 stream.pipe reader
 
@@ -21,7 +24,7 @@ finish = (cb) ->
   saved = 0
   <~ async.eachLimit files, 20, ({id, data}, cb) ->
     saved += data.split "\n" .length
-    <~ fs.writeFile "#__dirname/../data/processed/tiles/#{id}.tsv", data
+    <~ fs.writeFile "#__dirname/../data/processed/#targetDir/tiles/#{id}.tsv", data
     process.nextTick cb
   console.log "Saved #saved lines"
   cb!
@@ -58,5 +61,5 @@ console.log "Found #lines records"
 typy = ["typy"]
 for typ, index of typIndices
   typy[index] = typ
-fs.writeFile "#__dirname/../data/processed/typy.tsv", typy.join "\n"
+fs.writeFile "#__dirname/../data/processed/#targetDir/typy.tsv", typy.join "\n"
 <~ finish!

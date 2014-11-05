@@ -3,7 +3,10 @@ require! {
   fs
   async
 }
-stream = fs.createReadStream "#__dirname/../data/praha_prest_6_13_5_14.csv"
+file = "praha_odtah_6_13_5_14"
+targetDir = "praha-odtahy"
+
+stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
 stream.pipe reader
 
@@ -41,4 +44,4 @@ output = for id, count of out
   id += "\t#count"
 console.log "writing #{output.length} lines"
 output.unshift "x\ty\ttyp\tcount"
-<~ fs.writeFile "#__dirname/../data/processed/grouped.tsv" output.join "\n"
+<~ fs.writeFile "#__dirname/../data/processed/#targetDir/grouped.tsv" output.join "\n"
