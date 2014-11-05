@@ -10,12 +10,6 @@ stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
 stream.pipe reader
 
-minX = Infinity
-maxX = -Infinity
-
-minY = Infinity
-maxY = -Infinity
-
 out = {}
 typIndices = {}
 currentTypIndex = 0
