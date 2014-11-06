@@ -129,6 +129,8 @@ window.ig.Infobar = class Infobar
     @element.classed \nodata no
     (err, data) <~ downloadBounds bounds
     @filteredData = @fullData = data
+    if @fullData.length == 0
+      @element.classed \nodata yes
     @recomputeGraphs!
     for typ in @typy
       typ.fullValue = typ.value
@@ -151,7 +153,7 @@ window.ig.Infobar = class Infobar
     @redrawTypy!
 
   redrawTimeHistogram: ->
-    @timeHistogramMax = d3.max @timeHistogram.map (.value)
+    @timeHistogramMax = d3.max @timeHistogram.map (.value) or 1
     @timeHistogramBarFillsUnfiltered
       ..style \height ~>
         "#{it.value / @timeHistogramMax * 100}%"
@@ -163,7 +165,7 @@ window.ig.Infobar = class Infobar
         "#{it.value / @timeHistogramMax * 100}%"
 
   redrawDayHistogram: ->
-    @dayHistogramMax = d3.max @dayHistogram.map (.value)
+    @dayHistogramMax = d3.max @dayHistogram.map (.value) or 1
     @dayHistogramBarFillsUnfiltered
       ..style \height ~>
         "#{it.value / @dayHistogramMax * 100}%"
