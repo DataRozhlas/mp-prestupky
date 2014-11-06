@@ -67,6 +67,7 @@ window.ig.Map = class Map
           @enableSelectionRectangle!
         else
           @disableSelectionRectangle!
+    @map.on \click @~addMiniRectangle
 
   drawHeatmap: (dir) ->
     (err, data) <~ d3.tsv "../data/processed/#dir/grouped.tsv", (line) ->
@@ -119,3 +120,14 @@ window.ig.Map = class Map
   setSelection: (bounds) ->
     @emit \selection bounds
 
+  addMiniRectangle:(evt) ->
+    startLatlng =
+      evt.latlng.lat - 0.001
+      evt.latlng.lng - 0.0015
+
+    endLatlng =
+      evt.latlng.lat + 0.001
+      evt.latlng.lng + 0.0015
+
+    @selectionRectangle.setBounds [startLatlng, endLatlng]
+    @setSelection [startLatlng, endLatlng]
