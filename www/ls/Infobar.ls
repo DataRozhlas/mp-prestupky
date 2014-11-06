@@ -135,6 +135,8 @@ window.ig.Infobar = class Infobar
     for typ in @typy
       typ.fullValue = typ.value
     @redrawGraphs!
+    if @timeFilters.length || @dateFilters.length || @typFilters.length
+      @updateFilteredView!
 
   recomputeGraphs: ->
     @total.html ig.utils.formatNumber @filteredData.length
