@@ -197,7 +197,9 @@ window.ig.Infobar = class Infobar
         ..on \click ~> @toggleTypFilter it
       ..exit!remove!
       ..style \top -> "#{it.index * height}px"
-      ..selectAll \div.fill
+      ..select \div.fill.bg
+        ..style \width ~> "#{it.value / @typyMax * 100}%"
+      ..select \div.fill.fg
         ..style \width ~> "#{it.value / @typyMax * 100}%"
 
   refilterTypy: ->
