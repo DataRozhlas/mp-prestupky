@@ -10,7 +10,28 @@ init = ->
   infobar = new ig.Infobar container, typy
   map
     ..on \selection infobar~draw
-    # ..setSelection [[50.04110381590842 14.339] [50.0385 14.34316635131836]]
+    ..selectionRectangle.setBounds [[50.0411 14.339] [50.0385 14.34316635131836]]
+
+  heatmapLastPointList = null
+  mapTimeout = null
+  lastHeatCall = 0
+  throttleHeatmap = (pointList) ->
+    heatmapLastPointList := pointList
+    return if mapTimeout isnt null
+    nextCall = Math.max do
+      lastHeatCall - Date.now! + 500
+      0
+    mapTimeout := setTimeout do
+      ->
+        map.drawFilteredHeatmap heatmapLastPointList
+        lastHeatCall := Date.now!
+        mapTimeout := null
+      nextCall
+
+  infobar
+    ..on \updatedPoints throttleHeatmap
+  <~ setTimeout _, 200
+  map.setSelection [[50.0411 14.339] [50.0385 14.34316635131836]]
 if d3?
   init!
 else

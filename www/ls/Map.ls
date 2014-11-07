@@ -20,8 +20,8 @@ window.ig.Map = class Map
       * mapElement
       * minZoom: 6,
         maxZoom: 18,
-        zoom: 12,
-        center: [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
+        zoom: 15,
+        center: [50.0411 14.339] #[(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
         maxBounds: maxBounds
 
     baseLayer = L.tileLayer do
@@ -88,8 +88,25 @@ window.ig.Map = class Map
       radius: 8
     @heatLayer = L.heatLayer latLngs, options
       ..addTo @map
+    @heatFilteredLayer = L.heatLayer [], options
+      ..addTo @map
+
+  drawFilteredHeatmap: (pointList) ->
+    if pointList.length
+      @desaturateHeatmap!
+      options =
+        radius: 8
+      latLngs = for item in pointList
+        L.latLng item.y, item.x
+      @heatFilteredLayer.setLatLngs latLngs
+    else
+      @heatFilteredLayer.setLatLngs []
+      @resaturateHeatmap!
+
 
   desaturateHeatmap: ->
+    return if @heatmapIsDesaturated
+    @heatmapIsDesaturated = yes
     gradient =
       0.4: '#d9d9d9'
       0.7: '#bdbdbd'
@@ -98,6 +115,8 @@ window.ig.Map = class Map
     @heatLayer.setOptions {gradient}
 
   resaturateHeatmap: ->
+    return unless @heatmapIsDesaturated
+    @heatmapIsDesaturated = no
     gradient =
       0.4: 'blue'
       0.6: 'cyan'

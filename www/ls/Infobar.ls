@@ -1,5 +1,6 @@
 window.ig.Infobar = class Infobar
   (parentElement, typy) ->
+    ig.Events @
     @typy = typy.map -> {name: it.text, id: it.id, value: 0}
     @typyAssoc = @typy.slice!
     @element = parentElement.append \div
@@ -80,6 +81,7 @@ window.ig.Infobar = class Infobar
     @refilterTimeHistogram!
     @refilterDayHistogram!
     @refilterTypy!
+    @emit \updatedPoints @filteredData
 
   refilter: ->
     timeFiltersLen = @timeFilters.length
@@ -137,6 +139,9 @@ window.ig.Infobar = class Infobar
     @redrawGraphs!
     if @timeFilters.length || @dateFilters.length || @typFilters.length
       @updateFilteredView!
+    else
+      @emit \updatedPoints @filteredData
+
 
   recomputeGraphs: ->
     @total.html ig.utils.formatNumber @filteredData.length
