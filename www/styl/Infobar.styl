@@ -32,20 +32,33 @@
       border-bottom-color #a
     .subtitle
       display block
+    .total .suffix .cancel
+      visibility hidden
   .total
     display block
     float left
     width 100%
-    line-height 3em
     margin-bottom -15px
     margin-top 15px
     color #333
     font-variant small-caps
+    // line-height 3em
     .value
-      font-size 3.0em
+      float left
+      font-size 40px
       font-family 'Ek Mukta', sans-serif
     .suffix
+      float left
+      margin-top 9px
+      line-height 14px
       padding-left 10px
+      .cancel
+        text-decoration underline
+        color #7
+
+        &:hover
+          text-decoration none
+          cursor pointer
 
   .histogram
     float left

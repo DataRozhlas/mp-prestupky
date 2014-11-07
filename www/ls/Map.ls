@@ -168,3 +168,6 @@ window.ig.Map = class Map
 
     @selectionRectangle.setBounds [startLatlng, endLatlng]
     @setSelection [startLatlng, endLatlng]
+
+  cancelSelection: ->
+    @selectionRectangle.setBounds [[0, 0], [0, 0]]

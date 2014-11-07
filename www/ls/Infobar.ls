@@ -21,6 +21,12 @@ window.ig.Infobar = class Infobar
     totalElm.append \span
       ..attr \class \suffix
       ..html " přestupků vybráno"
+      ..append \span
+        ..attr \class \cancel
+        ..html "<br>zrušit výběr"
+        ..on \click ~>
+          @emit \selectionCancelled
+          @drawWithData []
     @timeFilters = []
     @dateFilters = []
     @typFilters  = []
@@ -130,6 +136,9 @@ window.ig.Infobar = class Infobar
   draw: (bounds) ->
     @element.classed \nodata no
     (err, data) <~ downloadBounds bounds
+    @drawWithData data
+
+  drawWithData: (data) ->
     @filteredData = @fullData = data
     if @fullData.length == 0
       @element.classed \nodata yes
