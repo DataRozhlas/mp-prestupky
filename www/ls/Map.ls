@@ -86,9 +86,25 @@ window.ig.Map = class Map
 
     options =
       radius: 8
-    L.heatLayer latLngs, options
+    @heatLayer = L.heatLayer latLngs, options
       ..addTo @map
 
+  desaturateHeatmap: ->
+    gradient =
+      0.4: '#d9d9d9'
+      0.7: '#bdbdbd'
+      0.9: '#737373'
+      1.0: '#525252'
+    @heatLayer.setOptions {gradient}
+
+  resaturateHeatmap: ->
+    gradient =
+      0.4: 'blue'
+      0.6: 'cyan'
+      0.7: 'lime'
+      0.8: 'yellow'
+      1.0: 'red'
+    @heatLayer.setOptions {gradient}
 
   initSelectionRectangle: ->
     @selectionRectangleDrawing = no
