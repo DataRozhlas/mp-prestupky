@@ -20,8 +20,8 @@ window.ig.Map = class Map
       * mapElement
       * minZoom: 6,
         maxZoom: 18,
-        zoom: 15,
-        center: [50.0411 14.339] #[(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
+        zoom: 11,
+        center: [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
         maxBounds: maxBounds
 
     baseLayer = L.tileLayer do
