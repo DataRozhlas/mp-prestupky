@@ -3,8 +3,8 @@ require! {
   fs
   async
 }
-file = "praha_odtah_6_13_5_14"
-targetDir = "praha-odtahy"
+file = "brno_odtahy_6_13_9_14"
+targetDir = "brno-odtahy"
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
@@ -37,10 +37,10 @@ reader.on \data (line) ->
 
   return if x == 'x'
   x = parseFloat x
-  x -= 0.0011
+  # x -= 0.0011
   x .= toFixed 5
   y = parseFloat y
-  y -= 0.00074
+  # y -= 0.00074
   y .= toFixed 5
   return unless x and y
   xIndex = (Math.floor x / 0.01)

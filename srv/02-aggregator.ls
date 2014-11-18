@@ -20,10 +20,10 @@ reader.on \data (line) ->
     [..._, spachano,_,typ,_,x,y] = line
   return if x == 'x'
   x = parseFloat x
-  x -= 0.0011
+  # x -= 0.0011
   x .= toFixed 5
   y = parseFloat y
-  y -= 0.00074
+  # y -= 0.00074
   y .= toFixed 5
   return unless x > 0 and y > 0
   typId = if typIndices[typ]
