@@ -136,6 +136,7 @@ window.ig.Map = class Map
         iconSize: [radius + 10, radius + 10]
       marker = L.marker latLng, {icon}
         ..on \click ~>
+          @emit \markerClicked marker
           @addMicroRectangle latLng
       @currentMarkers.push marker
       @markerLayer.addLayer marker

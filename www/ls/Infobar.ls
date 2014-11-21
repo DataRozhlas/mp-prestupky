@@ -82,6 +82,10 @@ window.ig.Infobar = class Infobar
     typ.isFiltered = !typ.isFiltered
     @updateFilteredView!
 
+  clearFilters: ->
+    @timeFilters.length = 0
+    @dateFilters.length = 0
+    @typFilters.length = 0
 
   updateFilteredView: ->
     @refilter!

@@ -11,7 +11,7 @@ init = ->
   infobar = new ig.Infobar container, typy
   map
     ..on \selection infobar~draw
-
+    ..on \markerClicked infobar~clearFilters
   heatmapLastPointList = null
   mapTimeout = null
   lastHeatCall = 0
