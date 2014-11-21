@@ -10,9 +10,15 @@ window.ig.Infobar = class Infobar
       "Statistiky odtahů"
     else
       "Statistiky přestupků"
+    @heading.append \span
+      ..attr \class \cancel
+      ..html "<br>zrušit výběr"
+      ..on \click ~>
+        @emit \selectionCancelled
+        @drawWithData []
     @element.append \span
       ..attr \class \subtitle
-      ..html "Vyberte myší část města, o jejíž struktuře přestupků se chcete dozvědět víc"
+      ..html "Kliknutím vyberte část města, která vás zajímá. Velikost výběru můžete změnit tlačítkem ◰ vlevo&nbsp;nahoře."
     totalElm = @element.append \span
       ..attr \class \total
     @total = totalElm.append \span
@@ -21,12 +27,7 @@ window.ig.Infobar = class Infobar
     totalElm.append \span
       ..attr \class \suffix
       ..html " přestupků vybráno"
-      ..append \span
-        ..attr \class \cancel
-        ..html "<br>zrušit výběr"
-        ..on \click ~>
-          @emit \selectionCancelled
-          @drawWithData []
+
     @timeFilters = []
     @dateFilters = []
     @typFilters  = []
@@ -39,7 +40,7 @@ window.ig.Infobar = class Infobar
     histogramContainer = @element.append \div
       ..attr \class "histogram-container"
       ..append \h3
-        ..html "Rozdělení podle denní doby"
+        ..html "V kolik hodin se odtahuje"
     @timeHistogramElm = histogramContainer.append \div
       ..attr \class "histogram time"
     @timeHistogramBars = @timeHistogramElm.selectAll \div.bar .data @timeHistogram .enter!append \div
@@ -52,6 +53,7 @@ window.ig.Infobar = class Infobar
       ..attr \class "fill bg"
     @timeHistogramBarFills = @timeHistogramBars.append \div
       ..attr \class \fill
+      ..attr \data-tooltip "Kliknutím vyberte hodinu"
 
   toggleTimeFilter: (startHour) ->
     index = @timeFilters.indexOf startHour
@@ -110,7 +112,7 @@ window.ig.Infobar = class Infobar
     histogramContainer = @element.append \div
       ..attr \class "histogram-container"
       ..append \h3
-        ..html "Rozdělení podle dne v týdnu"
+        ..html "Které dny v týdnu se odtahuje"
     @dayHistogramElm = histogramContainer.append \div
       ..attr \class "histogram day"
     dayHistogramBars = @dayHistogramElm.selectAll \div.bar .data @dayHistogram .enter!append \div
@@ -123,6 +125,7 @@ window.ig.Infobar = class Infobar
       ..attr \class "fill bg"
     @dayHistogramBarFills = dayHistogramBars.append \div
       ..attr \class \fill
+      ..attr \data-tooltip "Kliknutím vyberte den"
 
   initTypy: ->
     typyCont = @element.append \div
@@ -201,6 +204,9 @@ window.ig.Infobar = class Infobar
     @typyMax = d3.sum usableTypy.map (.value)
     @typyElm.selectAll \li .data usableTypy
       ..enter!append \li
+        ..attr \data-tooltip ->
+            "#{it.name} (#{it.value}x)
+            <br><em>Kliknutím vyberte typ přestupku</em>"
         ..append \span
           ..attr \class \name
           ..html (.name)

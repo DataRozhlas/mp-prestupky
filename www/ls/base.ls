@@ -1,5 +1,6 @@
 ig = window.ig
 init = ->
+  tooltip = new Tooltip!watchElements!
   ig.dir = dir = (window.location.hash.substr 1) || "praha-prestupky"
   container = d3.select ig.containers.base
   map = new ig.Map ig.containers.base

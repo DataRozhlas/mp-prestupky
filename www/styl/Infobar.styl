@@ -11,6 +11,18 @@
     color ColorHeading
     font-size 20px
     margin 0px
+    .cancel
+      position absolute
+      top 3px
+      right 70px
+      font-size 14px
+      font-variant small-caps
+      font-weight normal
+      text-decoration underline
+      color #7
+      &:hover
+        text-decoration none
+        cursor pointer
   .subtitle
     display none
     color #6
@@ -32,7 +44,7 @@
       border-bottom-color #a
     .subtitle
       display block
-    .total .suffix .cancel
+    .cancel
       visibility hidden
   .total
     display block
@@ -52,13 +64,6 @@
       margin-top 9px
       line-height 14px
       padding-left 10px
-      .cancel
-        text-decoration underline
-        color #7
-
-        &:hover
-          text-decoration none
-          cursor pointer
 
   .histogram
     float left
@@ -135,7 +140,7 @@
         top 0px
         left 0px
         height 22px
-        background lighten(ColorHeading, 98%)
+        background lighten(ColorHeading, 80%)
         border-bottom 4px solid ColorHeading
         &.bg
           border-bottom-color #aaa

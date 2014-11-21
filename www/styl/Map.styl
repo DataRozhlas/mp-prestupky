@@ -12,14 +12,15 @@
   width 29px
   height 29px
   border 2px solid #b
-  background white
   text-align center
   border-radius 3px
+  background lighten(ColorHeading, 80%)
+  border-color darken(ColorHeading, 40%)
   &:hover
     cursor pointer
-    background #f3f3f3
+    background lighten(ColorHeading, 70%)
   &:active
-    background #ddd
+    background lighten(ColorHeading, 60%)
   &.active
     background ColorHeading
     border-color darken(ColorHeading, 40%)

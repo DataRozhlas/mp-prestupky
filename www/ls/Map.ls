@@ -9,19 +9,24 @@ window.ig.Map = class Map
       bounds =
         x: [14.263 14.689]
         y: [49.952 50.171]
+      center = [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
+      center.0 += 0.023
+      center.1 -= 0.04
       maxBounds = [[49.94,14.24], [50.18,14.7]]
     else
       bounds =
         x: [16.475 16.716]
         y: [49.124 49.289]
+      center = [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
+
       maxBounds = [[49.11 16.46] [49.30 16.74]]
 
     @map = L.map do
       * mapElement
       * minZoom: 6,
         maxZoom: 18,
-        zoom: 11,
-        center: [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
+        zoom: 13,
+        center: center
         maxBounds: maxBounds
 
     baseLayer = L.tileLayer do
