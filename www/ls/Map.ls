@@ -247,12 +247,12 @@ window.ig.Map = class Map
 
   addMicroRectangle: (latlng) ->
     startLatlng =
-      latlng.lat - 0.00001
-      latlng.lng - 0.000015
+      latlng.lat - 0.00005
+      latlng.lng - 0.00007
 
     endLatlng =
-      latlng.lat + 0.00001
-      latlng.lng + 0.000015
+      latlng.lat + 0.00005
+      latlng.lng + 0.00007
 
     @selectionRectangle.setBounds [startLatlng, endLatlng]
     @setSelection [startLatlng, endLatlng]
