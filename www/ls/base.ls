@@ -31,8 +31,10 @@ init = ->
   infobar
     ..on \updatedPoints throttleHeatmap
     ..on \selectionCancelled map~cancelSelection
-  <~ setTimeout _, 100
-  map.onMapChange!
+  geocoder = new ig.Geocoder ig.containers.base
+    ..on \latLng (latlng) ->
+      map.map.setView latlng, 18
+      map.onMapChange!
 if d3?
   init!
 else
