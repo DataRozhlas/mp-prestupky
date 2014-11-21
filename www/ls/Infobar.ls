@@ -24,7 +24,7 @@ window.ig.Infobar = class Infobar
     @total = totalElm.append \span
       ..attr \class \value
       ..html "0"
-    totalElm.append \span
+    @prestupkuVybranoElm = totalElm.append \span
       ..attr \class \suffix
       ..html " přestupků vybráno"
 
@@ -156,7 +156,12 @@ window.ig.Infobar = class Infobar
 
 
   recomputeGraphs: ->
-    @total.html ig.utils.formatNumber @filteredData.length
+    total = @filteredData.length
+    @total.html ig.utils.formatNumber total
+    @prestupkuVybranoElm.html switch
+    | 5 > total > 1 => " přestupky vybrány"
+    | total == 1 => " přestupek vybrán"
+    | otherwise => " přestupků vybráno"
     @reset!
     for line in @filteredData
       if line.date

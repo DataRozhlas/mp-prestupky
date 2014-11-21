@@ -3,8 +3,9 @@ require! {
   fs
   async
 }
-file = "brno_odtahy_6_13_9_14"
-targetDir = "brno-odtahy"
+
+file = "praha_odtah_6_13_5_14"
+targetDir = "praha-odtahy"
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}

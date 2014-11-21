@@ -5,6 +5,14 @@ window.ig.Map = class Map
       ..id = \map
     window.ig.Events @
     parentElement.appendChild mapElement
+    @groupedLatLngs = []
+    @markerRadiusScale = d3.scale.sqrt!
+      ..domain [1 50 150 999999]
+      ..range [30 35 45 45]
+    @markerColorScale = d3.scale.linear!
+      ..domain [1 10 100 1000 10000 999999]
+      ..range <[#fd8d3c #fc4e2a #e31a1c #bd0026 #800026 #800026]>
+    @currentMarkers = []
     if "praha" is ig.dir.substr 0, 5
       bounds =
         x: [14.263 14.689]
@@ -12,22 +20,27 @@ window.ig.Map = class Map
       center = [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
       center.0 += 0.023
       center.1 -= 0.04
+      zoom = 13
       maxBounds = [[49.94,14.24], [50.18,14.7]]
     else
       bounds =
         x: [16.475 16.716]
         y: [49.124 49.289]
+      zoom = 14
       center = [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
-
+      center.0 -= 0.01
+      center.1 += 0.01
       maxBounds = [[49.11 16.46] [49.30 16.74]]
 
     @map = L.map do
       * mapElement
       * minZoom: 6,
         maxZoom: 18,
-        zoom: 13,
+        zoom: zoom,
         center: center
         maxBounds: maxBounds
+
+    @markerLayer = L.layerGroup!
 
     baseLayer = L.tileLayer do
       * "https://samizdat.cz/tiles/ton_b1/{z}/{x}/{y}.png"
@@ -72,15 +85,72 @@ window.ig.Map = class Map
           @enableSelectionRectangle!
         else
           @disableSelectionRectangle!
-    @map.on \click (evt) ~>
-      unless evt.originalEvent.ctrlKey or @draggingButtonEnabled
-        @addMiniRectangle evt.latlng
+    @map
+      ..on \click (evt) ~>
+        unless evt.originalEvent.ctrlKey or @draggingButtonEnabled
+          @addMiniRectangle evt.latlng
+      ..on \moveend @~onMapChange
+
+  onMapChange: ->
+    zoom = @map.getZoom!
+    if zoom >=17
+      @drawMarkers! if !@markersDrawn
+      @updateMarkers!
+    else if zoom < 17 and @markersDrawn
+      @hideMarkers!
+
+  drawMarkers: ->
+    @map.removeLayer @heatLayer
+    @map.removeLayer @heatFilteredLayer if @heatFilteredLayer
+    @map.addLayer @markerLayer
+    @markersDrawn = yes
+
+  updateMarkers: ->
+    bounds = @map.getBounds!
+    displayedLatLngs = {}
+    @currentMarkers .= filter (marker) ~>
+      latLng = marker.getLatLng!
+      id = "#{latLng.lat}-#{latLng.lng}"
+      contains = bounds.contains latLng
+      if not contains
+        @markerLayer.removeLayer marker
+        no
+      else
+        displayedLatLngs[id] = 1
+        yes
+    latLngsToDisplay = @groupedLatLngs.filter ->
+      if bounds.contains it
+        id = "#{it.lat}-#{it.lng}"
+        if displayedLatLngs[id]
+          no
+        else
+          yes
+      else
+        no
+    latLngsToDisplay.forEach (latLng) ~>
+      count = latLng.alt
+      color = @markerColorScale count
+      radius = Math.floor @markerRadiusScale count
+      icon = L.divIcon do
+        html: "<div style='background-color: #color;line-height:#{radius}px'>#count</div>"
+        iconSize: [radius + 10, radius + 10]
+      marker = L.marker latLng, {icon}
+        ..on \click ~>
+          @addMicroRectangle latLng
+      @currentMarkers.push marker
+      @markerLayer.addLayer marker
+
+  hideMarkers: ->
+    @markersDrawn = no
+    @map.addLayer @heatLayer
+    @map.addLayer @heatFilteredLayer if @heatFilteredLayer
+    @map.removeLayer @markerLayer
 
   drawHeatmap: (dir) ->
     (err, data) <~ d3.tsv "../data/processed/#dir/grouped.tsv", (line) ->
       line.x = parseFloat line.x
       line.y = parseFloat line.y
-      line.typ = parseInt line.typ, 10
+      # line.typ = parseInt line.typ, 10
       line.count = parseInt line.count, 10
       line
     # data .= filter -> -1 != window.ig.typy[it.typ].indexOf "rychlost"
@@ -88,6 +158,7 @@ window.ig.Map = class Map
       latlng = L.latLng item.y, item.x
         ..alt = item.count
       latlng
+    @groupedLatLngs = latLngs
 
     options =
       radius: 8
@@ -170,6 +241,18 @@ window.ig.Map = class Map
     endLatlng =
       latlng.lat + 0.001
       latlng.lng + 0.0015
+
+    @selectionRectangle.setBounds [startLatlng, endLatlng]
+    @setSelection [startLatlng, endLatlng]
+
+  addMicroRectangle: (latlng) ->
+    startLatlng =
+      latlng.lat - 0.00001
+      latlng.lng - 0.000015
+
+    endLatlng =
+      latlng.lat + 0.00001
+      latlng.lng + 0.000015
 
     @selectionRectangle.setBounds [startLatlng, endLatlng]
     @setSelection [startLatlng, endLatlng]

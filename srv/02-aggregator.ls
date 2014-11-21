@@ -3,8 +3,19 @@ require! {
   fs
   async
 }
-file = "brno_odtahy_6_13_9_14"
-targetDir = "brno-odtahy"
+
+# file = "brno_prest_6_13_9_14"
+# targetDir = "brno-prestupky"
+
+# file = "brno_odtahy_6_13_9_14"
+# targetDir = "brno-odtahy"
+
+file = "praha_odtah_6_13_5_14"
+targetDir = "praha-odtahy"
+
+# file = "praha_prest_6_13_5_14"
+# targetDir = "praha-prestupky"
+
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
@@ -33,12 +44,12 @@ reader.on \data (line) ->
     i = currentTypIndex
     typIndices[typ] = i
     i
-  id = [x, y, typId].join "\t"
+  id = [x, y].join "\t"
   out[id] = out[id] + 1 || 1
 
 <~ reader.on \end
 output = for id, count of out
   id += "\t#count"
 console.log "writing #{output.length} lines"
-output.unshift "x\ty\ttyp\tcount"
+output.unshift "x\ty\tcount"
 <~ fs.writeFile "#__dirname/../data/processed/#targetDir/grouped.tsv" output.join "\n"
