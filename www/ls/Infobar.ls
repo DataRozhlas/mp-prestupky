@@ -15,6 +15,7 @@ window.ig.Infobar = class Infobar
       ..html "<br>zrušit výběr"
       ..on \click ~>
         @emit \selectionCancelled
+        @clearFilters!
         @drawWithData []
     @element.append \span
       ..attr \class \subtitle
