@@ -3,6 +3,7 @@ window.ig.Map = class Map
   (parentElement) ->
     mapElement = document.createElement 'div'
       ..id = \map
+    @markerDrawn = yes
     window.ig.Events @
     parentElement.appendChild mapElement
     @groupedLatLngs = []
@@ -169,6 +170,7 @@ window.ig.Map = class Map
       ..addTo @map
 
   drawFilteredHeatmap: (pointList) ->
+    return if @markerDrawn
     if pointList.length
       @desaturateHeatmap!
       options =
@@ -232,6 +234,8 @@ window.ig.Map = class Map
       ..off \mouseup
 
   setSelection: (bounds) ->
+    @markerDrawn = no
+    console.log 'foo'
     @emit \selection bounds
 
   addMiniRectangle: (latlng) ->
@@ -247,16 +251,17 @@ window.ig.Map = class Map
     @setSelection [startLatlng, endLatlng]
 
   addMicroRectangle: (latlng) ->
+    @markerDrawn = yes
+    @cancelSelection!
     startLatlng =
-      latlng.lat - 0.00005
-      latlng.lng - 0.00007
+      latlng.lat
+      latlng.lng
 
     endLatlng =
-      latlng.lat + 0.00005
-      latlng.lng + 0.00007
+      latlng.lat
+      latlng.lng
 
-    @selectionRectangle.setBounds [startLatlng, endLatlng]
-    @setSelection [startLatlng, endLatlng]
+    @emit \selection [startLatlng, endLatlng]
 
   cancelSelection: ->
     @selectionRectangle.setBounds [[0, 0], [0, 0]]

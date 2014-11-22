@@ -262,7 +262,7 @@ downloadBounds = (bounds, cb) ->
   (err, lines) <~ downloadFiles files
   return if lines is null
   inboundLines = lines.filter ({x, y}) ->
-    currBounds.0.0 < x < currBounds.0.1 and currBounds.1.0 < y < currBounds.1.1
+    currBounds.0.0 <= x <= currBounds.0.1 and currBounds.1.0 <= y <= currBounds.1.1
   cb err, inboundLines
 
 cache = {}
