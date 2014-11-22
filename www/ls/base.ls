@@ -1,10 +1,13 @@
 ig = window.ig
 init = ->
   tooltip = new Tooltip!watchElements!
-  ig.dir = dir = (window.location.hash.substr 1) || "praha-prestupky"
+  [dir, location] = window.location.hash.substr 1 .split ':'
+  ig.dir = dir = dir || "praha-prestupky"
   container = d3.select ig.containers.base
   map = new ig.Map ig.containers.base
     ..drawHeatmap dir
+
+
   (err, data) <~ d3.text "../data/processed/#dir/typy.tsv"
   ig.typy = typy = for text, id in data.split "\n"
     {text, id}
@@ -35,6 +38,26 @@ init = ->
     ..on \latLng (latlng) ->
       map.map.setView latlng, 18
       map.onMapChange!
+  shareDialog = new ig.ShareDialog ig.containers.base
+    ..on \hashRequested ->
+      center = map.map.getCenter!
+      shareDialog.setHash "#{ig.dir}:#{center.lat.toFixed 4},#{center.lng.toFixed 4},#{map.map.getZoom!}"
+  handleHashLocation = (hashLocation) ->
+    [lat, lon, zoom] = hashLocation.split /[^-\.0-9]+/
+    lat = parseFloat lat
+    lon = parseFloat lon
+    zoom = parseFloat zoom
+    if lat and lon and zoom >= 0
+      map.map.setView [lat, lon], zoom
+
+
+  if location
+    handleHashLocation location
+
+  window.onhashchange = ->
+    [dir, location] = window.location.hash.substr 1 .split ':'
+    if location
+      handleHashLocation location
 if d3?
   init!
 else

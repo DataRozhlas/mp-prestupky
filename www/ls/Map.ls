@@ -168,6 +168,7 @@ window.ig.Map = class Map
       ..addTo @map
     @heatFilteredLayer = L.heatLayer [], options
       ..addTo @map
+    @onMapChange!
 
   drawFilteredHeatmap: (pointList) ->
     return if @markerDrawn
@@ -235,7 +236,6 @@ window.ig.Map = class Map
 
   setSelection: (bounds) ->
     @markerDrawn = no
-    console.log 'foo'
     @emit \selection bounds
 
   addMiniRectangle: (latlng) ->
