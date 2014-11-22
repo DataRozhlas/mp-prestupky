@@ -29,14 +29,14 @@ reader.on \data (line) ->
     [..._, spachano,oblast,addr,ulice,cislo,typ,x,y] = line
   else
     [..._, spachano,_,typ,_,x,y] = line
-  return if x == 'x'
+  return if x == 'X'
   x = parseFloat x
   # x -= 0.0011
-  x .= toFixed 5
   y = parseFloat y
   # y -= 0.00074
-  y .= toFixed 5
   return unless x > 0 and y > 0
+  x .= toFixed 5
+  y .= toFixed 5
   typId = if typIndices[typ]
     that
   else

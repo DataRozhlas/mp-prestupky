@@ -4,8 +4,8 @@ require! {
   async
 }
 
-file = "brno_odtahy_6_13_9_14"
-targetDir = "brno-odtahy"
+file = "praha_odtah_6_13_5_14"
+targetDir = "praha-odtahy"
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
@@ -36,14 +36,14 @@ reader.on \data (line) ->
     [..._, spachano,_,typ,_,x,y] = line
     spachano .= replace /[^0-9]/g ''
 
-  return if x == 'x'
+  return if x == 'X'
   x = parseFloat x
   # x -= 0.0011
-  x .= toFixed 5
   y = parseFloat y
   # y -= 0.00074
-  y .= toFixed 5
   return unless x and y
+  x .= toFixed 5
+  y .= toFixed 5
   xIndex = (Math.floor x / 0.01)
   yIndex = (Math.floor y / 0.005)
   spachano = spachano.substr 2, 8
