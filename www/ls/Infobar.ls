@@ -214,9 +214,6 @@ window.ig.Infobar = class Infobar
     @typyMax = d3.sum usableTypy.map (.value)
     @typyElm.selectAll \li .data usableTypy
       ..enter!append \li
-        ..attr \data-tooltip ->
-            "#{it.name} (#{it.value}x)
-            <br><em>Kliknutím vyberte typ přestupku</em>"
         ..append \span
           ..attr \class \name
           ..html (.name)
@@ -227,6 +224,9 @@ window.ig.Infobar = class Infobar
         ..on \click ~> @toggleTypFilter it
       ..exit!remove!
       ..style \top -> "#{it.index * height}px"
+      ..attr \data-tooltip ->
+          "#{it.name} (#{it.value}x)
+          <br><em>Kliknutím vyberte typ přestupku</em>"
       ..select \div.fill.bg
         ..style \width ~> "#{it.value / @typyMax * 100}%"
       ..select \div.fill.fg
