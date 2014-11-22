@@ -212,7 +212,7 @@ window.ig.Infobar = class Infobar
     for typ, index in usableTypy
       typ.index = index
     @typyMax = d3.sum usableTypy.map (.value)
-    @typyElm.selectAll \li .data usableTypy
+    @typyElm.selectAll \li .data usableTypy, (.id)
       ..enter!append \li
         ..append \span
           ..attr \class \name
