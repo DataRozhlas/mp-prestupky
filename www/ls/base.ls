@@ -42,6 +42,7 @@ init = ->
     ..on \hashRequested ->
       center = map.map.getCenter!
       shareDialog.setHash "#{ig.dir}:#{center.lat.toFixed 4},#{center.lng.toFixed 4},#{map.map.getZoom!}"
+  new ig.EmbedLogo ig.containers.base, dark: yes
   handleHashLocation = (hashLocation) ->
     [lat, lon, zoom] = hashLocation.split /[^-\.0-9]+/
     lat = parseFloat lat
