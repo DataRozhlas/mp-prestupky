@@ -26,6 +26,7 @@ window.ig.Geocoder = class Geocoder
         evt.preventDefault!
         geocoder := new google.maps.Geocoder! if not geocoder
         address = inputText.value
+        ga? \send \event \geocoder \geocode address
         bounds = new google.maps.LatLngBounds do
           new google.maps.LatLng 48.3 11.6
           new google.maps.LatLng 51.3 19.1

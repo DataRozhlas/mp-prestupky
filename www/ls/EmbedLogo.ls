@@ -10,6 +10,8 @@ ig.EmbedLogo = class EmbedLogo
     element = document.createElement \div
       ..id = "embedLogo"
       ..innerHTML = "<a href='http://www.rozhlas.cz/zpravy/data/' target='_blank'><img src='#src' alt='Vytvořil Český rozhlas' title='Vytvořil Český rozhlas'></a>"
+    element.querySelector 'a' .onclick = ->
+      ga? \send \event \embedLogo \click
     @parentElement.appendChild element
 
   shouldBeDisplayed: ->
