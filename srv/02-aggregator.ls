@@ -2,6 +2,7 @@ require! {
   parse: "csv-parse"
   fs
   async
+  diacritics
 }
 
 # file = "brno_prest_6_13_9_14"
@@ -10,11 +11,14 @@ require! {
 # file = "brno_odtahy_6_13_9_14"
 # targetDir = "brno-odtahy"
 
-file = "praha_odtah_6_13_5_14"
-targetDir = "praha-odtahy"
+# file = "praha_odtah_6_13_5_14"
+# targetDir = "praha-odtahy"
 
 # file = "praha_prest_6_13_5_14"
 # targetDir = "praha-prestupky"
+
+file = "teplice_odtahy"
+targetDir = "teplice-odtahy"
 
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
@@ -37,6 +41,10 @@ reader.on \data (line) ->
   return unless x > 0 and y > 0
   x .= toFixed 5
   y .= toFixed 5
+  typ = diacritics.remove typ
+  typ .= toLowerCase!
+  typ .= replace /[^a-z0-9]/gi ''
+  typ .= replace /s/g 'z'
   typId = if typIndices[typ]
     that
   else

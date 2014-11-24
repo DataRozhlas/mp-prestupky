@@ -2,7 +2,7 @@ require! {
   parse: "csv-parse"
   fs
 }
-stream = fs.createReadStream "#__dirname/../data/brno_prest_6_13_9_14.csv"
+stream = fs.createReadStream "#__dirname/../data/teplice_odtahy.csv"
 reader = parse {delimiter: ','}
 stream.pipe reader
 

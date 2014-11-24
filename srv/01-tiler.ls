@@ -2,10 +2,11 @@ require! {
   parse: "csv-parse"
   fs
   async
+  diacritics
 }
 
-file = "praha_odtah_6_13_5_14"
-targetDir = "praha-odtahy"
+file = "teplice_odtahy"
+targetDir = "teplice-odtahy"
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
@@ -26,12 +27,20 @@ finish = (cb) ->
   cb!
 lines = 0
 typIndices = {}
+typFulls = {}
 currentTypIndex = 0
 reader.on \data (line) ->
   if 'praha_prest_6_13_5_14' == file
     [..._, spachano,oblast,addr,ulice,cislo,typ,x,y] = line
   else if 'praha_odtah_6_13_5_14' == file
     [..._, spachano,_,_,_,typ,_,x,y] = line
+  else if 'teplice_odtahy' == file
+    [...,typ, _,spachano,x,y] = line
+    [d,m,yr,h,i] = spachano.split /[^0-9]/
+    if m.length == 1 => m = "0" + m
+    if d.length == 1 => d = "0" + d
+    if h.length == 1 => h = "0" + h
+    spachano = "#{yr}#{m}#{d}#{h}"
   else
     [..._, spachano,_,typ,_,x,y] = line
     spachano .= replace /[^0-9]/g ''
@@ -47,12 +56,18 @@ reader.on \data (line) ->
   xIndex = (Math.floor x / 0.01)
   yIndex = (Math.floor y / 0.005)
   spachano = spachano.substr 2, 8
+  originalTyp = typ
+  typ = diacritics.remove typ
+  typ .= toLowerCase!
+  typ .= replace /[^a-z0-9]/gi ''
+  typ .= replace /s/g 'z'
   typId = if typIndices[typ]
     that
   else
     currentTypIndex++
     i = currentTypIndex
     typIndices[typ] = i
+    typFulls[typ] = originalTyp
     i
   id = "#{xIndex}-#{yIndex}"
   lines++
@@ -63,6 +78,6 @@ reader.on \data (line) ->
 console.log "Found #lines records"
 typy = ["typy"]
 for typ, index of typIndices
-  typy[index] = typ
+  typy[index] = typFulls[typ]
 fs.writeFile "#__dirname/../data/processed/#targetDir/typy.tsv", typy.join "\n"
 <~ finish!

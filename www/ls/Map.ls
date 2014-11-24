@@ -14,7 +14,8 @@ window.ig.Map = class Map
       ..domain [1 10 100 1000 10000 999999]
       ..range <[#fd8d3c #fc4e2a #e31a1c #bd0026 #800026 #800026]>
     @currentMarkers = []
-    if "praha" is ig.dir.substr 0, 5
+    switch ig.dir.substr 0, 5
+    | \praha
       bounds =
         x: [14.263 14.689]
         y: [49.952 50.171]
@@ -23,7 +24,17 @@ window.ig.Map = class Map
       center.1 -= 0.04
       zoom = 13
       maxBounds = [[49.94,14.24], [50.18,14.7]]
-    else
+    | \tepli
+      bounds =
+        x: [13.792 13.862]
+        y: [50.622 50.665]
+      center = [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
+      center.0 -= 0.005
+      center.1 -= 0.004
+      zoom = 15
+      maxBounds = [[50.61 13.78], [50.68, 13.95]]
+
+    | otherwise
       bounds =
         x: [16.475 16.716]
         y: [49.124 49.289]
@@ -35,7 +46,7 @@ window.ig.Map = class Map
 
     @map = L.map do
       * mapElement
-      * minZoom: 6,
+      * minZoom: 12,
         maxZoom: 18,
         zoom: zoom,
         center: center
@@ -94,7 +105,7 @@ window.ig.Map = class Map
 
   onMapChange: ->
     zoom = @map.getZoom!
-    if zoom >=17
+    if zoom >=17 or \teplice is ig.dir.substr 0, 7 and zoom >= 15
       @drawMarkers! if !@markersDrawn
       @updateMarkers!
     else if zoom < 17 and @markersDrawn

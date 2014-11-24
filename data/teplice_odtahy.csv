@@ -1,0 +1,1053 @@
+ObjectID,Status,Score,Match_type,Match_addr,Ref_ID,Addr_type,ARC_Single_Line_Input,dne,čas,místo,důvod,paragraf,date_time,X,Y
+1,M,100,A,Josefa Suka,589845,Address,Josefa Suka,1.7.2013,9:25,Josefa Suka,Stání v křižovatce,27/1d,1.7.2013 9:25,13.8436575538102,50.6412428194116
+2,M,100,A,Čelakovského,588661,Address,Čelakovského,2.7.2013,13:00,Čelakovského,Stání před přechodem pro chodce,27/1c,2.7.2013 13:00,13.8323849173457,50.6410360397055
+3,M,100,A,Hlávkova,589608,Address,Hlávkova,4.7.2013,8:10,Hlávkova,Stání v křižovatce,27/1d,4.7.2013 8:10,13.840049340513,50.656382784172
+4,M,100,A,Štúrova,588954,Address,Štúrova,4.7.2013,14:45,Štúrova,Stání před přechodem pro chodce,27/1c,4.7.2013 14:45,13.8437531498281,50.6510183637329
+5,M,100,A,Dubská,589381,Address,Dubská,9.7.2013,13:10,Dubská,Stání před přechodem pro chodce,27/1d,9.7.2013 13:10,13.8211854973018,50.6449972906915
+6,M,99.14,A,Lípová,590151,Address,Lipová,11.7.2013,7:15,Lipová,Stání před vjezdem  ,27/1n,11.7.2013 7:15,13.8328028069191,50.6406562083547
+8,M,100,A,Alejní,589004,Address,Alejní,13.7.2013,14:25,Alejní,Stání na rezervé č. 32,27/1o,13.7.2013 14:25,13.8222726440397,50.6386541630334
+9,M,100,A,Přítkovská,591041,Address,Přítkovská,14.7.2013,9:40,Přítkovská,Stání v křižovatce,27/1d,14.7.2013 9:40,13.8443196669161,50.6538919568068
+10,M,100,A,Libušina,590215,Address,Libušina,16.7.2013,13:55,Libušina,Stání před vjezdem,27/1n,16.7.2013 13:55,13.8087204088459,50.6376820169418
+11,M,100,A,Havířská,589560,Address,Havířská,17.7.2013,8:20,Havířská,Stání v křižovatce,27/1d,17.7.2013 8:20,13.8402005183948,50.6579740518047
+12,M,100,A,Liberecká,590207,Address,Liberecká,22.7.2013,8:30,Liberecká,Stání v křižovatce,27/1d,22.7.2013 8:30,13.8142707814802,50.6357660858736
+13,M,100,A,Libušina,590215,Address,Libušina,22.7.2013,10:35,Libušina,Stání na vyhr.park.pro ZTP,27/1o,22.7.2013 10:35,13.8087204088459,50.6376820169418
+14,M,100,A,Mostecká,590410,Address,Mostecká,23.7.2013,8:45,Mostecká,Stání v křižovatce,27/1d,23.7.2013 8:45,13.8179364904871,50.63559986943
+15,M,100,A,Krušnohorská,590088,Address,Krušnohorská,23.7.2013,12:50,Krušnohorská,Veřejný zájem - mytí ulic,19/6,23.7.2013 12:50,13.8469508932156,50.6619974617876
+16,M,100,A,Prosetická,590991,Address,Prosetická,25.7.2013,8:10,Prosetická,Stání v křižovatce,27/1d,25.7.2013 8:10,13.8428070803066,50.6339874521766
+17,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,29.7.2013,8:15,U Hadích lázní,Stání před přechodem pro chodce,27/1c,29.7.2013 8:15,13.837229476084,50.6399229755375
+20,M,100,A,K zámečku,589918,Address,K Zámečku,30.7.2013,8:10,K Zámečku,Stání před vjezdem,27/1n,30.7.2013 8:10,13.8565632922943,50.6646126755656
+21,M,100,A,Bratislavská,589179,Address,Bratislavská,1.8.2013,9:30,Bratislavská,Zákaz zastavení,4/c,1.8.2013 9:30,13.8084906971058,50.6371099803275
+22,M,100,A,Bratislavská,589179,Address,Bratislavská,1.8.2013,9:50,Bratislavská,Zákaz zastavení,4/c,1.8.2013 9:50,13.8084906971058,50.6371099803275
+23,M,100,A,Bratislavská,589179,Address,Bratislavská,1.8.2013,10:05,Bratislavská,Zákaz zastavení,4/c,1.8.2013 10:05,13.8084906971058,50.6371099803275
+24,M,100,A,Doubravská,589357,Address,Doubravská,2.8.2013,8:20,Doubravská,Stání v křižovatce,27/1d,2.8.2013 8:20,13.8420913818779,50.648934918067
+25,M,100,A,Bratislavská,589179,Address,Bratislavská,2.8.2013,9:10,Bratislavská,neponechání průjezdu,25/3,2.8.2013 9:10,13.8084906971058,50.6371099803275
+26,M,100,A,Laubeho náměstí,590177,Address,Laubeho náměstí,5.8.2013,8:20,Laubeho náměstí,Stání před vjezdem,27/1n,5.8.2013 8:20,13.8315220238188,50.6391992478186
+27,M,100,A,Bratislavská,589179,Address,Bratislavská,5.8.2013,9:55,Bratislavská,Zákaz zastavení,4/c,5.8.2013 9:55,13.8084906971058,50.6371099803275
+28,M,100,A,Souběžná,661520,Address,Souběžná,5.8.2013,10:30,Souběžná,Stání před vjezdem+Stání v křižovatce,27/1n,5.8.2013 10:30,13.841290787355,50.6324739390035
+29,M,100,A,Bratislavská,589179,Address,Bratislavská,5.8.2013,13:10,Bratislavská,Zákaz zastavení,4/c,5.8.2013 13:10,13.8084906971058,50.6371099803275
+30,M,100,A,Bratislavská,589179,Address,Bratislavská,5.8.2013,13:30,Bratislavská,Zákaz zastavení,4/c,5.8.2013 13:30,13.8084906971058,50.6371099803275
+31,M,100,A,Bratislavská,589179,Address,Bratislavská,5.8.2013,13:45,Bratislavská,Zákaz zastavení,4/c,5.8.2013 13:45,13.8084906971058,50.6371099803275
+32,M,100,A,Bratislavská,589179,Address,Bratislavská,5.8.2013,14:02,Bratislavská,Zákaz zastavení,4/c,5.8.2013 14:02,13.8084906971058,50.6371099803275
+33,M,100,A,Bratislavská,589179,Address,Bratislavská,6.8.2013,10:40,Bratislavská,Zákaz zastavení,4/c,6.8.2013 10:40,13.8084906971058,50.6371099803275
+34,M,100,A,U zámku,591751,Address,U Zámku,7.8.2013,11:00,U Zámku,Neponechání průjezdu,27/1k,7.8.2013 11:00,13.8235106203965,50.6368732929244
+35,M,100,A,Bratislavská,589179,Address,Bratislavská,8.8.2013,8:30,Bratislavská,Zákaz zastavení,4/c,8.8.2013 8:30,13.8084906971058,50.6371099803275
+36,M,100,A,Bratislavská,589179,Address,Bratislavská,8.8.2013,8:50,Bratislavská,Zákaz zastavení,4/c,8.8.2013 8:50,13.8084906971058,50.6371099803275
+37,M,100,A,Tržní náměstí,591467,Address,Tržní náměstí,8.8.2013,10:25,Tržní náměstí,neponechání průjezdu,27/1k,8.8.2013 10:25,13.8272860034816,50.6444312572291
+38,M,100,A,Tržní náměstí,591467,Address,Tržní náměstí,8.8.2013,10:40,Tržní náměstí,neponechání průjezdu,27/1k,8.8.2013 10:40,13.8272860034816,50.6444312572291
+39,M,100,A,Dubská,589381,Address,Dubská,9.8.2013,9:10,Dubská,Stání v protisměru,27/1c,9.8.2013 9:10,13.8211854973018,50.6449972906915
+40,M,100,A,Americká,589021,Address,Americká,12.8.2013,8:15,Americká,Stání na vyhrazeném parkovišti,27/1o,12.8.2013 8:15,13.8143175971962,50.6345445157728
+41,M,100,A,Čelakovského,588661,Address,Čelakovského,12.8.2013,14:55,Čelakovského,Stání před přechodem pro chodce,27/1c,12.8.2013 14:55,13.8323849173457,50.6410360397055
+42,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,12.8.2013,19:10,U Hadích Lázní,stání před vjezdem,27/1n,12.8.2013 19:10,13.837229476084,50.6399229755375
+43,M,100,A,Bratislavská,589179,Address,Bratislavská,13.8.2013,9:40,Bratislavská,neponechání průjezdu + zákaz zastavení, 4/c,13.8.2013 9:40,13.8084906971058,50.6371099803275
+44,M,100,A,Bratislavská,589179,Address,Bratislavská,13.8.2013,10:00,Bratislavská,neponechání průjezdu + zákaz zastaveni,4/c,13.8.2013 10:00,13.8084906971058,50.6371099803275
+45,M,100,A,Bratislavská,589179,Address,Bratislavská,13.8.2013,10:20,Bratislavská,neponechání průjezdu + zákaz zastavení,4/c,13.8.2013 10:20,13.8084906971058,50.6371099803275
+46,M,100,A,Bratislavská,589179,Address,Bratislavská,13.8.2013,10:35,Bratislavská,neponechání průjezdu + zákaz zastavení,4/c,13.8.2013 10:35,13.8084906971058,50.6371099803275
+47,M,100,A,Alejní,589004,Address,Alejní,13.8.2013,15:30,Alejní,Stání na vyhrazeném parkovišti,27/1o,13.8.2013 15:30,13.8222726440397,50.6386541630334
+48,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,14.8.2013,8:15,U Hadích lázní,Stání před přechodem pro chodce,27/1c,14.8.2013 8:15,13.837229476084,50.6399229755375
+49,M,100,A,Bratislavská,589179,Address,Bratislavská,14.8.2013,9:50,Bratislavská,Zákaz zastavení,4/c,14.8.2013 9:50,13.8084906971058,50.6371099803275
+50,M,100,A,Bratislavská,589179,Address,Bratislavská,14.8.2013,10:10,Bratislavská,Zákaz zastavení,4/c,14.8.2013 10:10,13.8084906971058,50.6371099803275
+51,M,100,A,Bratislavská,589179,Address,Bratislavská,14.8.2013,10:15,Bratislavská,Zákaz zastavení,4/c,14.8.2013 10:15,13.8084906971058,50.6371099803275
+52,M,100,A,Bratislavská,589179,Address,Bratislavská,14.8.2013,10:45,Bratislavská,Zákaz zastavení,4/c,14.8.2013 10:45,13.8084906971058,50.6371099803275
+53,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,14.8.2013,14:20,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,14.8.2013 14:20,13.837229476084,50.6399229755375
+54,M,100,A,Bratislavská,589179,Address,Bratislavská,14.8.2013,14:55,Bratislavská,Zákaz zastavení,4/c,14.8.2013 14:55,13.8084906971058,50.6371099803275
+55,M,100,A,Bratislavská,589179,Address,Bratislavská,14.8.2013,15:05,Bratislavská,Zákaz zastavení,4/c,14.8.2013 15:05,13.8084906971058,50.6371099803275
+56,M,100,A,Bratislavská,589179,Address,Bratislavská,14.8.2013,15:30,Bratislavská,Zákaz zastavení,4/c,14.8.2013 15:30,13.8084906971058,50.6371099803275
+57,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,15.8.2013,12:00,U Hadích Lázní,Stání před vjezdem,27/1n,15.8.2013 12:00,13.837229476084,50.6399229755375
+58,M,100,A,Laubeho náměstí,590177,Address,Laubeho náměstí,15.8.2013,15:15,Laubeho náměstí,Stání na rezervé pro Poštu,27/1o,15.8.2013 15:15,13.8315220238188,50.6391992478186
+59,M,100,A,Alejní,589004,Address,Alejní,15.8.2013,18:20,Alejní,Stání na vyhrazeném. park.,27/1o,15.8.2013 18:20,13.8222726440397,50.6386541630334
+60,M,100,A,Mostecká,590410,Address,Mostecká,16.8.2013,8:45,Mostecká,Stání v křižovatce,27/1d,16.8.2013 8:45,13.8179364904871,50.63559986943
+61,M,100,A,Bystřanská,754781,Address,Bystřanská,19.8.2013,8:30,Bystřanská,Stání před přechodem pro chodce,27/1c,19.8.2013 8:30,13.8346231942718,50.6333786036958
+62,M,100,A,Jaselská,589756,Address,Jaselská,19.8.2013,10:30,Jaselská,Stání před vjezdem,27/1n,19.8.2013 10:30,13.8063891797587,50.6352422274686
+63,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,20.8.2013,8:40,U Hadích Lázní,Stání v křižovatce,27/1d,20.8.2013 8:40,13.837229476084,50.6399229755375
+64,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,20.8.2013,12:45,U Hadích Lázní,Stání v křižovatce,27/1d,20.8.2013 12:45,13.837229476084,50.6399229755375
+65,M,100,A,U Hadích lázní,591556,Address, U hadích Lázní,20.8.2013,21:11, U hadích Lázní,Stání před vjezdem,27/1n,20.8.2013 21:11,13.837229476084,50.6399229755375
+66,M,100,A,Alejní,589004,Address,Alejní,20.8.2013,23:15,Alejní,Stání na vyhr.park.,27/1o,20.8.2013 23:15,13.8222726440397,50.6386541630334
+67,M,100,A,Čelakovského,588661,Address,Čelakovského,21.8.2013,10:20,Čelakovského,Stání před vjezdem,27/1n,21.8.2013 10:20,13.8323849173457,50.6410360397055
+68,M,100,A,U zámku,591751,Address,U Zámku,26.8.2013,8:55,U Zámku,Neponechání průjezdu 5 m,27/1k,26.8.2013 8:55,13.8235106203965,50.6368732929244
+69,M,100,A,Alejní,589004,Address,Alejní,26.8.2013,18:50,Alejní,Stání na reserv. Park.,27/1o,26.8.2013 18:50,13.8222726440397,50.6386541630334
+70,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,27.8.2013,8:45,U Hadích Lázní,Stání v křižovatce,27/1d,27.8.2013 8:45,13.837229476084,50.6399229755375
+71,M,100,A,Josefa Suka,589845,Address,Josefa Suka,29.8.2013,8:55,Josefa Suka,Stání v křižovatce,27/1d,29.8.2013 8:55,13.8436575538102,50.6412428194116
+72,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,30.8.2013,8:25,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,30.8.2013 8:25,13.8235358058291,50.6405513843127
+73,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,30.8.2013,14:05,U Hadích Lázní,Stání v křižovatce,27/1d,30.8.2013 14:05,13.837229476084,50.6399229755375
+74,M,100,A,U Nových lázní,591645,Address,U Nových Lázní,30.8.2013,14:35,U Nových Lázní,Stání před přechodem pro chodce,27/1c,30.8.2013 14:35,13.8416142958154,50.6439220037422
+75,M,100,A,Alejní,589004,Address,Alejní,31.8.2013,16:00,Alejní,Stání na rezerv. park.,27/1o,31.8.2013 16:00,13.8222726440397,50.6386541630334
+76,M,100,A,Baarova,589101,Address,Baarova,3.9.2013,13:00,Baarova,Stání před vjezdem,27/1n,3.9.2013 13:00,13.8345123001071,50.6452524585033
+77,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,3.9.2013,17:30,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,3.9.2013 17:30,13.837229476084,50.6399229755375
+78,M,100,A,Maršovská,590312,Address,Maršovská,4.9.2013,10:35,Maršovská,Veřejný zájem  ,19/6,4.9.2013 10:35,13.8461602778926,50.660087241563
+79,M,100,A,Nedbalova,590592,Address,Nedbalova,5.9.2013,10:35,Nedbalova,Stání v křižovatce,27/d,5.9.2013 10:35,13.840072029353,50.6565175251949
+80,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,5.9.2013,12:20,U Hadích Lázní,Stání v křižovatce,27/1d,5.9.2013 12:20,13.837229476084,50.6399229755375
+81,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,5.9.2013,12:40,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,5.9.2013 12:40,13.837229476084,50.6399229755375
+82,M,100,A,Českobratrská,588733,Address,Českobratrská,6.9.2013,9:45,Českobratrská,Stání před vjezdem,27/1n,6.9.2013 9:45,13.8335854194535,50.6419506796493
+83,M,100,A,Alejní,589004,Address,Alejní,9.9.2013,10:45,Alejní,Stání na vyhr.park.,27/1o,9.9.2013 10:45,13.8222726440397,50.6386541630334
+84,M,100,A,Laubeho náměstí,590177,Address,Laubeho náměstí,9.9.2013,16:25,Laubeho náměstí,Stání na rezervé pro Poštu,27/1o,9.9.2013 16:25,13.8315220238188,50.6391992478186
+85,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,11.9.2013,12:15,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,11.9.2013 12:15,13.837229476084,50.6399229755375
+86,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,11.9.2013,15:10,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,11.9.2013 15:10,13.837229476084,50.6399229755375
+87,M,53.85,M,J. V. Sládka,589713,Address,J.V.SLÁDKA,12.9.2013,12:50,J.V.Sládka,Stání na vyhr.park,27/1o,12.9.2013 12:50,13.8394071034991,50.6437405292011
+88,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,12.9.2013,13:15,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,12.9.2013 13:15,13.837229476084,50.6399229755375
+89,M,100,A,Karla Čapka,589951,Address,Karla Čapka,13.9.2013,14:30,Karla Čapka,Stání v křižovatce,27/1d,13.9.2013 14:30,13.8373874613568,50.6433328376385
+90,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,14.9.2013,9:40,U Hadích lázní,Stání v křižovatce,27/1d,14.9.2013 9:40,13.837229476084,50.6399229755375
+91,M,100,A,Doubravská,589357,Address,Doubravská,15.9.2013,9:30,Doubravská,Stání v křižovatce,27/1d,15.9.2013 9:30,13.8420913818779,50.648934918067
+92,M,100,A,Přítkovská,591041,Address,Přítkovská,15.9.2013,10:00,Přítkovská,Stání v křižovatce,27/1d,15.9.2013 10:00,13.8443196669161,50.6538919568068
+93,M,100,A,Josefa Suka,589845,Address,Josefa Suka,16.9.2013,10:10,Josefa Suka,Stání v křižovatce,27/1d,16.9.2013 10:10,13.8436575538102,50.6412428194116
+94,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,16.9.2013,16:00,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,16.9.2013 16:00,13.8235358058291,50.6405513843127
+95,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,17.9.2013,11:05,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,17.9.2013 11:05,13.837229476084,50.6399229755375
+96,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,18.9.2013,13:30,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,18.9.2013 13:30,13.837229476084,50.6399229755375
+97,M,100,A,Alejní,589004,Address,Alejní,21.9.2013,17:55,Alejní,Stání na rez.park,27/1o,21.9.2013 17:55,13.8222726440397,50.6386541630334
+98,M,100,A,Alejní,589004,Address,Alejní,24.9.2013,10:20,Alejní,Stání na rezervé park. č.32,27/1o,24.9.2013 10:20,13.8222726440397,50.6386541630334
+99,M,99.25,A,Štúrova,588954,Address,Štůrova,25.9.2013,13:00,Štůrova,Stání před přechodem pro chodce,27/1c,25.9.2013 13:00,13.8437531498281,50.6510183637329
+100,M,100,A,Mostecká,590410,Address,Mostecká,26.9.2013,9:15,Mostecká,Stání v křižovatce,27/1d,26.9.2013 9:15,13.8179364904871,50.63559986943
+101,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,26.9.2013,12:15,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,26.9.2013 12:15,13.837229476084,50.6399229755375
+103,M,100,A,Alejní,589004,Address,Alejní,28.9.2013,17:50,Alejní,Stání na rezervé    ,27/1o,28.9.2013 17:50,13.8222726440397,50.6386541630334
+104,M,100,A,Josefa Suka,589845,Address,Josefa Suka,29.9.2013,10:40,Josefa Suka,Stání v křižovatce,27/1d,29.9.2013 10:40,13.8436575538102,50.6412428194116
+105,M,100,A,Svojsíkova,591408,Address,Svojsíkova,30.9.2013,8:50,Svojsíkova,Neponechání průjezdu,25/3,30.9.2013 8:50,13.8186466601484,50.6368420309487
+106,M,100,A,Jana Koziny,589721,Address,Jana Koziny,30.9.2013,9:20,Jana Koziny,Stání na rezervé ,27/1o,30.9.2013 9:20,13.8456041173132,50.6590187430282
+107,M,100,A,Husitská,589659,Address,Husitská,30.9.2013,14:25,Husitská,Stání na vyhr.park.pro KELCOM,27/1o,30.9.2013 14:25,13.8294878109652,50.6450544901626
+108,M,100,A,Husitská,589659,Address,Husitská,30.9.2013,14:45,Husitská,Stání na vyhr.park.pro KELCOM,27/1o,30.9.2013 14:45,13.8294878109652,50.6450544901626
+109,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,2.10.2013,9:15,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,2.10.2013 9:15,13.837229476084,50.6399229755375
+111,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,2.10.2013,11:35,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,2.10.2013 11:35,13.8235358058291,50.6405513843127
+112,M,100,A,Alejní,589004,Address,Alejní,2.10.2013,15:55,Alejní,Stání na rezervé park.  č. 32, 27/1o,2.10.2013 15:55,13.8222726440397,50.6386541630334
+113,M,100,A,Gagarinova,589527,Address,Gagarinova,2.10.2013,16:25,Gagarinova,Stání na rezervé park. č. 35, 27/1o,2.10.2013 16:25,13.8545685827816,50.6540365439269
+114,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,3.10.2013,9:35,U Hadích Lázní,Stání v křižovatce,27/1d,3.10.2013 9:35,13.837229476084,50.6399229755375
+115,M,100,A,Dvorská,589411,Address,Dvorská,3.10.2013,10:00,Dvorská,Stání v křižovatce,27/1d,3.10.2013 10:00,13.8437117112754,50.6323552608908
+116,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,3.10.2013,10:30,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,3.10.2013 10:30,13.837229476084,50.6399229755375
+117,M,100,A,Baarova,589101,Address,Baarova,5.10.2013,9:05,Baarova,Stání před vjezdem,27/1n,5.10.2013 9:05,13.8345123001071,50.6452524585033
+118,M,100,A,Alejní,589004,Address,Alejní,6.10.2013,9:50,Alejní,Stání na rezervovaném parkovišti,27/1o,6.10.2013 9:50,13.8222726440397,50.6386541630334
+119,M,100,A,Buzulucká,589209,Address,Buzulucká,7.10.2013,10:40,Buzulucká,zákaz zastavení  ,4/c,7.10.2013 10:40,13.8031507277123,50.635029965984
+120,M,100,A,Alejní,589004,Address,Alejní,7.10.2013,11:00,Alejní,Stání na rezervé,27/1o,7.10.2013 11:00,13.8222726440397,50.6386541630334
+121,M,100,A,Čelakovského,588661,Address,Čelakovského,7.10.2013,13:50,Čelakovského,Stání před přechodem,27/1c,7.10.2013 13:50,13.8323849173457,50.6410360397055
+122,M,100,A,Alejní,589004,Address,Alejní,8.10.2013,11:00,Alejní,Stání na rezervé,27/1o,8.10.2013 11:00,13.8222726440397,50.6386541630334
+123,M,100,A,Laubeho náměstí,590177,Address,Laubeho náměstí,8.10.2013,11:35,Laubeho náměstí,Stání na rezervé ,27/1o,8.10.2013 11:35,13.8315220238188,50.6391992478186
+124,M,100,A,Buzulucká,589209,Address,Buzulucká,9.10.2013,10:05,Buzulucká,Zákaz zastavení,4/c,9.10.2013 10:05,13.8031507277123,50.635029965984
+125,M,100,A,Mostecká,590410,Address,Mostecká,9.10.2013,11:00,Mostecká,Stání v křižovatce,27/1d,9.10.2013 11:00,13.8179364904871,50.63559986943
+127,M,100,A,Alejní,589004,Address,Alejní,11.10.2013,1:10,Alejní,Stání na reservé  ,27/1o,11.10.2013 1:10,13.8222726440397,50.6386541630334
+128,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,14.10.2013,13:00,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,14.10.2013 13:00,13.837229476084,50.6399229755375
+129,M,100,A,Buzulucká,589209,Address,Buzulucká,14.10.2013,14:20,Buzulucká,Zákaz zastavení,125c/1k,14.10.2013 14:20,13.8031507277123,50.635029965984
+130,M,100,A,Čelakovského,588661,Address,Čelakovského,14.10.2013,20:45,Čelakovského,Stání před vjezdem,27/1n,14.10.2013 20:45,13.8323849173457,50.6410360397055
+132,M,100,A,S. K. Neumanna,591173,Address,S. K. Neumanna,15.10.2013,23:25,S. K. Neumanna,Stání ve vjezdu,27/1n,15.10.2013 23:25,13.8491371433358,50.6563968698611
+133,M,100,A,Buzulucká,589209,Address,Buzulucká,16.10.2013,12:25,Buzulucká,Zákaz zastavení,125c/1k,16.10.2013 12:25,13.8031507277123,50.635029965984
+134,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,17.10.2013,8:35,U Hadích Lázní,Stání v křižovatce,27/1d,17.10.2013 8:35,13.837229476084,50.6399229755375
+135,M,100,A,Zelená,588903,Address,Zelená,17.10.2013,11:40,Zelená,Neumožnění vyjetí z řady+neponechání průjezdu,"25/3,4",17.10.2013 11:40,13.8231702606001,50.6397450381687
+136,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,18.10.2013,11:05,U Hadích Lázní,Stání v křižovatce,27/1d,18.10.2013 11:05,13.837229476084,50.6399229755375
+137,M,100,A,Petra Jilemnického,590827,Address,Petra Jilemnického,19.10.2013,9:05,Petra Jilemnického,Stání před výjezdem,27/1n,19.10.2013 9:05,13.8421788506508,50.6453574722787
+138,M,100,A,Alejní,589004,Address,Alejní,19.10.2013,17:40,Alejní,Stání na reservé,27/1o,19.10.2013 17:40,13.8222726440397,50.6386541630334
+139,M,100,A,Přítkovská,591041,Address,Přítkovská,20.10.2013,9:40,Přítkovská,Stání v křižovatce,27/1d,20.10.2013 9:40,13.8443196669161,50.6538919568068
+140,M,100,A,Buzulucká,589209,Address,Buzulucká,20.10.2013,10:05,Buzulucká,Zákaz zastavení    ,125c/1k,20.10.2013 10:05,13.8031507277123,50.635029965984
+141,M,100,A,Buzulucká,589209,Address,Buzulucká,21.10.2013,9:45,Buzulucká,Zákaz zastavení   ,125c/1k,21.10.2013 9:45,13.8031507277123,50.635029965984
+142,M,100,A,Celní,589268,Address,Celní,21.10.2013,12:10,Celní,Neponechání průjezdu,27/1k,21.10.2013 12:10,13.8325334107073,50.6467571861442
+143,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,21.10.2013,12:30,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,21.10.2013 12:30,13.8235358058291,50.6405513843127
+144,M,100,A,Alejní,589004,Address,Alejní,22.10.2013,9:25,Alejní,Stání na reservé,27/1o,22.10.2013 9:25,13.8222726440397,50.6386541630334
+145,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,22.10.2013,10:15,U Hadích Lázní,Stání v křižovatce,27/1d,22.10.2013 10:15,13.837229476084,50.6399229755375
+146,M,100,A,Trnovanská,591475,Address,Trnovanská,22.10.2013,15:25,Trnovanská,Stání v křižovatce,27/1d,22.10.2013 15:25,13.8542182143318,50.6456297654354
+147,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,22.10.2013,16:25,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,22.10.2013 16:25,13.837229476084,50.6399229755375
+148,M,100,A,Zelená,588903,Address,Zelená,22.10.2013,18:10,Zelená,Stání před vjezdem,27/1n,22.10.2013 18:10,13.8231702606001,50.6397450381687
+149,M,99.33,A,J. Á. Komenského,589691,Address,J. A. Komenského,23.10.2013,9:35,J. A. Komenského,Stání v křižovatce,27/1d,23.10.2013 9:35,13.8431512207245,50.6524274251356
+150,M,100,A,Stará Mlýnská,661538,Address,Stará Mlýnská,23.10.2013,10:30,Stará Mlýnská,Stání na rezervé,27/1o,23.10.2013 10:30,13.8425718878549,50.6333691312714
+151,M,100,A,Maršovská,590312,Address,Maršovská,24.10.2013,8:10,Maršovská,zákaz zastavení - stavba - veřejný zájem,125c/1k,24.10.2013 8:10,13.8461602778926,50.660087241563
+152,M,100,A,Liberecká,590207,Address,Liberecká,24.10.2013,10:15,Liberecká,Stání v křižovatce,27/1d,24.10.2013 10:15,13.8142707814802,50.6357660858736
+153,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,24.10.2013,12:10,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,24.10.2013 12:10,13.837229476084,50.6399229755375
+154,M,100,A,Laubeho náměstí,590177,Address,Laubeho náměstí,24.10.2013,12:30,Laubeho náměstí,Zákaz zastavení ,125c/1k,24.10.2013 12:30,13.8315220238188,50.6391992478186
+155,M,100,A,Ruská,591157,Address,Ruská,24.10.2013,13:55,Ruská,Stání před vjezdem,27/1n,24.10.2013 13:55,13.8173830178553,50.6350079662469
+156,M,100,A,Čelakovského,588661,Address,Čelakovského,24.10.2013,14:25,Čelakovského,Stání před vjezdem,27/1n,24.10.2013 14:25,13.8323849173457,50.6410360397055
+158,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,25.10.2013,12:53,U Hadích lázní,Stání před přechodem pro chodce,27/1c,25.10.2013 12:53,13.837229476084,50.6399229755375
+160,M,100,A,Trnovanská,591475,Address,Trnovanská,25.10.2013,13:50,Trnovanská,Stání v křižovatce,27/1d,25.10.2013 13:50,13.8542182143318,50.6456297654354
+161,M,100,A,Alejní,589004,Address,Alejní,27.10.2013,19:50,Alejní,Stání na vyhr.park. č.19,27/1o,27.10.2013 19:50,13.8222726440397,50.6386541630334
+162,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,29.10.2013,8:05,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,29.10.2013 8:05,13.837229476084,50.6399229755375
+163,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,29.10.2013,9:05,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,29.10.2013 9:05,13.8235358058291,50.6405513843127
+164,M,100,A,Na spravedlnosti,590550,Address,Na Spravedlnosti,29.10.2013,11:50,Na Spravedlnosti,Stání na réserve    ,27/1o,29.10.2013 11:50,13.8181952785983,50.636368778599
+165,M,100,A,Karla Čapka,589951,Address,Karla Čapka,30.10.2013,10:05,Karla Čapka,Stání v křižovatce,27/1d,30.10.2013 10:05,13.8373874613568,50.6433328376385
+166,M,100,A,Havířská,589560,Address,Havířská,31.10.2013,12:40,Havířská,Stání v křižovatce,27/1d,31.10.2013 12:40,13.8402005183948,50.6579740518047
+167,M,100,A,Alejní,589004,Address,Alejní,31.10.2013,18:25,Alejní,Stání na rez.park.,27/1o,31.10.2013 18:25,13.8222726440397,50.6386541630334
+168,M,100,A,Buzulucká,589209,Address,Buzulucká,2.11.2013,10:05,Buzulucká,Zákaz zastavení + Stání v křižovatce, B28+27/1d,2.11.2013 10:05,13.8031507277123,50.635029965984
+169,M,100,A,Buzulucká,589209,Address,Buzulucká,4.11.2013,14:30,Buzulucká,Zákaz zastavení,125c/1k,4.11.2013 14:30,13.8031507277123,50.635029965984
+170,M,100,A,Tržní náměstí,591467,Address,Tržní náměstí,5.11.2013,11:40,Tržní náměstí,Stání na rezervé            ,27/1o,5.11.2013 11:40,13.8272860034816,50.6444312572291
+171,M,100,A,Papírová,764345,Address,Papírová,6.11.2013,12:30,Papírová,Neponechání průjezdu 3 m,27/1k,6.11.2013 12:30,13.8266223059576,50.6388614804865
+172,M,100,A,Alejní,589004,Address,Alejní,8.11.2013,16:30,Alejní,Stání na rezervé  ,27/1o,8.11.2013 16:30,13.8222726440397,50.6386541630334
+173,M,100,A,Buzulucká,589209,Address,Buzulucká,9.11.2013,13:30,Buzulucká,Zákaz zastavení,125c/1k,9.11.2013 13:30,13.8031507277123,50.635029965984
+174,M,100,A,Ruská,591157,Address,Ruská,10.11.2013,18:40,Ruská,Stání před výjezdem,27/1d,10.11.2013 18:40,13.8173830178553,50.6350079662469
+175,M,100,A,14. října,588962,Address,14. října,11.11.2013,9:45,14. října,Stání před přechodem pro chodce,27/1c,11.11.2013 9:45,13.8358272194812,50.6485952205517
+176,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,11.11.2013,11:05,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,11.11.2013 11:05,13.837229476084,50.6399229755375
+177,M,100,A,Alejní,589004,Address,Alejní,12.11.2013,16:40,Alejní,Stání na rezerv. park.,27/1o,12.11.2013 16:40,13.8222726440397,50.6386541630334
+178,M,100,A,Spojenecká,591297,Address,Spojenecká,13.11.2013,12:30,Spojenecká,Stání před vjezdem,27/1n,13.11.2013 12:30,13.8240413242057,50.6449473362702
+179,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,14.11.2013,7:15,U Hadích Lázní,Stání před vjezdem,27/1n,14.11.2013 7:15,13.837229476084,50.6399229755375
+180,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,14.11.2013,7:50,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,14.11.2013 7:50,13.837229476084,50.6399229755375
+181,M,100,A,Čelakovského,588661,Address,Čelakovského,14.11.2013,9:15,Čelakovského,Stání před vjezdem,27/1n,14.11.2013 9:15,13.8323849173457,50.6410360397055
+182,M,100,A,Gagarinova,589527,Address,Gagarinova,16.11.2013,10:30,Gagarinova,Stání v křižovatce,27/1d,16.11.2013 10:30,13.8545685827816,50.6540365439269
+183,M,100,A,Alejní,589004,Address,Alejní,16.11.2013,22:20,Alejní,Stání na reser.park,27/1o,16.11.2013 22:20,13.8222726440397,50.6386541630334
+184,M,100,A,Buzulucká,589209,Address,Buzulucká,17.11.2013,17:50,Buzulucká,Stání před výjezdem,27/1d,17.11.2013 17:50,13.8031507277123,50.635029965984
+185,M,100,A,Havířská,589560,Address,Havířská,17.11.2013,20:35,Havířská,Stání před vjezdem,27/1n,17.11.2013 20:35,13.8402005183948,50.6579740518047
+186,M,100,A,Alejní,589004,Address,Alejní,18.11.2013,12:40,Alejní,Stání na vyhr.park.pro SBD MÍR,27/1o,18.11.2013 12:40,13.8222726440397,50.6386541630334
+187,M,100,A,Tržní náměstí,591467,Address,Tržní náměstí,18.11.2013,14:10,Tržní náměstí,Znemožnění z řad stojících vozidel,25/3,18.11.2013 14:10,13.8272860034816,50.6444312572291
+188,M,100,A,Alejní,589004,Address,Alejní,19.11.2013,11:00,Alejní,Stání na rezerv. park. ,27/1o,19.11.2013 11:00,13.8222726440397,50.6386541630334
+189,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,19.11.2013,11:55,U Hadích Lázní,Stání před přechodem pro chodce,27/1c,19.11.2013 11:55,13.837229476084,50.6399229755375
+191,M,100,A,U zámku,591751,Address,U Zámku,22.11.2013,9:40,U Zámku,Stání v odbočovacím pruhu,27/1k,22.11.2013 9:40,13.8235106203965,50.6368732929244
+192,M,100,A,Vrchlického,591874,Address,Vrchlického,22.11.2013,17:00,Vrchlického,Znemožnění výjezdu zaparkovaných vozidel,25/3,22.11.2013 17:00,13.8320623701633,50.6445594025235
+193,M,100,A,Gagarinova,589527,Address,Gagarinova,23.11.2013,9:00,Gagarinova,Stání na rez.park.,27/1o,23.11.2013 9:00,13.8545685827816,50.6540365439269
+194,M,100,A,Alejní,589004,Address,Alejní,23.11.2013,10:00,Alejní,Stání na rez.park.,27/1o,23.11.2013 10:00,13.8222726440397,50.6386541630334
+195,M,100,A,Alejní,589004,Address,Alejní,23.11.2013,11:40,Alejní,Stání na rez.park.,27/1o,23.11.2013 11:40,13.8222726440397,50.6386541630334
+196,M,100,A,Jankovcova,589730,Address,Jankovcova,24.11.2013,9:45,Jankovcova,Stání před přechodem pro chodce,27/1c,24.11.2013 9:45,13.8375339081974,50.6461257002093
+197,M,100,A,14. října,588962,Address,14. října,24.11.2013,10:05,14. října,Stání v křižovatce,27/1d,24.11.2013 10:05,13.8358272194812,50.6485952205517
+198,M,100,A,Buzulucká,589209,Address,Buzulucká,25.11.2013,15:15,Buzulucká,Zákaz zastavení,125c/1k,25.11.2013 15:15,13.8031507277123,50.635029965984
+199,M,100,A,Alejní,589004,Address,Alejní,26.11.2013,21:05,Alejní,Stání na vyhr.park.pro SBD MÍR,27/1o,26.11.2013 21:05,13.8222726440397,50.6386541630334
+200,M,100,A,Laubeho náměstí,590177,Address,Laubeho náměstí,27.11.2013,8:40,Laubeho náměstí,Stání před vjezdem,27/1n,27.11.2013 8:40,13.8315220238188,50.6391992478186
+201,M,100,A,Husitská,589659,Address,Husitská,27.11.2013,12:10,Husitská,Stání na vyhr. Park. Pro Kelkom,27/1o,27.11.2013 12:10,13.8294878109652,50.6450544901626
+202,M,100,A,Buzulucká,589209,Address,Buzulucká,28.11.2013,20:00,Buzulucká,Stání před vjezdem,27/1n,28.11.2013 20:00,13.8031507277123,50.635029965984
+203,M,100,A,Duchcovská,589390,Address,Duchcovská,29.11.2013,14:00,Duchcovská,Stání před vjezdem,27/1n,29.11.2013 14:00,13.7915274585233,50.6371281287959
+204,M,100,A,Smetanova,591254,Address,Smetanova,1.12.2013,14:25,Smetanova,Neponechání průjezdu,25/3,1.12.2013 14:25,13.8074786079942,50.6390094575533
+205,M,100,A,Spojenecká,591297,Address,Spojenecká,4.12.2013,9:50,Spojenecká,Stání před vjezdem,27/1n,4.12.2013 9:50,13.8240413242057,50.6449473362702
+206,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,4.12.2013,10:20,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,4.12.2013 10:20,13.8235358058291,50.6405513843127
+207,M,100,A,Mírové náměstí,590282,Address,Mírové Náměstí,4.12.2013,12:50,Mírové Náměstí,Stání na přechodu pro chodce + B 28,27/1c,4.12.2013 12:50,13.8258942360005,50.6401562517243
+208,M,100,A,Alejní,589004,Address,Alejní,4.12.2013,13:55,Alejní,Stání na rezervé ,27/1o,4.12.2013 13:55,13.8222726440397,50.6386541630334
+209,M,100,A,Alejní,589004,Address,Alejní,5.12.2013,9:42,Alejní,Stání na reserv. park.,27/1o,5.12.2013 9:42,13.8222726440397,50.6386541630334
+210,M,100,A,Alejní,589004,Address,Alejní,5.12.2013,10:00,Alejní,Stání na reserv. park.,27/1o,5.12.2013 10:00,13.8222726440397,50.6386541630334
+211,M,100,A,U Nových lázní,591645,Address,U Nových Lázní,6.12.2013,14:30,U Nových Lázní,Stání před přechodem pro chodce,27/1c,6.12.2013 14:30,13.8416142958154,50.6439220037422
+212,M,100,A,Buzulucká,589209,Address,Buzulucká,6.12.2013,20:00,Buzulucká,Stání před vjezdem,27/1n,6.12.2013 20:00,13.8031507277123,50.635029965984
+213,M,100,A,Jaselská,589756,Address,Jaselská,7.12.2013,10:50,Jaselská,Stání před vjezdem,27/1n,7.12.2013 10:50,13.8063891797587,50.6352422274686
+214,M,100,A,U schodů,591696,Address,U Schodů,7.12.2013,13:15,U Schodů,Stání na reservé,27/1o,7.12.2013 13:15,13.8363623679708,50.6461047729023
+215,M,100,A,Alejní,589004,Address,Alejní,9.12.2013,0:00,Alejní,Stání na reservé,27/1o,9.12.2013 0:00,13.8222726440397,50.6386541630334
+216,M,100,A,Alejní,589004,Address,Alejní,9.12.2013,14:50,Alejní,Stání na reservé,27/1o,9.12.2013 14:50,13.8222726440397,50.6386541630334
+217,M,100,A,Husitská,589659,Address,Husitská,11.12.2013,14:55,Husitská,Stání na rezervé pro Kelkom,27/1o,11.12.2013 14:55,13.8294878109652,50.6450544901626
+218,M,100,A,Liberecká,590207,Address,Liberecká,13.12.2013,9:40,Liberecká,Stání v křižovatce,27/1d,13.12.2013 9:40,13.8142707814802,50.6357660858736
+219,M,100,A,Alejní,589004,Address,Alejní,13.12.2013,16:00,Alejní,stání na reservé,27/1o,13.12.2013 16:00,13.8222726440397,50.6386541630334
+220,M,100,A,Alejní,589004,Address,Alejní,14.12.2013,15:40,Alejní,stání na reservé,27/1o,14.12.2013 15:40,13.8222726440397,50.6386541630334
+221,M,100,A,Masarykova třída,590339,Address,Masarykova Třída,14.12.2013,18:55,Masarykova Třída,Stání před výjezdem na pozemní komunikaci,27/1n,14.12.2013 18:55,13.8625621060539,50.6578550483256
+222,M,100,A,Alejní,589004,Address,Alejní,14.12.2013,20:58,Alejní,Stání na rezervé č.19,27/1o,14.12.2013 20:58,13.8222726440397,50.6386541630334
+223,M,100,A,Svojsíkova,591408,Address,Svojsíkova,16.12.2013,10:30,Svojsíkova,Neponechání průjezdu 3m,25/3,16.12.2013 10:30,13.8186466601484,50.6368420309487
+224,M,100,A,Tržní náměstí,591467,Address,Tržní náměstí,16.12.2013,14:50,Tržní náměstí,Stání na reservé,27/1o,16.12.2013 14:50,13.8272860034816,50.6444312572291
+225,M,100,A,Zelená,588903,Address,Zelená,17.12.2013,15:45,Zelená,Neponechání průjezdu  ,25/3,17.12.2013 15:45,13.8231702606001,50.6397450381687
+226,M,100,A,Masarykova třída,590339,Address,Masarykova Třída,20.12.2013,20:20,Masarykova Třída,Stání před vjezdem,27/1n,20.12.2013 20:20,13.8625621060539,50.6578550483256
+227,M,100,A,Průřezná,590959,Address,Průřezná,27.12.2013,8:40,Průřezná,Neponechal průjezd,25/3,27.12.2013 8:40,13.8435251198045,50.6328433787049
+228,M,100,A,Doubravská,589357,Address,Doubravská,28.12.2013,22:30,Doubravská,Stání na vyhr.park.pro ZTP,125/1f11,28.12.2013 22:30,13.8420913818779,50.648934918067
+229,M,100,A,Maršovská,590312,Address,Maršovská,31.12.2013,10:05,Maršovská,Neponechal volný průjezd,25/3,31.12.2013 10:05,13.8461602778926,50.660087241563
+230,M,100,A,Jankovcova,589730,Address,Jankovcova,2.1.2014,21:33,Jankovcova,Stání před vjezdem,27/1n,2.1.2014 21:33,13.8375339081974,50.6461257002093
+231,M,100,A,Masarykova třída,590339,Address,Masarykova Třída,3.1.2014,9:20,Masarykova Třída,neponechání průjezdu-žádost PČR,27/1k,3.1.2014 9:20,13.8625621060539,50.6578550483256
+232,M,100,A,Americká,589021,Address,Americká,3.1.2014,13:40,Americká,Stání v křižovatce,27/1d,3.1.2014 13:40,13.8143175971962,50.6345445157728
+233,M,100,A,Přítkovská,591041,Address,Přítkovská,3.1.2014,14:20,Přítkovská,Stání v křižovatce,27/1d,3.1.2014 14:20,13.8443196669161,50.6538919568068
+234,M,100,A,Pod hvězdárnou,590886,Address,Pod Hvězdárnou,4.1.2014,14:45,Pod Hvězdárnou,Neponechal průjezd,25/3,4.1.2014 14:45,13.8452822663268,50.6335463581428
+235,M,100,A,Liberecká,590207,Address,Liberecká,7.1.2014,9:25,Liberecká,Stání v křižovatce,27/1d,7.1.2014 9:25,13.8142707814802,50.6357660858736
+236,M,100,A,Jankovcova,589730,Address,Jankovcova,8.1.2014,10:50,Jankovcova,Stání před přechodem pro chodce,27/1c,8.1.2014 10:50,13.8375339081974,50.6461257002093
+237,M,100,A,Dvorská,589411,Address,Dvorská,10.1.2014,9:35,Dvorská,Stání v křižovatce,27/1d,10.1.2014 9:35,13.8437117112754,50.6323552608908
+238,M,100,A,Trnovanská,591475,Address,Trnovanská,13.1.2014,10:00,Trnovanská,Znemožnění vyjetí z řady stojících vozidel,25/4,13.1.2014 10:00,13.8542182143318,50.6456297654354
+239,M,100,A,Jankovcova,589730,Address,Jankovcova,14.1.2014,9:35,Jankovcova,Stání před přechodem pro chodce,27/1c,14.1.2014 9:35,13.8375339081974,50.6461257002093
+240,M,100,A,Alejní,589004,Address,Alejní,15.1.2014,8:25,Alejní,Stání na rezervé č. 32,27/1o,15.1.2014 8:25,13.8222726440397,50.6386541630334
+241,M,100,A,Celní,589268,Address,Celní,15.1.2014,9:15,Celní,neponechání průjezdu,27/1k,15.1.2014 9:15,13.8325334107073,50.6467571861442
+242,M,100,A,Jaselská,589756,Address,Jaselská,15.1.2014,10:25,Jaselská,Stání před přechodem pro chodce,27/1c,15.1.2014 10:25,13.8063891797587,50.6352422274686
+243,M,100,A,Gagarinova,589527,Address,Gagarinova,15.1.2014,13:10,Gagarinova,stání na reserv. č. 9,27/1o,15.1.2014 13:10,13.8545685827816,50.6540365439269
+244,M,100,A,Gagarinova,589527,Address,Gagarinova,16.1.2014,18:15,Gagarinova,stání na reservé,27/1o,16.1.2014 18:15,13.8545685827816,50.6540365439269
+245,M,100,A,Liberecká,590207,Address,Liberecká,17.1.2014,9:50,Liberecká,Stání v křižovatce,27/1d,17.1.2014 9:50,13.8142707814802,50.6357660858736
+246,M,100,A,Doubravská,589357,Address,Doubravská,17.1.2014,10:35,Doubravská,Stání před přechodem pro chodce,27/1c,17.1.2014 10:35,13.8420913818779,50.648934918067
+248,M,100,A,Hlávkova,589608,Address,Hlávkova,18.1.2014,15:00,Hlávkova,Stání v křižovatce,27/1d,18.1.2014 15:00,13.840049340513,50.656382784172
+249,M,100,A,Ševčíkova,588911,Address,Ševčíkova,23.1.2014,10:40,Ševčíkova,Stání v křižovatce,27/1d,23.1.2014 10:40,13.8440172583014,50.6394052739216
+250,M,100,A,U Nových lázní,591645,Address,U Nových Lázní,23.1.2014,15:25,U Nových Lázní,Stání před přechodem pro chodce,27/1c,23.1.2014 15:25,13.8416142958154,50.6439220037422
+251,M,100,A,Štúrova,588954,Address,Štúrova,23.1.2014,13:35,Štúrova,Stání před přechodem pro chodce,27/1c,23.1.2014 13:35,13.8437531498281,50.6510183637329
+254,M,100,A,Karla Čapka,589951,Address,Karla Čapka,27.1.2014,9:20,Karla Čapka,Stání v křižovatce,27/1d,27.1.2014 9:20,13.8373874613568,50.6433328376385
+255,M,100,A,14. října,588962,Address,14. října,27.1.2014,12:40,14. října,Stání v křižovatce,27/1d,27.1.2014 12:40,13.8358272194812,50.6485952205517
+256,M,100,A,14. října,588962,Address,14. října,27.1.2014,13:10,14. října,Stání v křižovatce,27/1d,27.1.2014 13:10,13.8358272194812,50.6485952205517
+257,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,27.1.2014,15:15,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1d,27.1.2014 15:15,13.8235358058291,50.6405513843127
+258,M,100,A,Celní,589268,Address,Celní,28.1.2014,9:00,Celní,Neponechání průjezdu,27/1k,28.1.2014 9:00,13.8325334107073,50.6467571861442
+259,M,100,A,Palackého,590789,Address,Palackého,28.1.2014,14:30,Palackého,Stání v křižovatce,27/1d,28.1.2014 14:30,13.8385748741976,50.6490347488372
+260,M,100,A,Českobratrská,588733,Address,Českobratrská,30.1.2014,10:00,Českobratrská,Stání v křižovatce,27/1d,30.1.2014 10:00,13.8335854194535,50.6419506796493
+261,M,100,A,Karla Čapka,589951,Address,Karla Čapka,30.1.2014,10:20,Karla Čapka,stání před výjezdem,27/1n,30.1.2014 10:20,13.8373874613568,50.6433328376385
+262,M,100,A,Alejní,589004,Address,Alejní,30.1.2014,11:55,Alejní,Stání na rezervé č. 3,27/1o,30.1.2014 11:55,13.8222726440397,50.6386541630334
+263,M,100,A,Trnovanská,591475,Address,Trnovanská,31.1.2014,9:25,Trnovanská,Stání v křižovatce,27/1d,31.1.2014 9:25,13.8542182143318,50.6456297654354
+264,M,100,A,Karla Čapka,589951,Address,Karla Čapka,31.1.2014,14:05,Karla Čapka,Stání v křižovatce,27/1d,31.1.2014 14:05,13.8373874613568,50.6433328376385
+265,M,100,A,Alejní,589004,Address,Alejní,31.1.2014,14:35,Alejní,stání na reservé,27/1o,31.1.2014 14:35,13.8222726440397,50.6386541630334
+268,M,100,A,Buzulucká,589209,Address,Buzulucká,1.2.2014,11:55,Buzulucká,Stání v křižovatce + zákaz zastavení V 12c,27/1d,1.2.2014 11:55,13.8031507277123,50.635029965984
+269,M,100,A,Trnovanská,591475,Address,Trnovanská,1.2.2014,15:25,Trnovanská,Stání v křižovatce + zákaz zastavení V 12c,27/1d,1.2.2014 15:25,13.8542182143318,50.6456297654354
+270,M,100,A,28. října,588971,Address,28. října,1.2.2014,22:30,28. října,Stání před vjezdem,27/1n,1.2.2014 22:30,13.8265930404692,50.6432893274203
+271,M,100,A,Přítkovská,591041,Address,Přítkovská,2.2.2014,9:00,Přítkovská,Stání v křižovatce,27/1d,2.2.2014 9:00,13.8443196669161,50.6538919568068
+272,M,100,A,Přítkovská,591041,Address,Přítkovská,2.2.2014,9:20,Přítkovská,Stání v křižovatce,27/1d,2.2.2014 9:20,13.8443196669161,50.6538919568068
+273,M,100,A,Přítkovská,591041,Address,Přítkovská,2.2.2014,10:00,Přítkovská,Stání v křižovatce,27/1d,2.2.2014 10:00,13.8443196669161,50.6538919568068
+274,M,100,A,Přítkovská,591041,Address,Přítkovská,3.2.2014,9:45,Přítkovská,Stání v křižovatce,27/1d,3.2.2014 9:45,13.8443196669161,50.6538919568068
+275,M,100,A,Českobratrská,588733,Address,Českobratrská,3.2.2014,10:45,Českobratrská,Stání v křižovatce,27/1d,3.2.2014 10:45,13.8335854194535,50.6419506796493
+276,M,100,A,Liberecká,590207,Address,Liberecká,5.2.2014,10:05,Liberecká,Stání v křižovatce,27/1d,5.2.2014 10:05,13.8142707814802,50.6357660858736
+277,M,100,A,U zámku,591751,Address,U Zámku,5.2.2014,10:50,U Zámku,Neponechání průjezdu,27/1k,5.2.2014 10:50,13.8235106203965,50.6368732929244
+278,M,100,A,14. října,588962,Address,14. října,6.2.2014,8:10,14. října,Stání před vjezdem,27/1n,6.2.2014 8:10,13.8358272194812,50.6485952205517
+279,M,100,A,Jankovcova,589730,Address,Jankovcova,6.2.2014,10:35,Jankovcova,Stání před přechodem pro chodce,27/1c,6.2.2014 10:35,13.8375339081974,50.6461257002093
+280,M,100,A,Ruská,591157,Address,Ruská,7.2.2014,7:55,Ruská,Stání před vjezdem,27/1n,7.2.2014 7:55,13.8173830178553,50.6350079662469
+281,M,100,A,Alejní,589004,Address,Alejní,7.2.2014,20:10,Alejní,Stání na rezervé parkovišti  ,27/1o,7.2.2014 20:10,13.8222726440397,50.6386541630334
+282,M,100,A,Ševčíkova,588911,Address,Ševčíkova,10.2.2014,9:20,Ševčíkova,Stání v křižovatce,27/1d,10.2.2014 9:20,13.8440172583014,50.6394052739216
+283,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,10.2.2014,9:30,Nádražní náměstí,Stání na vyhr.park.pro ZTP,67/8,10.2.2014 9:30,13.8302554575732,50.6464173273859
+284,M,100,A,Husitská,589659,Address,Husitská,10.2.2014,10:35,Husitská,Stání na vyhr.park.pro Kelkom,27/1o,10.2.2014 10:35,13.8294878109652,50.6450544901626
+285,M,99.54,A,Rooseveltova,588806,Address,Rooseweltova,11.2.2014,13:15,Rooseweltova,Stání na chodníku,53/2,11.2.2014 13:15,13.8281031464392,50.6367635703637
+286,M,100,A,Alejní,589004,Address,Alejní,11.2.2014,20:05,Alejní,Stání na rezervé park.,27/1o,11.2.2014 20:05,13.8222726440397,50.6386541630334
+287,M,100,A,Ševčíkova,588911,Address,Ševčíkova,12.2.2014,9:15,Ševčíkova,Stání v křižovatce,27/1d,12.2.2014 9:15,13.8440172583014,50.6394052739216
+288,M,100,A,Přítkovská,591041,Address,Přítkovská,12.2.2014,9:40,Přítkovská,Stání v křižovatce,27/1d,12.2.2014 9:40,13.8443196669161,50.6538919568068
+289,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,12.2.2014,13:25,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,12.2.2014 13:25,13.8235358058291,50.6405513843127
+290,M,100,A,Jankovcova,589730,Address,Jankovcova,12.2.2014,14:05,Jankovcova,Stání před přechodem pro chodce,27/1c,12.2.2014 14:05,13.8375339081974,50.6461257002093
+291,M,100,A,Jankovcova,589730,Address,Jankovcova,12.2.2014,14:25,Jankovcova,Stání před přechodem pro chodce,27/1c,12.2.2014 14:25,13.8375339081974,50.6461257002093
+292,M,100,A,14. října,588962,Address,14. října,12.2.2014,14:50,14. října,Stání v křižovatce,27/1d,12.2.2014 14:50,13.8358272194812,50.6485952205517
+293,M,100,A,Alejní,589004,Address,Alejní,12.2.2014,16:15,Alejní,Stání na rez.park.,27/1o,12.2.2014 16:15,13.8222726440397,50.6386541630334
+295,M,100,A,Jankovcova,589730,Address,Jankovcova,13.2.2014,13:30,Jankovcova,Stání před přechodem pro chodce,27/1c,13.2.2014 13:30,13.8375339081974,50.6461257002093
+296,M,100,A,Ševčíkova,588911,Address,Ševčíkova,14.2.2014,9:15,Ševčíkova,Stání v křižovatce,27/1d,14.2.2014 9:15,13.8440172583014,50.6394052739216
+297,M,100,A,Štúrova,588954,Address,Štúrova,14.2.2014,13:10,Štúrova,Stání před přechodem pro chodce,27/1c,14.2.2014 13:10,13.8437531498281,50.6510183637329
+298,M,100,A,Stará Duchcovská,588849,Address,Stará Duchcovská,15.2.2014,9:55,Stará Duchcovská,Stání v křižovatce,27/1d,15.2.2014 9:55,13.8042460290267,50.638773914496
+299,M,100,A,Libušina,590215,Address,Libušina,16.2.2014,10:55,Libušina,Stání před vjezdem,27/1n,16.2.2014 10:55,13.8087204088459,50.6376820169418
+300,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,17.2.2014,13:45,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,17.2.2014 13:45,13.8235358058291,50.6405513843127
+301,M,100,A,Edisonova,589420,Address,Edisonova,18.2.2014,9:40,Edisonova,Stání před přechodem pro chodce,27/1c,18.2.2014 9:40,13.8419005952647,50.6543716700779
+302,M,100,A,Havířská,589560,Address,Havířská,18.2.2014,10:05,Havířská,Stání v křižovatce,27/1d,18.2.2014 10:05,13.8402005183948,50.6579740518047
+303,M,100,A,Alejní,589004,Address,Alejní,19.2.2014,10:05,Alejní,Stání na rezervé    ,27/1o,19.2.2014 10:05,13.8222726440397,50.6386541630334
+304,M,70,A,14. října,588962,Address,14.října,20.2.2014,9:50,14.října,Stání před přechodem pro chodce,27/1c,20.2.2014 9:50,13.8358272194812,50.6485952205517
+305,M,100,A,Stará Duchcovská,588849,Address,Stará Duchcovská,20.2.2014,11:00,Stará Duchcovská,Stání v křižovatce,27/1d,20.2.2014 11:00,13.8042460290267,50.638773914496
+306,M,100,A,Alejní,589004,Address,Alejní,20.2.2014,11:35,Alejní,Stání na vyhr.park.  ,27/1o,20.2.2014 11:35,13.8222726440397,50.6386541630334
+307,M,100,A,U Nových lázní,591645,Address,U Nových lázní,21.2.2014,9:20,U Nových lázní,Stání před přechodem pro chodce,27/1c,21.2.2014 9:20,13.8416142958154,50.6439220037422
+308,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,21.2.2014,9:40,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,21.2.2014 9:40,13.8235358058291,50.6405513843127
+309,M,100,A,Alejní,589004,Address,Alejní,21.2.2014,14:40,Alejní,Stání na rezervé pro SBD Mír,27/1o,21.2.2014 14:40,13.8222726440397,50.6386541630334
+310,M,100,A,Přítkovská,591041,Address,Přítkovská,22.2.2014,9:40,Přítkovská,Stání v křižovatce,27/1d,22.2.2014 9:40,13.8443196669161,50.6538919568068
+311,M,100,A,Přítkovská,591041,Address,Přítkovská,22.2.2014,10:00,Přítkovská,Stání v křižovatce,27/1d,22.2.2014 10:00,13.8443196669161,50.6538919568068
+312,M,70,A,14. října,588962,Address,14.října,22.2.2014,13:00,14.října,Stání před přechodem pro chodce,27/c,22.2.2014 13:00,13.8358272194812,50.6485952205517
+313,M,100,A,Ševčíkova,588911,Address,Ševčíkova,23.2.2014,10:10,Ševčíkova,Stání v křižovatce,27/1d,23.2.2014 10:10,13.8440172583014,50.6394052739216
+315,M,100,A,Celní,589268,Address,Celní,24.2.2014,10:35,Celní,Neponechání průjezdu,27/1k,24.2.2014 10:35,13.8325334107073,50.6467571861442
+317,M,100,A,Doubravská,589357,Address,Doubravská,25.2.2014,10:30,Doubravská,Stání v křižovatce,27/1d,25.2.2014 10:30,13.8420913818779,50.648934918067
+318,M,100,A,Celní,589268,Address,Celní,25.2.2014,11:20,Celní,Neponechání průjezdu 3 m,27/1k,25.2.2014 11:20,13.8325334107073,50.6467571861442
+319,M,100,A,Duchcovská,589390,Address,Duchcovská,25.2.2014,21:05,Duchcovská,Stání před výjezdem z garáže,27/1n,25.2.2014 21:05,13.7915274585233,50.6371281287959
+320,M,100,A,Chelčického,589683,Address,Chelčického,26.2.2014,14:15,Chelčického,Stání před přechodem pro chodce,27/1c,26.2.2014 14:15,13.8321492507545,50.6417428179401
+321,M,100,A,Štúrova,588954,Address,Štúrova,26.2.2014,15:20,Štúrova,Stání před přechodem pro chodce,27/1c,26.2.2014 15:20,13.8437531498281,50.6510183637329
+322,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,27.2.2014,13:30,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,27.2.2014 13:30,13.8235358058291,50.6405513843127
+323,M,100,A,Alejní,589004,Address,Alejní,28.2.2014,17:25,Alejní,Stání na rez.park.,27/1o,28.2.2014 17:25,13.8222726440397,50.6386541630334
+324,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,1.3.2014,21:04,U Hadích lázní,Stání před vjezdem,27/1n,1.3.2014 21:04,13.837229476084,50.6399229755375
+325,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,3.3.2014,8:45,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,3.3.2014 8:45,13.8235358058291,50.6405513843127
+326,M,100,A,Doubravská,589357,Address,Doubravská,3.3.2014,9:40,Doubravská,Neponechání průjezdu 3m od plné čáry,25/3,3.3.2014 9:40,13.8420913818779,50.648934918067
+327,M,100,A,14. října,588962,Address,14. října,3.3.2014,9:55,14. října,Stání v křižovatce,27/1d,3.3.2014 9:55,13.8358272194812,50.6485952205517
+328,M,100,A,Americká,589021,Address,Americká,4.3.2014,8:10,Americká,Stání na vyhr.park.pro ZTP,27/1o,4.3.2014 8:10,13.8143175971962,50.6345445157728
+329,M,100,A,Celní,589268,Address,Celní,4.3.2014,9:55,Celní,neponechání 5 m pro průjezd,27/1k,4.3.2014 9:55,13.8325334107073,50.6467571861442
+330,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,4.3.2014,9:20,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,4.3.2014 9:20,13.8235358058291,50.6405513843127
+331,M,100,A,Stará Mlýnská,661538,Address,Stará Mlýnská,5.3.2014,8:30,Stará Mlýnská,Stání v křižovatce,27/1d,5.3.2014 8:30,13.8425718878549,50.6333691312714
+332,M,100,A,Skupova,591220,Address,Skupova,5.3.2014,12:50,Skupova,Stání před přechodem pro chodce,27/1c,5.3.2014 12:50,13.8456278548357,50.6507957542927
+333,M,100,A,U Červeného kostela,591513,Address,U Červeného Kostela,5.3.2014,13:25,U Červeného Kostela,Stání v křižovatce,27/1d,5.3.2014 13:25,13.8387766767753,50.654544952013
+334,M,100,A,Thámova,591432,Address,Thámova,6.3.2014,9:25,Thámova,Stání v křižovatce,27/1d,6.3.2014 9:25,13.8427832630188,50.6491448487662
+335,M,100,A,Dvorská,589411,Address,Dvorská,7.3.2014,8:10,Dvorská,Stání v křižovatce,27/1d,7.3.2014 8:10,13.8437117112754,50.6323552608908
+336,M,100,A,Alejní,589004,Address,Alejní,7.3.2014,10:25,Alejní,Stání na vyhr.park. ,27/1o,7.3.2014 10:25,13.8222726440397,50.6386541630334
+337,M,100,A,Alejní,589004,Address,Alejní,7.3.2014,15:35,Alejní,Stání na vyhr.park. ,27/1o,7.3.2014 15:35,13.8222726440397,50.6386541630334
+338,M,100,A,Celní,589268,Address,Celní,10.3.2014,10:50,Celní,Neponechání průjezdu 3m,27/1k,10.3.2014 10:50,13.8325334107073,50.6467571861442
+339,M,100,A,Přítkovská,591041,Address,Přítkovská,14.3.2014,10:10,Přítkovská,Stání v křižovatce,27/1d,14.3.2014 10:10,13.8443196669161,50.6538919568068
+340,M,100,A,Českobratrská,588733,Address,Českobratrská,14.3.2014,11:10,Českobratrská,Stání v křižovatce,27/1d,14.3.2014 11:10,13.8335854194535,50.6419506796493
+341,M,100,A,Doubravská,589357,Address,Doubravská,18.3.2014,8:30,Doubravská,Stání před vjezdem,27/1n,18.3.2014 8:30,13.8420913818779,50.648934918067
+344,M,100,A,Alejní,589004,Address,Alejní,18.3.2014,12:40,Alejní,Stání na rezervé č.6,27/1o,18.3.2014 12:40,13.8222726440397,50.6386541630334
+345,M,100,A,Papírová,764345,Address,Papírová,18.3.2014,13:00,Papírová,Stání před vjezdem,27/1n,18.3.2014 13:00,13.8266223059576,50.6388614804865
+346,M,100,A,Stará Duchcovská,588849,Address,Stará Duchcovská,21.3.2014,9:40,Stará Duchcovská,Stání v křižovatce,27/1d,21.3.2014 9:40,13.8042460290267,50.638773914496
+347,M,100,A,U zámku,591751,Address,U Zámku,21.3.2014,13:55,U Zámku,Stání před vjezdem,27/1n,21.3.2014 13:55,13.8235106203965,50.6368732929244
+348,M,100,A,Alejní,589004,Address,Alejní,22.3.2014,11:53,Alejní,Stání na vyhr.parkovišti,27/1o,22.3.2014 11:53,13.8222726440397,50.6386541630334
+349,M,100,A,U Hadích lázní,591556,Address,U Hadích Lázní,24.3.2014,11:25,U Hadích Lázní,Stání před vjezdem,27/1n,24.3.2014 11:25,13.837229476084,50.6399229755375
+350,M,100,A,Vrchlického,591874,Address,Vrchlického,24.3.2014,13:30,Vrchlického,Stání na vyhr.park.pro ZTP,27/1o,24.3.2014 13:30,13.8320623701633,50.6445594025235
+351,M,100,A,Celní,589268,Address,Celní,26.3.2014,9:15,Celní,Neponechání průjezdu 3m,27/1k,26.3.2014 9:15,13.8325334107073,50.6467571861442
+352,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,26.3.2014,12:25,U Hadích lázní,Stání na res.park. pro lázně,27/1o,26.3.2014 12:25,13.837229476084,50.6399229755375
+353,M,100,A,Nedbalova,590592,Address,Nedbalova,29.3.2014,8:20,Nedbalova,Stání v křižovatce,27/1d,29.3.2014 8:20,13.840072029353,50.6565175251949
+354,M,100,A,Dubská,589381,Address,Dubská,29.3.2014,9:55,Dubská,Stání před vjezdem,27/1n,29.3.2014 9:55,13.8211854973018,50.6449972906915
+355,M,100,A,Opavská,590746,Address,Opavská,30.3.2014,9:05,Opavská,Stání v křižovatce,27/1d,30.3.2014 9:05,13.8206633407951,50.6285533755711
+356,M,100,A,Karla Čapka,589951,Address,Karla Čapka,30.3.2014,10:35,Karla Čapka,Stání v křižovatce,27/1d,30.3.2014 10:35,13.8373874613568,50.6433328376385
+357,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,31.3.2014,13:30,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,31.3.2014 13:30,13.8235358058291,50.6405513843127
+358,M,100,A,Doubravická,589349,Address,Doubravická,1.4.2014,11:20,Doubravická,Stání na rez.park.,27/1o,1.4.2014 11:20,13.858429610955,50.6440488716119
+359,M,100,A,Palackého,590789,Address,Palackého,2.4.2014,9:40,Palackého,Stání v křižovatce,27/1d,2.4.2014 9:40,13.8385748741976,50.6490347488372
+360,M,100,A,Kollárova,590037,Address,Kollárova,2.4.2014,15:50,Kollárova,Stání na chodníku,27/1o,2.4.2014 15:50,13.8319714363972,50.6429226055677
+361,M,100,A,Prosetická,590991,Address,Prosetická,4.4.2014,7:45,Prosetická,Stání v zastávce MHD,27/1f,4.4.2014 7:45,13.8428070803066,50.6339874521766
+362,M,100,A,Alejní,589004,Address,Alejní,4.4.2014,20:05,Alejní,Stání na vyhr. Park.  ,27/1o,4.4.2014 20:05,13.8222726440397,50.6386541630334
+363,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,7.4.2014,11:55,Náměstí Svobody,Stání na rezervé pro Magistrát,27/1o,7.4.2014 11:55,13.8235358058291,50.6405513843127
+364,M,100,A,Čelakovského,588661,Address,Čelakovského,7.4.2014,12:30,Čelakovského,Stání před přechodem pro chodce,27/1c,7.4.2014 12:30,13.8323849173457,50.6410360397055
+365,M,100,A,Březová,589241,Address,Březová,8.4.2014,7:25,Březová,Veřejný zájem - mytí ulic,19/6,8.4.2014 7:25,13.8213528534421,50.6220089347667
+366,M,100,A,Habrová,589551,Address,Habrová,8.4.2014,7:50,Habrová,Veřejný zájem - mytí ulic,19/6,8.4.2014 7:50,13.8219389454526,50.6228366233236
+367,M,100,A,Habrová,589551,Address,Habrová,8.4.2014,8:30,Habrová,Veřejný zájem - mytí ulic,19/6,8.4.2014 8:30,13.8219389454526,50.6228366233236
+368,M,100,A,Javorová,589772,Address,Javorová,8.4.2014,8:45,Javorová,Veřejný zájem - mytí ulic,19/6,8.4.2014 8:45,13.8243675155488,50.622243591884
+369,M,100,A,Novoveská,590622,Address,Novoveská,8.4.2014,14:20,Novoveská,Veřejný zájem - mytí ulic,19/6,8.4.2014 14:20,13.8200755390949,50.6298439778028
+370,M,100,A,Novoveská,590622,Address,Novoveská,8.4.2014,14:40,Novoveská,Veřejný zájem - mytí ulic,19/6,8.4.2014 14:40,13.8200755390949,50.6298439778028
+371,M,100,A,Topolová,591459,Address,Topolová,8.4.2014,15:00,Topolová,Veřejný zájem - mytí ulic,19/6,8.4.2014 15:00,13.8218874004062,50.6240359886637
+372,M,100,A,Topolová,591459,Address,Topolová,8.4.2014,15:20,Topolová,Veřejný zájem - mytí ulic,19/6,8.4.2014 15:20,13.8218874004062,50.6240359886637
+373,M,100,A,Topolová,591459,Address,Topolová,8.4.2014,15:40,Topolová,Veřejný zájem - mytí ulic,19/6,8.4.2014 15:40,13.8218874004062,50.6240359886637
+374,M,100,A,Novoveská,590622,Address,Novoveská,9.4.2014,7:20,Novoveská,Veřejný zájem - mytí ulic,19/6,9.4.2014 7:20,13.8200755390949,50.6298439778028
+375,M,99.77,A,Rooseveltovo náměstí,588814,Address,Rooseweltovo náměstí,9.4.2014,15:00,Rooseweltovo náměstí,Zákaz zastavení,125c/1k,9.4.2014 15:00,13.8055444902485,50.6385114242323
+376,M,100,A,Stará Duchcovská,588849,Address,Stará Duchcovská,9.4.2014,15:15,Stará Duchcovská,Zákaz zastavení,125c/1k,9.4.2014 15:15,13.8042460290267,50.638773914496
+377,M,100,A,Stará Duchcovská,588849,Address,Stará Duchcovská,9.4.2014,15:40,Stará Duchcovská,Zákaz zastavení,125c/1k,9.4.2014 15:40,13.8042460290267,50.638773914496
+378,M,100,A,Denisova,589292,Address,Denisova,9.4.2014,16:40,Denisova,Zákaz zastavení,125c/1k,9.4.2014 16:40,13.8094588934724,50.6392210132138
+379,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,9.4.2014,17:55,U Hadích lázní,Stání na reservé parkovišti,27/1o,9.4.2014 17:55,13.837229476084,50.6399229755375
+380,M,100,A,Slovenská,591246,Address,Slovenská,10.4.2014,7:25,Slovenská,Zákaz zastavení,125c/1k,10.4.2014 7:25,13.8274315200597,50.6247782621462
+381,M,100,A,Rybniční,695378,Address,Rybniční,10.4.2014,7:55,Rybniční,Zákaz zastavení,125c/1k,10.4.2014 7:55,13.8034021047803,50.6391224159932
+382,M,100,A,Rybniční,695378,Address,Rybniční,10.4.2014,8:15,Rybniční,Zákaz zastavení,125c/1k,10.4.2014 8:15,13.8034021047803,50.6391224159932
+383,M,100,A,Opavská,590746,Address,Opavská,10.4.2014,14:30,Opavská,Zákaz zastavení,125c/1k,10.4.2014 14:30,13.8206633407951,50.6285533755711
+384,M,100,A,Opavská,590746,Address,Opavská,10.4.2014,14:50,Opavská,Zákaz zastavení,125c/1k,10.4.2014 14:50,13.8206633407951,50.6285533755711
+385,M,100,A,Jugoslávská,589870,Address,Jugoslávská,10.4.2014,15:55,Jugoslávská,Zákaz zastavení,125c/1k,10.4.2014 15:55,13.8264156518261,50.6268010464537
+386,M,80,A,Čs. dobrovolců,588750,Address,Čs.Dobrovolců,10.4.2014,16:25,Čs.Dobrovolců,Zákaz zastavení,125c/1k,10.4.2014 16:25,13.8206755790954,50.6382069951919
+387,M,100,A,Buzulucká,589209,Address,Buzulucká,11.4.2014,7:25,Buzulucká,Zákaz zastavení,125c/1k,11.4.2014 7:25,13.8031507277123,50.635029965984
+388,M,100,A,Buzulucká,589209,Address,Buzulucká,11.4.2014,7:45,Buzulucká,Zákaz zastavení,125c/1k,11.4.2014 7:45,13.8031507277123,50.635029965984
+389,M,100,A,Buzulucká,589209,Address,Buzulucká,11.4.2014,8:10,Buzulucká,Zákaz zastavení,125c/1k,11.4.2014 8:10,13.8031507277123,50.635029965984
+390,M,100,A,Buzulucká,589209,Address,Buzulucká,11.4.2014,8:30,Buzulucká,Zákaz zastavení,125c/1k,11.4.2014 8:30,13.8031507277123,50.635029965984
+391,M,100,A,Štúrova,588954,Address,Štúrova,24.5.2014,15:55,Štúrova,Stání před vjezdem,125c/1k,24.5.2014 15:55,13.8437531498281,50.6510183637329
+392,M,100,A,Papírová,764345,Address,Papírová,21.5.2014,13:35,Papírová,Znemožnění vyjetí,125c/1k,21.5.2014 13:35,13.8266223059576,50.6388614804865
+393,M,100,A,Štúrova,588954,Address,Štúrova,24.5.2014,15:55,Štúrova,Stání před vjezdem,125c/1k,24.5.2014 15:55,13.8437531498281,50.6510183637329
+394,M,100,A,Pod Doubravkou,590878,Address,Pod Doubravkou,26.5.2014,23:05,Pod Doubravkou,Bránění ve výjezdu,125c/1k,26.5.2014 23:05,13.8440485031141,50.6415354810872
+395,M,100,A,Alejní,589004,Address,Alejní,27.5.2014,13:15,Alejní,Neponechání průjezdu    ,125c/1k,27.5.2014 13:15,13.8222726440397,50.6386541630334
+396,M,100,A,Doubravská,589357,Address,Doubravská,27.5.2014,15:50,Doubravská,Stání na přechodu pro chodce,125c/1k,27.5.2014 15:50,13.8420913818779,50.648934918067
+397,M,100,A,Alejní,589004,Address,Alejní,27.5.2014,16:30,Alejní,Stání na reservé parkovišti,125c/1k,27.5.2014 16:30,13.8222726440397,50.6386541630334
+398,M,100,A,Chelčického,589683,Address,Chelčického,28.5.2014,14:00,Chelčického,Stání před přechodem,125c/1k,28.5.2014 14:00,13.8321492507545,50.6417428179401
+400,M,100,A,U Nových lázní,591645,Address,U Nových lázní,13.8.2014,9:50,U Nových lázní,Zákaz zastavení V12c,125c/1k,13.8.2014 9:50,13.8416142958154,50.6439220037422
+401,M,100,A,Na haldách,590487,Address,Na haldách,13.8.2014,13:05,Na haldách,Stání v křižovatce,125c/1k,13.8.2014 13:05,13.8302187952459,50.6512092871066
+402,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,13.8.2014,15:30,U Hadích lázní,Stání před výjezdem,125c/1k,13.8.2014 15:30,13.837229476084,50.6399229755375
+403,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,14.8.2014,12:05,Nádražní náměstí,Stání v druhé řadě,125c/1k,14.8.2014 12:05,13.8302554575732,50.6464173273859
+404,M,100,A,Zrenjaninská,591963,Address,Zrenjaninská,15.8.2014,16:55,Zrenjaninská,Stání na reserve ,125c/1k,15.8.2014 16:55,13.8042103117641,50.6364444479553
+405,M,100,A,Rooseveltova,588806,Address,Rooseveltova,19.8.2014,10:00,Rooseveltova,Stání na reservé parkovišti,125c/1k,19.8.2014 10:00,13.8281031464392,50.6367635703637
+406,M,100,A,Alejní,589004,Address,Alejní,19.8.2014,18:25,Alejní,Stání na reserve,125c/1k,19.8.2014 18:25,13.8222726440397,50.6386541630334
+407,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,8:25,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 8:25,13.8031507277123,50.635029965984
+408,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:00,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:00,13.8031507277123,50.635029965984
+409,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:30,13.8031507277123,50.635029965984
+410,M,100,A,Svojsíkova,591408,Address,Svojsíkova,20.8.2014,10:13,Svojsíkova,Neponechání průjezdu    ,125c/1k,20.8.2014 10:13,13.8186466601484,50.6368420309487
+411,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,10:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 10:30,13.8031507277123,50.635029965984
+412,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:40,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:40,13.8231702606001,50.6397450381687
+413,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:55,13.8231702606001,50.6397450381687
+414,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,15:20,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 15:20,13.8231702606001,50.6397450381687
+415,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,21.8.2014,8:00,U Hadích lázní,Stání před výjezdem,125c/1k,21.8.2014 8:00,13.837229476084,50.6399229755375
+416,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:50,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:50,13.8231702606001,50.6397450381687
+417,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:30,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:30,13.8231702606001,50.6397450381687
+418,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,9:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,21.8.2014 9:55,13.8231702606001,50.6397450381687
+421,M,100,A,Kapelní,589942,Address,Kapelní,25.8.2014,10:50,Kapelní,Stání na reser. Pro zdav.školu,125c/1k,25.8.2014 10:50,13.8242927793319,50.6418817149839
+422,M,100,A,Duchcovská,589390,Address,Duchcovská ,26.8.2014,8:45,Duchcovská ,Veřejný zájem,11a/1a2,26.8.2014 8:45,13.7915274585233,50.6371281287959
+423,M,100,A,Josefa Suka,589845,Address,Josefa Suka,26.8.2014,11:05,Josefa Suka,Stání v křižovatce,125c/1k,26.8.2014 11:05,13.8436575538102,50.6412428194116
+425,M,100,A,Liberecká,590207,Address,Liberecká,28.8.2014,8:30,Liberecká,"Stání ve výjezdu, zákaz zastavení",125c/1k,28.8.2014 8:30,13.8142707814802,50.6357660858736
+426,M,100,A,Gagarinova,589527,Address,Gagarinova,30.8.2014,9:25,Gagarinova,Stání na reservé,125c/1k,30.8.2014 9:25,13.8545685827816,50.6540365439269
+427,M,100,A,Mostecká,590410,Address,Mostecká,30.8.2014,17:50,Mostecká,Stání před přechodem+ Zákaz zastavení V12c,125c/1k,30.8.2014 17:50,13.8179364904871,50.63559986943
+428,M,100,A,U Nových lázní,591645,Address,U Nových lázní,1.9.2014,10:30,U Nových lázní,Stání před přechodem,125c/1k,1.9.2014 10:30,13.8416142958154,50.6439220037422
+429,M,100,A,Havířská,589560,Address,Havířská ,2.9.2014,9:45,Havířská ,Stání v křižovatce,125c/1k,2.9.2014 9:45,13.8402005183948,50.6579740518047
+430,M,100,A,Hlávkova,589608,Address,Hlávkova,2.9.2014,10:05,Hlávkova,Stání v křižovatce,125c/1k,2.9.2014 10:05,13.840049340513,50.656382784172
+431,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,10:50,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 10:50,13.8231702606001,50.6397450381687
+432,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,11:15,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 11:15,13.8231702606001,50.6397450381687
+433,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,11:35,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 11:35,13.8231702606001,50.6397450381687
+435,M,100,A,Doubravská,589357,Address,Doubravská,29.7.2014,15:15,Doubravská,Stání před přechodem,125c/1k,29.7.2014 15:15,13.8420913818779,50.648934918067
+436,M,100,A,Rooseveltova,588806,Address,Rooseveltova,30.7.2014,9:25,Rooseveltova,Stání na chodníku,53/2,30.7.2014 9:25,13.8281031464392,50.6367635703637
+437,M,100,A,Doubravská,589357,Address,Doubravská,30.7.2014,10:20,Doubravská,Stání v křižovatce,125c/1k,30.7.2014 10:20,13.8420913818779,50.648934918067
+438,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,31.7.2014,8:15,U Hadích lázní,Stání před výjezdem + Zákaz zastavení,125c/1k,31.7.2014 8:15,13.837229476084,50.6399229755375
+439,M,100,A,Buzulucká,589209,Address,Buzulucká,31.7.2014,11:10,Buzulucká,Veřejný zájem,19/6,31.7.2014 11:10,13.8031507277123,50.635029965984
+440,M,100,A,U Nových lázní,591645,Address,U Nových lázní,31.7.2014,13:05,U Nových lázní,Stání na chodníku,125c/1k,31.7.2014 13:05,13.8416142958154,50.6439220037422
+441,M,100,A,Josefská,589853,Address,Josefská,31.7.2014,16:10,Josefská,Stání před výjezdem,125c/1k,31.7.2014 16:10,13.8384314469257,50.6515504728979
+443,M,100,A,Rybniční,695378,Address,Rybniční,7.8.2014,9:25,Rybniční,Stání v křižovatce,125c/1k,7.8.2014 9:25,13.8034021047803,50.6391224159932
+444,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:00,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:00,13.8428070803066,50.6339874521766
+445,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:25,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:25,13.8428070803066,50.6339874521766
+446,M,100,A,U Nových lázní,591645,Address,U Nových lázní,11.8.2014,9:25,U Nových lázní,Stání před přechodem,125c/1k,11.8.2014 9:25,13.8416142958154,50.6439220037422
+448,M,100,A,U Nových lázní,591645,Address,U Nových lázní,13.8.2014,9:50,U Nových lázní,Zákaz zastavení V12c,125c/1k,13.8.2014 9:50,13.8416142958154,50.6439220037422
+449,M,100,A,Na haldách,590487,Address,Na haldách,13.8.2014,13:05,Na haldách,Stání v křižovatce,125c/1k,13.8.2014 13:05,13.8302187952459,50.6512092871066
+450,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,13.8.2014,15:30,U Hadích lázní,Stání před výjezdem,125c/1k,13.8.2014 15:30,13.837229476084,50.6399229755375
+451,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,14.8.2014,12:05,Nádražní náměstí,Stání v druhé řadě,125c/1k,14.8.2014 12:05,13.8302554575732,50.6464173273859
+452,M,100,A,Zrenjaninská,591963,Address,Zrenjaninská,15.8.2014,16:55,Zrenjaninská,Stání na reserve ,125c/1k,15.8.2014 16:55,13.8042103117641,50.6364444479553
+453,M,100,A,Rooseveltova,588806,Address,Rooseveltova,19.8.2014,10:00,Rooseveltova,Stání na reservé parkovišti,125c/1k,19.8.2014 10:00,13.8281031464392,50.6367635703637
+454,M,100,A,Alejní,589004,Address,Alejní,19.8.2014,18:25,Alejní,Stání na reserve,125c/1k,19.8.2014 18:25,13.8222726440397,50.6386541630334
+455,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,8:25,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 8:25,13.8031507277123,50.635029965984
+456,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:00,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:00,13.8031507277123,50.635029965984
+457,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:30,13.8031507277123,50.635029965984
+458,M,100,A,Svojsíkova,591408,Address,Svojsíkova,20.8.2014,10:13,Svojsíkova,Neponechání průjezdu    ,125c/1k,20.8.2014 10:13,13.8186466601484,50.6368420309487
+459,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,10:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 10:30,13.8031507277123,50.635029965984
+460,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:40,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:40,13.8231702606001,50.6397450381687
+461,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:55,13.8231702606001,50.6397450381687
+462,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,15:20,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 15:20,13.8231702606001,50.6397450381687
+463,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,21.8.2014,8:00,U Hadích lázní,Stání před výjezdem,125c/1k,21.8.2014 8:00,13.837229476084,50.6399229755375
+464,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:50,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:50,13.8231702606001,50.6397450381687
+465,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:30,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:30,13.8231702606001,50.6397450381687
+466,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,9:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,21.8.2014 9:55,13.8231702606001,50.6397450381687
+469,M,100,A,Kapelní,589942,Address,Kapelní,25.8.2014,10:50,Kapelní,Stání na reser. Pro zdav.školu,125c/1k,25.8.2014 10:50,13.8242927793319,50.6418817149839
+470,M,100,A,Duchcovská,589390,Address,Duchcovská ,26.8.2014,8:45,Duchcovská ,Veřejný zájem,11a/1a2,26.8.2014 8:45,13.7915274585233,50.6371281287959
+471,M,100,A,Josefa Suka,589845,Address,Josefa Suka,26.8.2014,11:05,Josefa Suka,Stání v křižovatce,125c/1k,26.8.2014 11:05,13.8436575538102,50.6412428194116
+473,M,100,A,Liberecká,590207,Address,Liberecká,28.8.2014,8:30,Liberecká,"Stání ve výjezdu, zákaz zastavení",125c/1k,28.8.2014 8:30,13.8142707814802,50.6357660858736
+474,M,100,A,Gagarinova,589527,Address,Gagarinova,30.8.2014,9:25,Gagarinova,Stání na reservé,125c/1k,30.8.2014 9:25,13.8545685827816,50.6540365439269
+475,M,100,A,Mostecká,590410,Address,Mostecká,30.8.2014,17:50,Mostecká,Stání před přechodem+ Zákaz zastavení V12c,125c/1k,30.8.2014 17:50,13.8179364904871,50.63559986943
+476,M,100,A,U Nových lázní,591645,Address,U Nových lázní,1.9.2014,10:30,U Nových lázní,Stání před přechodem,125c/1k,1.9.2014 10:30,13.8416142958154,50.6439220037422
+477,M,100,A,Havířská,589560,Address,Havířská ,2.9.2014,9:45,Havířská ,Stání v křižovatce,125c/1k,2.9.2014 9:45,13.8402005183948,50.6579740518047
+478,M,100,A,Hlávkova,589608,Address,Hlávkova,2.9.2014,10:05,Hlávkova,Stání v křižovatce,125c/1k,2.9.2014 10:05,13.840049340513,50.656382784172
+479,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,10:50,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 10:50,13.8231702606001,50.6397450381687
+480,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,11:15,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 11:15,13.8231702606001,50.6397450381687
+481,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,11:35,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 11:35,13.8231702606001,50.6397450381687
+483,M,100,A,U Červeného kostela,591513,Address,U Červeného kostela,5.9.2014,14:05,U Červeného kostela,Stání v křižovatce,125c/1k,5.9.2014 14:05,13.8387766767753,50.654544952013
+484,M,100,A,Josefa Suka,589845,Address,Josefa Suka,5.9.2014,15:20,Josefa Suka,Stání v křižovatce,125c/1k,5.9.2014 15:20,13.8436575538102,50.6412428194116
+485,M,100,A,Dlouhá,589306,Address,Dlouhá,9.9.2014,9:40,Dlouhá,Stání před vjezdem,125c/1k,9.9.2014 9:40,13.8249902753485,50.6389240362641
+486,M,100,A,Josefa Suka,589845,Address,Josefa Suka,9.9.2014,12:15,Josefa Suka,Stání v křižovatce,125c/1k,9.9.2014 12:15,13.8436575538102,50.6412428194116
+488,M,100,A,Dlouhá,589306,Address,Dlouhá,10.9.2014,9:30,Dlouhá,Stání před výjezdem,125c/1k,10.9.2014 9:30,13.8249902753485,50.6389240362641
+490,M,100,A,Doubravská,589357,Address,Doubravská,29.7.2014,15:15,Doubravská,Stání před přechodem,125c/1k,29.7.2014 15:15,13.8420913818779,50.648934918067
+491,M,100,A,Rooseveltova,588806,Address,Rooseveltova,30.7.2014,9:25,Rooseveltova,Stání na chodníku,53/2,30.7.2014 9:25,13.8281031464392,50.6367635703637
+492,M,100,A,Doubravská,589357,Address,Doubravská,30.7.2014,10:20,Doubravská,Stání v křižovatce,125c/1k,30.7.2014 10:20,13.8420913818779,50.648934918067
+493,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,31.7.2014,8:15,U Hadích lázní,Stání před výjezdem + Zákaz zastavení,125c/1k,31.7.2014 8:15,13.837229476084,50.6399229755375
+494,M,100,A,Buzulucká,589209,Address,Buzulucká,31.7.2014,11:10,Buzulucká,Veřejný zájem,19/6,31.7.2014 11:10,13.8031507277123,50.635029965984
+495,M,100,A,U Nových lázní,591645,Address,U Nových lázní,31.7.2014,13:05,U Nových lázní,Stání na chodníku,125c/1k,31.7.2014 13:05,13.8416142958154,50.6439220037422
+496,M,100,A,Josefská,589853,Address,Josefská,31.7.2014,16:10,Josefská,Stání před výjezdem,125c/1k,31.7.2014 16:10,13.8384314469257,50.6515504728979
+497,M,100,A,Přítkovská,591041,Address,Přítkovská,29.7.2014,10:05,Přítkovská,Stání v křižovatce,27/1d,29.7.2014 10:05,13.8443196669161,50.6538919568068
+498,M,100,A,Doubravská,589357,Address,Doubravská,29.7.2014,15:15,Doubravská,Stání před přechodem,125c/1k,29.7.2014 15:15,13.8420913818779,50.648934918067
+499,M,100,A,Rooseveltova,588806,Address,Rooseveltova,30.7.2014,9:25,Rooseveltova,Stání na chodníku,53/2,30.7.2014 9:25,13.8281031464392,50.6367635703637
+500,M,100,A,Doubravská,589357,Address,Doubravská,30.7.2014,10:20,Doubravská,Stání v křižovatce,125c/1k,30.7.2014 10:20,13.8420913818779,50.648934918067
+501,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,31.7.2014,8:15,U Hadích lázní,Stání před výjezdem + Zákaz zastavení,125c/1k,31.7.2014 8:15,13.837229476084,50.6399229755375
+502,M,100,A,Buzulucká,589209,Address,Buzulucká,31.7.2014,11:10,Buzulucká,Veřejný zájem,19/6,31.7.2014 11:10,13.8031507277123,50.635029965984
+503,M,100,A,U Nových lázní,591645,Address,U Nových lázní,31.7.2014,13:05,U Nových lázní,Stání na chodníku,125c/1k,31.7.2014 13:05,13.8416142958154,50.6439220037422
+504,M,100,A,Josefská,589853,Address,Josefská,31.7.2014,16:10,Josefská,Stání před výjezdem,125c/1k,31.7.2014 16:10,13.8384314469257,50.6515504728979
+506,M,100,A,Rybniční,695378,Address,Rybniční,7.8.2014,9:25,Rybniční,Stání v křižovatce,125c/1k,7.8.2014 9:25,13.8034021047803,50.6391224159932
+507,M,100,A,Doubravská,589357,Address,Doubravská,29.7.2014,15:15,Doubravská,Stání před přechodem,125c/1k,29.7.2014 15:15,13.8420913818779,50.648934918067
+508,M,100,A,Rooseveltova,588806,Address,Rooseveltova,30.7.2014,9:25,Rooseveltova,Stání na chodníku,53/2,30.7.2014 9:25,13.8281031464392,50.6367635703637
+509,M,100,A,Doubravská,589357,Address,Doubravská,30.7.2014,10:20,Doubravská,Stání v křižovatce,125c/1k,30.7.2014 10:20,13.8420913818779,50.648934918067
+510,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,31.7.2014,8:15,U Hadích lázní,Stání před výjezdem + Zákaz zastavení,125c/1k,31.7.2014 8:15,13.837229476084,50.6399229755375
+511,M,100,A,Buzulucká,589209,Address,Buzulucká,31.7.2014,11:10,Buzulucká,Veřejný zájem,19/6,31.7.2014 11:10,13.8031507277123,50.635029965984
+512,M,100,A,U Nových lázní,591645,Address,U Nových lázní,31.7.2014,13:05,U Nových lázní,Stání na chodníku,125c/1k,31.7.2014 13:05,13.8416142958154,50.6439220037422
+513,M,100,A,Josefská,589853,Address,Josefská,31.7.2014,16:10,Josefská,Stání před výjezdem,125c/1k,31.7.2014 16:10,13.8384314469257,50.6515504728979
+515,M,100,A,Rybniční,695378,Address,Rybniční,7.8.2014,9:25,Rybniční,Stání v křižovatce,125c/1k,7.8.2014 9:25,13.8034021047803,50.6391224159932
+516,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:00,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:00,13.8428070803066,50.6339874521766
+517,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:25,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:25,13.8428070803066,50.6339874521766
+518,M,100,A,U Nových lázní,591645,Address,U Nových lázní,11.8.2014,9:25,U Nových lázní,Stání před přechodem,125c/1k,11.8.2014 9:25,13.8416142958154,50.6439220037422
+520,M,100,A,U Nových lázní,591645,Address,U Nových lázní,13.8.2014,9:50,U Nových lázní,Zákaz zastavení V12c,125c/1k,13.8.2014 9:50,13.8416142958154,50.6439220037422
+521,M,100,A,Na haldách,590487,Address,Na haldách,13.8.2014,13:05,Na haldách,Stání v křižovatce,125c/1k,13.8.2014 13:05,13.8302187952459,50.6512092871066
+522,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,13.8.2014,15:30,U Hadích lázní,Stání před výjezdem,125c/1k,13.8.2014 15:30,13.837229476084,50.6399229755375
+523,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,14.8.2014,12:05,Nádražní náměstí,Stání v druhé řadě,125c/1k,14.8.2014 12:05,13.8302554575732,50.6464173273859
+524,M,100,A,Doubravská,589357,Address,Doubravská,29.7.2014,15:15,Doubravská,Stání před přechodem,125c/1k,29.7.2014 15:15,13.8420913818779,50.648934918067
+525,M,100,A,Rooseveltova,588806,Address,Rooseveltova,30.7.2014,9:25,Rooseveltova,Stání na chodníku,53/2,30.7.2014 9:25,13.8281031464392,50.6367635703637
+526,M,100,A,Doubravská,589357,Address,Doubravská,30.7.2014,10:20,Doubravská,Stání v křižovatce,125c/1k,30.7.2014 10:20,13.8420913818779,50.648934918067
+527,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,31.7.2014,8:15,U Hadích lázní,Stání před výjezdem + Zákaz zastavení,125c/1k,31.7.2014 8:15,13.837229476084,50.6399229755375
+528,M,100,A,Buzulucká,589209,Address,Buzulucká,31.7.2014,11:10,Buzulucká,Veřejný zájem,19/6,31.7.2014 11:10,13.8031507277123,50.635029965984
+529,M,100,A,U Nových lázní,591645,Address,U Nových lázní,31.7.2014,13:05,U Nových lázní,Stání na chodníku,125c/1k,31.7.2014 13:05,13.8416142958154,50.6439220037422
+530,M,100,A,Josefská,589853,Address,Josefská,31.7.2014,16:10,Josefská,Stání před výjezdem,125c/1k,31.7.2014 16:10,13.8384314469257,50.6515504728979
+532,M,100,A,Rybniční,695378,Address,Rybniční,7.8.2014,9:25,Rybniční,Stání v křižovatce,125c/1k,7.8.2014 9:25,13.8034021047803,50.6391224159932
+533,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:00,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:00,13.8428070803066,50.6339874521766
+534,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:25,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:25,13.8428070803066,50.6339874521766
+535,M,100,A,U Nových lázní,591645,Address,U Nových lázní,11.8.2014,9:25,U Nových lázní,Stání před přechodem,125c/1k,11.8.2014 9:25,13.8416142958154,50.6439220037422
+537,M,100,A,U Nových lázní,591645,Address,U Nových lázní,13.8.2014,9:50,U Nových lázní,Zákaz zastavení V12c,125c/1k,13.8.2014 9:50,13.8416142958154,50.6439220037422
+538,M,100,A,Na haldách,590487,Address,Na haldách,13.8.2014,13:05,Na haldách,Stání v křižovatce,125c/1k,13.8.2014 13:05,13.8302187952459,50.6512092871066
+539,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,13.8.2014,15:30,U Hadích lázní,Stání před výjezdem,125c/1k,13.8.2014 15:30,13.837229476084,50.6399229755375
+540,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,14.8.2014,12:05,Nádražní náměstí,Stání v druhé řadě,125c/1k,14.8.2014 12:05,13.8302554575732,50.6464173273859
+541,M,100,A,Zrenjaninská,591963,Address,Zrenjaninská,15.8.2014,16:55,Zrenjaninská,Stání na reserve ,125c/1k,15.8.2014 16:55,13.8042103117641,50.6364444479553
+542,M,100,A,Rooseveltova,588806,Address,Rooseveltova,19.8.2014,10:00,Rooseveltova,Stání na reservé parkovišti,125c/1k,19.8.2014 10:00,13.8281031464392,50.6367635703637
+543,M,100,A,Alejní,589004,Address,Alejní,19.8.2014,18:25,Alejní,Stání na reserve,125c/1k,19.8.2014 18:25,13.8222726440397,50.6386541630334
+544,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,8:25,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 8:25,13.8031507277123,50.635029965984
+545,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:00,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:00,13.8031507277123,50.635029965984
+546,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:30,13.8031507277123,50.635029965984
+547,M,100,A,Svojsíkova,591408,Address,Svojsíkova,20.8.2014,10:13,Svojsíkova,Neponechání průjezdu    ,125c/1k,20.8.2014 10:13,13.8186466601484,50.6368420309487
+548,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,10:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 10:30,13.8031507277123,50.635029965984
+549,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:40,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:40,13.8231702606001,50.6397450381687
+550,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:55,13.8231702606001,50.6397450381687
+551,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,15:20,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 15:20,13.8231702606001,50.6397450381687
+552,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,21.8.2014,8:00,U Hadích lázní,Stání před výjezdem,125c/1k,21.8.2014 8:00,13.837229476084,50.6399229755375
+553,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:50,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:50,13.8231702606001,50.6397450381687
+554,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:30,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:30,13.8231702606001,50.6397450381687
+555,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,9:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,21.8.2014 9:55,13.8231702606001,50.6397450381687
+556,M,100,A,Doubravská,589357,Address,Doubravská,29.7.2014,15:15,Doubravská,Stání před přechodem,125c/1k,29.7.2014 15:15,13.8420913818779,50.648934918067
+557,M,100,A,Rooseveltova,588806,Address,Rooseveltova,30.7.2014,9:25,Rooseveltova,Stání na chodníku,53/2,30.7.2014 9:25,13.8281031464392,50.6367635703637
+558,M,100,A,Doubravská,589357,Address,Doubravská,30.7.2014,10:20,Doubravská,Stání v křižovatce,125c/1k,30.7.2014 10:20,13.8420913818779,50.648934918067
+559,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,31.7.2014,8:15,U Hadích lázní,Stání před výjezdem + Zákaz zastavení,125c/1k,31.7.2014 8:15,13.837229476084,50.6399229755375
+560,M,100,A,Buzulucká,589209,Address,Buzulucká,31.7.2014,11:10,Buzulucká,Veřejný zájem,19/6,31.7.2014 11:10,13.8031507277123,50.635029965984
+561,M,100,A,U Nových lázní,591645,Address,U Nových lázní,31.7.2014,13:05,U Nových lázní,Stání na chodníku,125c/1k,31.7.2014 13:05,13.8416142958154,50.6439220037422
+562,M,100,A,Josefská,589853,Address,Josefská,31.7.2014,16:10,Josefská,Stání před výjezdem,125c/1k,31.7.2014 16:10,13.8384314469257,50.6515504728979
+564,M,100,A,Rybniční,695378,Address,Rybniční,7.8.2014,9:25,Rybniční,Stání v křižovatce,125c/1k,7.8.2014 9:25,13.8034021047803,50.6391224159932
+565,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:00,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:00,13.8428070803066,50.6339874521766
+566,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:25,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:25,13.8428070803066,50.6339874521766
+567,M,100,A,U Nových lázní,591645,Address,U Nových lázní,11.8.2014,9:25,U Nových lázní,Stání před přechodem,125c/1k,11.8.2014 9:25,13.8416142958154,50.6439220037422
+569,M,100,A,U Nových lázní,591645,Address,U Nových lázní,13.8.2014,9:50,U Nových lázní,Zákaz zastavení V12c,125c/1k,13.8.2014 9:50,13.8416142958154,50.6439220037422
+570,M,100,A,Na haldách,590487,Address,Na haldách,13.8.2014,13:05,Na haldách,Stání v křižovatce,125c/1k,13.8.2014 13:05,13.8302187952459,50.6512092871066
+571,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,13.8.2014,15:30,U Hadích lázní,Stání před výjezdem,125c/1k,13.8.2014 15:30,13.837229476084,50.6399229755375
+572,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,14.8.2014,12:05,Nádražní náměstí,Stání v druhé řadě,125c/1k,14.8.2014 12:05,13.8302554575732,50.6464173273859
+573,M,100,A,Zrenjaninská,591963,Address,Zrenjaninská,15.8.2014,16:55,Zrenjaninská,Stání na reserve ,125c/1k,15.8.2014 16:55,13.8042103117641,50.6364444479553
+574,M,100,A,Rooseveltova,588806,Address,Rooseveltova,19.8.2014,10:00,Rooseveltova,Stání na reservé parkovišti,125c/1k,19.8.2014 10:00,13.8281031464392,50.6367635703637
+575,M,100,A,Alejní,589004,Address,Alejní,19.8.2014,18:25,Alejní,Stání na reserve,125c/1k,19.8.2014 18:25,13.8222726440397,50.6386541630334
+576,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,8:25,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 8:25,13.8031507277123,50.635029965984
+577,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:00,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:00,13.8031507277123,50.635029965984
+578,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:30,13.8031507277123,50.635029965984
+579,M,100,A,Svojsíkova,591408,Address,Svojsíkova,20.8.2014,10:13,Svojsíkova,Neponechání průjezdu    ,125c/1k,20.8.2014 10:13,13.8186466601484,50.6368420309487
+580,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,10:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 10:30,13.8031507277123,50.635029965984
+581,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:40,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:40,13.8231702606001,50.6397450381687
+582,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:55,13.8231702606001,50.6397450381687
+583,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,15:20,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 15:20,13.8231702606001,50.6397450381687
+584,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,21.8.2014,8:00,U Hadích lázní,Stání před výjezdem,125c/1k,21.8.2014 8:00,13.837229476084,50.6399229755375
+585,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:50,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:50,13.8231702606001,50.6397450381687
+586,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:30,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:30,13.8231702606001,50.6397450381687
+587,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,9:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,21.8.2014 9:55,13.8231702606001,50.6397450381687
+588,M,100,A,Doubravská,589357,Address,Doubravská,29.7.2014,15:15,Doubravská,Stání před přechodem,125c/1k,29.7.2014 15:15,13.8420913818779,50.648934918067
+589,M,100,A,Rooseveltova,588806,Address,Rooseveltova,30.7.2014,9:25,Rooseveltova,Stání na chodníku,53/2,30.7.2014 9:25,13.8281031464392,50.6367635703637
+590,M,100,A,Doubravská,589357,Address,Doubravská,30.7.2014,10:20,Doubravská,Stání v křižovatce,125c/1k,30.7.2014 10:20,13.8420913818779,50.648934918067
+591,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,31.7.2014,8:15,U Hadích lázní,Stání před výjezdem + Zákaz zastavení,125c/1k,31.7.2014 8:15,13.837229476084,50.6399229755375
+592,M,100,A,Buzulucká,589209,Address,Buzulucká,31.7.2014,11:10,Buzulucká,Veřejný zájem,19/6,31.7.2014 11:10,13.8031507277123,50.635029965984
+593,M,100,A,U Nových lázní,591645,Address,U Nových lázní,31.7.2014,13:05,U Nových lázní,Stání na chodníku,125c/1k,31.7.2014 13:05,13.8416142958154,50.6439220037422
+594,M,100,A,Josefská,589853,Address,Josefská,31.7.2014,16:10,Josefská,Stání před výjezdem,125c/1k,31.7.2014 16:10,13.8384314469257,50.6515504728979
+596,M,100,A,Rybniční,695378,Address,Rybniční,7.8.2014,9:25,Rybniční,Stání v křižovatce,125c/1k,7.8.2014 9:25,13.8034021047803,50.6391224159932
+597,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:00,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:00,13.8428070803066,50.6339874521766
+598,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:25,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:25,13.8428070803066,50.6339874521766
+599,M,100,A,U Nových lázní,591645,Address,U Nových lázní,11.8.2014,9:25,U Nových lázní,Stání před přechodem,125c/1k,11.8.2014 9:25,13.8416142958154,50.6439220037422
+601,M,100,A,U Nových lázní,591645,Address,U Nových lázní,13.8.2014,9:50,U Nových lázní,Zákaz zastavení V12c,125c/1k,13.8.2014 9:50,13.8416142958154,50.6439220037422
+602,M,100,A,Na haldách,590487,Address,Na haldách,13.8.2014,13:05,Na haldách,Stání v křižovatce,125c/1k,13.8.2014 13:05,13.8302187952459,50.6512092871066
+603,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,13.8.2014,15:30,U Hadích lázní,Stání před výjezdem,125c/1k,13.8.2014 15:30,13.837229476084,50.6399229755375
+604,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,14.8.2014,12:05,Nádražní náměstí,Stání v druhé řadě,125c/1k,14.8.2014 12:05,13.8302554575732,50.6464173273859
+605,M,100,A,Zrenjaninská,591963,Address,Zrenjaninská,15.8.2014,16:55,Zrenjaninská,Stání na reserve ,125c/1k,15.8.2014 16:55,13.8042103117641,50.6364444479553
+606,M,100,A,Rooseveltova,588806,Address,Rooseveltova,19.8.2014,10:00,Rooseveltova,Stání na reservé parkovišti,125c/1k,19.8.2014 10:00,13.8281031464392,50.6367635703637
+607,M,100,A,Alejní,589004,Address,Alejní,19.8.2014,18:25,Alejní,Stání na reserve,125c/1k,19.8.2014 18:25,13.8222726440397,50.6386541630334
+608,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,8:25,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 8:25,13.8031507277123,50.635029965984
+609,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:00,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:00,13.8031507277123,50.635029965984
+610,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:30,13.8031507277123,50.635029965984
+611,M,100,A,Svojsíkova,591408,Address,Svojsíkova,20.8.2014,10:13,Svojsíkova,Neponechání průjezdu    ,125c/1k,20.8.2014 10:13,13.8186466601484,50.6368420309487
+612,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,10:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 10:30,13.8031507277123,50.635029965984
+613,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:40,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:40,13.8231702606001,50.6397450381687
+614,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:55,13.8231702606001,50.6397450381687
+615,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,15:20,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 15:20,13.8231702606001,50.6397450381687
+616,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,21.8.2014,8:00,U Hadích lázní,Stání před výjezdem,125c/1k,21.8.2014 8:00,13.837229476084,50.6399229755375
+617,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:50,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:50,13.8231702606001,50.6397450381687
+618,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:30,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:30,13.8231702606001,50.6397450381687
+619,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,9:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,21.8.2014 9:55,13.8231702606001,50.6397450381687
+622,M,100,A,Kapelní,589942,Address,Kapelní,25.8.2014,10:50,Kapelní,Stání na reser. Pro zdav.školu,125c/1k,25.8.2014 10:50,13.8242927793319,50.6418817149839
+623,M,100,A,Duchcovská,589390,Address,Duchcovská ,26.8.2014,8:45,Duchcovská ,Veřejný zájem,19/6,26.8.2014 8:45,13.7915274585233,50.6371281287959
+624,M,100,A,Josefa Suka,589845,Address,Josefa Suka,26.8.2014,11:05,Josefa Suka,Stání v křižovatce,125c/1k,26.8.2014 11:05,13.8436575538102,50.6412428194116
+626,M,100,A,Doubravská,589357,Address,Doubravská,29.7.2014,15:15,Doubravská,Stání před přechodem,125c/1k,29.7.2014 15:15,13.8420913818779,50.648934918067
+627,M,100,A,Rooseveltova,588806,Address,Rooseveltova,30.7.2014,9:25,Rooseveltova,Stání na chodníku,53/2,30.7.2014 9:25,13.8281031464392,50.6367635703637
+628,M,100,A,Doubravská,589357,Address,Doubravská,30.7.2014,10:20,Doubravská,Stání v křižovatce,125c/1k,30.7.2014 10:20,13.8420913818779,50.648934918067
+629,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,31.7.2014,8:15,U Hadích lázní,Stání před výjezdem + Zákaz zastavení,125c/1k,31.7.2014 8:15,13.837229476084,50.6399229755375
+630,M,100,A,Buzulucká,589209,Address,Buzulucká,31.7.2014,11:10,Buzulucká,Veřejný zájem,19/6,31.7.2014 11:10,13.8031507277123,50.635029965984
+631,M,100,A,U Nových lázní,591645,Address,U Nových lázní,31.7.2014,13:05,U Nových lázní,Stání na chodníku,125c/1k,31.7.2014 13:05,13.8416142958154,50.6439220037422
+632,M,100,A,Josefská,589853,Address,Josefská,31.7.2014,16:10,Josefská,Stání před výjezdem,125c/1k,31.7.2014 16:10,13.8384314469257,50.6515504728979
+634,M,100,A,Rybniční,695378,Address,Rybniční,7.8.2014,9:25,Rybniční,Stání v křižovatce,125c/1k,7.8.2014 9:25,13.8034021047803,50.6391224159932
+635,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:00,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:00,13.8428070803066,50.6339874521766
+636,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:25,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:25,13.8428070803066,50.6339874521766
+637,M,100,A,U Nových lázní,591645,Address,U Nových lázní,11.8.2014,9:25,U Nových lázní,Stání před přechodem,125c/1k,11.8.2014 9:25,13.8416142958154,50.6439220037422
+638,M,100,A,Zelená,588903,Address,Zelená,10.9.2014,13:50,Zelená,Stání na res.pro Mír,125c/1k,10.9.2014 13:50,13.8231702606001,50.6397450381687
+639,M,100,A,Zemská,591947,Address,Zemská,11.9.2014,8:20,Zemská,Stání před výjezdem,27/1n,11.9.2014 8:20,13.8347755401827,50.658652890313
+641,M,100,A,Zelená,588903,Address,Zelená,11.9.2014,13:50,Zelená,Stání na reservé parkovišti,125/1k,11.9.2014 13:50,13.8231702606001,50.6397450381687
+642,M,100,A,Čelakovského,588661,Address,Čelakovského,11.9.2014,14:50,Čelakovského,Stání před přechodem,125/1k,11.9.2014 14:50,13.8323849173457,50.6410360397055
+643,M,100,A,Doubravská,589357,Address,Doubravská,29.7.2014,15:15,Doubravská,Stání před přechodem,125c/1k,29.7.2014 15:15,13.8420913818779,50.648934918067
+644,M,100,A,Rooseveltova,588806,Address,Rooseveltova,30.7.2014,9:25,Rooseveltova,Stání na chodníku,53/2,30.7.2014 9:25,13.8281031464392,50.6367635703637
+645,M,100,A,Doubravská,589357,Address,Doubravská,30.7.2014,10:20,Doubravská,Stání v křižovatce,125c/1k,30.7.2014 10:20,13.8420913818779,50.648934918067
+646,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,31.7.2014,8:15,U Hadích lázní,Stání před výjezdem + Zákaz zastavení,125c/1k,31.7.2014 8:15,13.837229476084,50.6399229755375
+647,M,100,A,Buzulucká,589209,Address,Buzulucká,31.7.2014,11:10,Buzulucká,Veřejný zájem,125c/1k,31.7.2014 11:10,13.8031507277123,50.635029965984
+648,M,100,A,U Nových lázní,591645,Address,U Nových lázní,31.7.2014,13:05,U Nových lázní,Stání na chodníku,125c/1k,31.7.2014 13:05,13.8416142958154,50.6439220037422
+649,M,100,A,Josefská,589853,Address,Josefská,31.7.2014,16:10,Josefská,Stání před výjezdem,125c/1k,31.7.2014 16:10,13.8384314469257,50.6515504728979
+651,M,100,A,Rybniční,695378,Address,Rybniční,7.8.2014,9:25,Rybniční,Stání v křižovatce,125c/1k,7.8.2014 9:25,13.8034021047803,50.6391224159932
+652,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:00,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:00,13.8428070803066,50.6339874521766
+653,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:25,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:25,13.8428070803066,50.6339874521766
+654,M,100,A,U Nových lázní,591645,Address,U Nových lázní,11.8.2014,9:25,U Nových lázní,Stání před přechodem,125c/1k,11.8.2014 9:25,13.8416142958154,50.6439220037422
+656,M,100,A,U Nových lázní,591645,Address,U Nových lázní,13.8.2014,9:50,U Nových lázní,Zákaz zastavení V12c,125c/1k,13.8.2014 9:50,13.8416142958154,50.6439220037422
+657,M,100,A,Na haldách,590487,Address,Na haldách,13.8.2014,13:05,Na haldách,Stání v křižovatce,125c/1k,13.8.2014 13:05,13.8302187952459,50.6512092871066
+658,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,13.8.2014,15:30,U Hadích lázní,Stání před výjezdem,125c/1k,13.8.2014 15:30,13.837229476084,50.6399229755375
+659,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,14.8.2014,12:05,Nádražní náměstí,Stání v druhé řadě,125c/1k,14.8.2014 12:05,13.8302554575732,50.6464173273859
+660,M,100,A,Zrenjaninská,591963,Address,Zrenjaninská,15.8.2014,16:55,Zrenjaninská,Stání na reserve ,125c/1k,15.8.2014 16:55,13.8042103117641,50.6364444479553
+661,M,100,A,Rooseveltova,588806,Address,Rooseveltova,19.8.2014,10:00,Rooseveltova,Stání na reservé parkovišti,125c/1k,19.8.2014 10:00,13.8281031464392,50.6367635703637
+662,M,100,A,Alejní,589004,Address,Alejní,19.8.2014,18:25,Alejní,Stání na reserve,125c/1k,19.8.2014 18:25,13.8222726440397,50.6386541630334
+663,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,8:25,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 8:25,13.8031507277123,50.635029965984
+664,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:00,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:00,13.8031507277123,50.635029965984
+665,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:30,13.8031507277123,50.635029965984
+666,M,100,A,Svojsíkova,591408,Address,Svojsíkova,20.8.2014,10:13,Svojsíkova,Neponechání průjezdu    ,125c/1k,20.8.2014 10:13,13.8186466601484,50.6368420309487
+667,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,10:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 10:30,13.8031507277123,50.635029965984
+668,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:40,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:40,13.8231702606001,50.6397450381687
+669,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:55,13.8231702606001,50.6397450381687
+670,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,15:20,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 15:20,13.8231702606001,50.6397450381687
+671,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,21.8.2014,8:00,U Hadích lázní,Stání před výjezdem,125c/1k,21.8.2014 8:00,13.837229476084,50.6399229755375
+672,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:50,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:50,13.8231702606001,50.6397450381687
+673,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:30,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:30,13.8231702606001,50.6397450381687
+674,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,9:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,21.8.2014 9:55,13.8231702606001,50.6397450381687
+677,M,100,A,Kapelní,589942,Address,Kapelní,25.8.2014,10:50,Kapelní,Stání na reser. Pro zdav.školu,125c/1k,25.8.2014 10:50,13.8242927793319,50.6418817149839
+678,M,100,A,Duchcovská,589390,Address,Duchcovská ,26.8.2014,8:45,Duchcovská ,Veřejný zájem,11a/1a2,26.8.2014 8:45,13.7915274585233,50.6371281287959
+679,M,100,A,Josefa Suka,589845,Address,Josefa Suka,26.8.2014,11:05,Josefa Suka,Stání v křižovatce,125c/1k,26.8.2014 11:05,13.8436575538102,50.6412428194116
+681,M,100,A,Liberecká,590207,Address,Liberecká,28.8.2014,8:30,Liberecká,"Stání ve výjezdu, zákaz zastavení",125c/1k,28.8.2014 8:30,13.8142707814802,50.6357660858736
+682,M,100,A,Gagarinova,589527,Address,Gagarinova,30.8.2014,9:25,Gagarinova,Stání na reservé,125c/1k,30.8.2014 9:25,13.8545685827816,50.6540365439269
+683,M,100,A,Mostecká,590410,Address,Mostecká,30.8.2014,17:50,Mostecká,Stání před přechodem+ Zákaz zastavení V12c,125c/1k,30.8.2014 17:50,13.8179364904871,50.63559986943
+684,M,100,A,U Nových lázní,591645,Address,U Nových lázní,1.9.2014,10:30,U Nových lázní,Stání před přechodem,125c/1k,1.9.2014 10:30,13.8416142958154,50.6439220037422
+685,M,100,A,Havířská,589560,Address,Havířská ,2.9.2014,9:45,Havířská ,Stání v křižovatce,125c/1k,2.9.2014 9:45,13.8402005183948,50.6579740518047
+686,M,100,A,Hlávkova,589608,Address,Hlávkova,2.9.2014,10:05,Hlávkova,Stání v křižovatce,125c/1k,2.9.2014 10:05,13.840049340513,50.656382784172
+687,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,10:50,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 10:50,13.8231702606001,50.6397450381687
+688,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,11:15,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 11:15,13.8231702606001,50.6397450381687
+689,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,11:35,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 11:35,13.8231702606001,50.6397450381687
+691,M,100,A,U Červeného kostela,591513,Address,U Červeného kostela,5.9.2014,14:05,U Červeného kostela,Stání v křižovatce,125c/1k,5.9.2014 14:05,13.8387766767753,50.654544952013
+692,M,100,A,Josefa Suka,589845,Address,Josefa Suka,5.9.2014,15:20,Josefa Suka,Stání v křižovatce,125c/1k,5.9.2014 15:20,13.8436575538102,50.6412428194116
+693,M,100,A,Dlouhá,589306,Address,Dlouhá,9.9.2014,9:40,Dlouhá,Stání před vjezdem,125c/1k,9.9.2014 9:40,13.8249902753485,50.6389240362641
+694,M,100,A,Josefa Suka,589845,Address,Josefa Suka,9.9.2014,12:15,Josefa Suka,Stání v křižovatce,125c/1k,9.9.2014 12:15,13.8436575538102,50.6412428194116
+696,M,100,A,Dlouhá,589306,Address,Dlouhá,10.9.2014,9:30,Dlouhá,Stání před výjezdem,125c/1k,10.9.2014 9:30,13.8249902753485,50.6389240362641
+698,M,100,A,Zelená,588903,Address,Zelená,10.9.2014,13:50,Zelená,Stání na res.pro Mír,125c/1k,10.9.2014 13:50,13.8231702606001,50.6397450381687
+699,M,100,A,Zemská,591947,Address,Zemská,11.9.2014,8:20,Zemská,Stání před výjezdem,27 1/n,11.9.2014 8:20,13.8347755401827,50.658652890313
+701,M,100,A,Zelená,588903,Address,Zelená,11.9.2014,13:50,Zelená,Stání na reservé parkovišti,125/1k,11.9.2014 13:50,13.8231702606001,50.6397450381687
+702,M,100,A,Čelakovského,588661,Address,Čelakovského,11.9.2014,14:50,Čelakovského,Stání před přechodem,125/1k,11.9.2014 14:50,13.8323849173457,50.6410360397055
+704,M,100,A,Alejní,589004,Address,Alejní,15.9.2014,12:15,Alejní,Stání na rezervé parkovišti,125c/1k,15.9.2014 12:15,13.8222726440397,50.6386541630334
+705,M,100,A,Alejní,589004,Address,Alejní,15.9.2014,12:15,Alejní,Stání na rezervé parkovišti,125c/1k,15.9.2014 12:15,13.8222726440397,50.6386541630334
+706,M,100,A,Alejní,589004,Address,Alejní,16.9.2014,10:25,Alejní,Stání na rez.park.,125c/1k,16.9.2014 10:25,13.8222726440397,50.6386541630334
+708,M,100,A,Zelená,588903,Address,Zelená ,16.9.2014,16:25,Zelená ,Stání na rez.park.,125c/1k,16.9.2014 16:25,13.8231702606001,50.6397450381687
+711,M,100,A,Štúrova,588954,Address,Štúrova,17.9.2014,11:55,Štúrova,Stání před přechodem,125c/1k,17.9.2014 11:55,13.8437531498281,50.6510183637329
+712,M,100,A,Alejní,589004,Address,Alejní,17.9.2014,18:00,Alejní,Stání na res.pro Mír,125/1k,17.9.2014 18:00,13.8222726440397,50.6386541630334
+713,M,100,A,Alejní,589004,Address,Alejní,18.9.2014,11:45,Alejní,Stání na reservé billa,125c/1k,18.9.2014 11:45,13.8222726440397,50.6386541630334
+717,M,100,A,Josefa Suka,589845,Address,Josefa Suka,19.9.2014,13:50,Josefa Suka,Stání v křižovatce,125c/1k,19.9.2014 13:50,13.8436575538102,50.6412428194116
+718,M,70,A,28. října,588971,Address,28.října,21.9.2014,11:15,28.října,Zákaz zastavení,125c/1k,21.9.2014 11:15,13.8265930404692,50.6432893274203
+719,M,100,A,Školní,588920,Address,Školní,22.9.2014,9:25,Školní,Stání na vyhr.park.pro ZTP,125c/1k,22.9.2014 9:25,13.8244743457832,50.6427196770875
+720,M,100,A,Českobratrská,588733,Address,Českobratrská,22.9.2014,12:40,Českobratrská,Stání na vyhr.park.pro ZTP,125c/1k,22.9.2014 12:40,13.8335854194535,50.6419506796493
+721,M,100,A,Zelená,588903,Address,Zelená,22.9.2014,13:00,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,22.9.2014 13:00,13.8231702606001,50.6397450381687
+723,M,100,A,Havířská,589560,Address,Havířská ,22.9.2014,16:50,Havířská ,Stání ve výjezdu  ,125c/1k,22.9.2014 16:50,13.8402005183948,50.6579740518047
+725,M,100,A,Rovná,591131,Address,Rovná,23.9.2014,10:05,Rovná,Zákaz zastavení,19/6,23.9.2014 10:05,13.8427901579919,50.6343481092649
+726,M,100,A,Rovná,591131,Address,Rovná,23.9.2014,9:30,Rovná,Zákaz zastavení,19/6,23.9.2014 9:30,13.8427901579919,50.6343481092649
+727,M,100,A,Ševčíkova,588911,Address,Ševčíkova,24.9.2014,14:30,Ševčíkova,Stání v křižovatce,27/1d,24.9.2014 14:30,13.8440172583014,50.6394052739216
+729,M,100,A,Českobratrská,588733,Address,Českobratrská,25.9.2014,15:35,Českobratrská,Stání v křižovatce,125c/1k,25.9.2014 15:35,13.8335854194535,50.6419506796493
+730,M,100,A,Doubravská,589357,Address,Doubravská,29.7.2014,15:15,Doubravská,Stání před přechodem,125c/1k,29.7.2014 15:15,13.8420913818779,50.648934918067
+731,M,100,A,Rooseveltova,588806,Address,Rooseveltova,30.7.2014,9:25,Rooseveltova,Stání na chodníku,53/2,30.7.2014 9:25,13.8281031464392,50.6367635703637
+732,M,100,A,Doubravská,589357,Address,Doubravská,30.7.2014,10:20,Doubravská,Stání v křižovatce,125c/1k,30.7.2014 10:20,13.8420913818779,50.648934918067
+733,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,31.7.2014,8:15,U Hadích lázní,Stání před výjezdem + Zákaz zastavení,125c/1k,31.7.2014 8:15,13.837229476084,50.6399229755375
+734,M,100,A,Buzulucká,589209,Address,Buzulucká,31.7.2014,11:10,Buzulucká,Veřejný zájem,19/6,31.7.2014 11:10,13.8031507277123,50.635029965984
+735,M,100,A,U Nových lázní,591645,Address,U Nových lázní,31.7.2014,13:05,U Nových lázní,Stání na chodníku,125c/1k,31.7.2014 13:05,13.8416142958154,50.6439220037422
+736,M,100,A,Josefská,589853,Address,Josefská,31.7.2014,16:10,Josefská,Stání před výjezdem,125c/1k,31.7.2014 16:10,13.8384314469257,50.6515504728979
+738,M,100,A,Rybniční,695378,Address,Rybniční,7.8.2014,9:25,Rybniční,Stání v křižovatce,125c/1k,7.8.2014 9:25,13.8034021047803,50.6391224159932
+739,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:00,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:00,13.8428070803066,50.6339874521766
+740,M,100,A,Prosetická,590991,Address,Prosetická,8.8.2014,8:25,Prosetická,Zákaz zastavení,125c/1k,8.8.2014 8:25,13.8428070803066,50.6339874521766
+741,M,100,A,U Nových lázní,591645,Address,U Nových lázní,11.8.2014,9:25,U Nových lázní,Stání před přechodem,125c/1k,11.8.2014 9:25,13.8416142958154,50.6439220037422
+743,M,100,A,U Nových lázní,591645,Address,U Nových lázní,13.8.2014,9:50,U Nových lázní,Zákaz zastavení V12c,125c/1k,13.8.2014 9:50,13.8416142958154,50.6439220037422
+744,M,100,A,Na haldách,590487,Address,Na haldách,13.8.2014,13:05,Na haldách,Stání v křižovatce,125c/1k,13.8.2014 13:05,13.8302187952459,50.6512092871066
+745,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,13.8.2014,15:30,U Hadích lázní,Stání před výjezdem,125c/1k,13.8.2014 15:30,13.837229476084,50.6399229755375
+746,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,14.8.2014,12:05,Nádražní náměstí,Stání v druhé řadě,125c/1k,14.8.2014 12:05,13.8302554575732,50.6464173273859
+747,M,100,A,Zrenjaninská,591963,Address,Zrenjaninská,15.8.2014,16:55,Zrenjaninská,Stání na reserve ,125c/1k,15.8.2014 16:55,13.8042103117641,50.6364444479553
+748,M,100,A,Rooseveltova,588806,Address,Rooseveltova,19.8.2014,10:00,Rooseveltova,Stání na reservé parkovišti,125c/1k,19.8.2014 10:00,13.8281031464392,50.6367635703637
+749,M,100,A,Alejní,589004,Address,Alejní,19.8.2014,18:25,Alejní,Stání na reserve,125c/1k,19.8.2014 18:25,13.8222726440397,50.6386541630334
+750,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,8:25,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 8:25,13.8031507277123,50.635029965984
+751,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:00,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:00,13.8031507277123,50.635029965984
+752,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,9:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 9:30,13.8031507277123,50.635029965984
+753,M,100,A,Svojsíkova,591408,Address,Svojsíkova,20.8.2014,10:13,Svojsíkova,Neponechání průjezdu    ,125c/1k,20.8.2014 10:13,13.8186466601484,50.6368420309487
+754,M,100,A,Buzulucká,589209,Address,Buzulucká,20.8.2014,10:30,Buzulucká,Zákaz zastavení,125c/1k,20.8.2014 10:30,13.8031507277123,50.635029965984
+755,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:40,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:40,13.8231702606001,50.6397450381687
+756,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,14:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 14:55,13.8231702606001,50.6397450381687
+757,M,100,A,Zelená,588903,Address,Zelená,20.8.2014,15:20,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,20.8.2014 15:20,13.8231702606001,50.6397450381687
+758,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,21.8.2014,8:00,U Hadích lázní,Stání před výjezdem,125c/1k,21.8.2014 8:00,13.837229476084,50.6399229755375
+759,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:50,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:50,13.8231702606001,50.6397450381687
+760,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,8:30,Zelená,Zákaz zastavení,125c/1k,21.8.2014 8:30,13.8231702606001,50.6397450381687
+761,M,100,A,Zelená,588903,Address,Zelená,21.8.2014,9:55,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,21.8.2014 9:55,13.8231702606001,50.6397450381687
+764,M,100,A,Kapelní,589942,Address,Kapelní,25.8.2014,10:50,Kapelní,Stání na reser. Pro zdav.školu,125c/1k,25.8.2014 10:50,13.8242927793319,50.6418817149839
+765,M,100,A,Duchcovská,589390,Address,Duchcovská ,26.8.2014,8:45,Duchcovská ,Veřejný zájem,11a/1a2,26.8.2014 8:45,13.7915274585233,50.6371281287959
+766,M,100,A,Josefa Suka,589845,Address,Josefa Suka,26.8.2014,11:05,Josefa Suka,Stání v křižovatce,125c/1k,26.8.2014 11:05,13.8436575538102,50.6412428194116
+768,M,100,A,Liberecká,590207,Address,Liberecká,28.8.2014,8:30,Liberecká,"Stání ve výjezdu, zákaz zastavení",125c/1k,28.8.2014 8:30,13.8142707814802,50.6357660858736
+769,M,100,A,Gagarinova,589527,Address,Gagarinova,30.8.2014,9:25,Gagarinova,Stání na reservé,125c/1k,30.8.2014 9:25,13.8545685827816,50.6540365439269
+770,M,100,A,Mostecká,590410,Address,Mostecká,30.8.2014,17:50,Mostecká,Stání před přechodem+ Zákaz zastavení V12c,125c/1k,30.8.2014 17:50,13.8179364904871,50.63559986943
+771,M,100,A,U Nových lázní,591645,Address,U Nových lázní,1.9.2014,10:30,U Nových lázní,Stání před přechodem,125c/1k,1.9.2014 10:30,13.8416142958154,50.6439220037422
+772,M,100,A,Havířská,589560,Address,Havířská ,2.9.2014,9:45,Havířská ,Stání v křižovatce,125c/1k,2.9.2014 9:45,13.8402005183948,50.6579740518047
+773,M,100,A,Hlávkova,589608,Address,Hlávkova,2.9.2014,10:05,Hlávkova,Stání v křižovatce,125c/1k,2.9.2014 10:05,13.840049340513,50.656382784172
+774,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,10:50,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 10:50,13.8231702606001,50.6397450381687
+775,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,11:15,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 11:15,13.8231702606001,50.6397450381687
+776,M,100,A,Zelená,588903,Address,Zelená,2.9.2014,11:35,Zelená,Stání na réservé pro SBD Mír,125c/1k,2.9.2014 11:35,13.8231702606001,50.6397450381687
+778,M,100,A,U Červeného kostela,591513,Address,U Červeného kostela,5.9.2014,14:05,U Červeného kostela,Stání v křižovatce,125c/1k,5.9.2014 14:05,13.8387766767753,50.654544952013
+779,M,100,A,Josefa Suka,589845,Address,Josefa Suka,5.9.2014,15:20,Josefa Suka,Stání v křižovatce,125c/1k,5.9.2014 15:20,13.8436575538102,50.6412428194116
+780,M,100,A,Dlouhá,589306,Address,Dlouhá,9.9.2014,9:40,Dlouhá,Stání před vjezdem,125c/1k,9.9.2014 9:40,13.8249902753485,50.6389240362641
+781,M,100,A,Josefa Suka,589845,Address,Josefa Suka,9.9.2014,12:15,Josefa Suka,Stání v křižovatce,125c/1k,9.9.2014 12:15,13.8436575538102,50.6412428194116
+783,M,100,A,Dlouhá,589306,Address,Dlouhá,10.9.2014,9:30,Dlouhá,Stání před výjezdem,125c/1k,10.9.2014 9:30,13.8249902753485,50.6389240362641
+785,M,100,A,Zelená,588903,Address,Zelená,10.9.2014,13:50,Zelená,Stání na res.pro Mír,125c/1k,10.9.2014 13:50,13.8231702606001,50.6397450381687
+786,M,100,A,Zemská,591947,Address,Zemská,11.9.2014,8:20,Zemská,Stání před výjezdem,27 1/n,11.9.2014 8:20,13.8347755401827,50.658652890313
+788,M,100,A,Zelená,588903,Address,Zelená,11.9.2014,13:50,Zelená,Stání na reservé parkovišti,125/1k,11.9.2014 13:50,13.8231702606001,50.6397450381687
+789,M,100,A,Čelakovského,588661,Address,Čelakovského,11.9.2014,14:50,Čelakovského,Stání před přechodem,125/1k,11.9.2014 14:50,13.8323849173457,50.6410360397055
+791,M,100,A,Alejní,589004,Address,Alejní,15.9.2014,12:15,Alejní,Stání na rezervé parkovišti,125c/1k,15.9.2014 12:15,13.8222726440397,50.6386541630334
+792,M,100,A,Alejní,589004,Address,Alejní,15.9.2014,12:15,Alejní,Stání na rezervé parkovišti,125c/1k,15.9.2014 12:15,13.8222726440397,50.6386541630334
+793,M,100,A,Alejní,589004,Address,Alejní,16.9.2014,10:25,Alejní,Stání na rez.park.,125c/1k,16.9.2014 10:25,13.8222726440397,50.6386541630334
+795,M,100,A,Zelená,588903,Address,Zelená ,16.9.2014,16:25,Zelená ,Stání na rez.park.,125c/1k,16.9.2014 16:25,13.8231702606001,50.6397450381687
+798,M,100,A,Štúrova,588954,Address,Štúrova,17.9.2014,,Štúrova,Stání před přechodem,125c/1k,17.9.2014 ,13.8437531498281,50.6510183637329
+799,M,100,A,Alejní,589004,Address,Alejní,17.9.2014,18:00,Alejní,Stání na res.pro Mír,125/1k,17.9.2014 18:00,13.8222726440397,50.6386541630334
+800,M,100,A,Alejní,589004,Address,Alejní,18.9.2014,,Alejní,Stání na reservé billa,125c/1k,18.9.2014 ,13.8222726440397,50.6386541630334
+804,M,100,A,Josefa Suka,589845,Address,Josefa Suka,19.9.2014,13:50,Josefa Suka,Stání v křižovatce,125c/1k,19.9.2014 13:50,13.8436575538102,50.6412428194116
+805,M,70,A,28. října,588971,Address,28.října,21.9.2014,11:15,28.října,Zákaz zastavení,125c/1k,21.9.2014 11:15,13.8265930404692,50.6432893274203
+806,M,100,A,Školní,588920,Address,Školní,22.9.2014,9:25,Školní,Stání na vyhr.park.pro ZTP,125c/1k,22.9.2014 9:25,13.8244743457832,50.6427196770875
+807,M,100,A,Zrenjaninská,591963,Address,Zrenjaninská,11.4.2014,8:50,Zrenjaninská,Zákaz zastavení,125c/1k,11.4.2014 8:50,13.8042103117641,50.6364444479553
+808,M,100,A,Sokolovská cesta,591271,Address,Sokolovská cesta,11.4.2014,9:15,Sokolovská cesta,Zákaz zastavení,125c/1k,11.4.2014 9:15,13.8038306739589,50.6367941130946
+809,M,100,A,Ostravská,590754,Address,Ostravská,11.4.2014,8:24,Ostravská,Zákaz zastavení,125c/1k,11.4.2014 8:24,13.8176916645637,50.6298370388108
+810,M,100,A,Jaselská,589756,Address,Jaselská,11.4.2014,14:55,Jaselská,Zákaz zastavení,125c/1k,11.4.2014 14:55,13.8063891797587,50.6352422274686
+811,M,100,A,Jaselská,589756,Address,Jaselská,11.4.2014,15:20,Jaselská,Zákaz zastavení,125c/1k,11.4.2014 15:20,13.8063891797587,50.6352422274686
+815,M,100,A,U nemocnice,591637,Address,U Nemocnice,11.4.2014,16:45,U Nemocnice,Zákaz zastavení,125c/1k,11.4.2014 16:45,13.8126621451934,50.6356038644283
+816,M,100,A,U zámku,591751,Address,U Zámku,12.4.2014,7:25,U Zámku,Zákaz zastavení,125c/1k,12.4.2014 7:25,13.8235106203965,50.6368732929244
+817,M,100,A,U zámku,591751,Address,U Zámku,12.4.2014,7:40,U Zámku,Zákaz zastavení,125c/1k,12.4.2014 7:40,13.8235106203965,50.6368732929244
+818,M,100,A,U zámku,591751,Address,U Zámku,12.4.2014,8:00,U Zámku,Zákaz zastavení,125c/1k,12.4.2014 8:00,13.8235106203965,50.6368732929244
+819,M,100,A,U zámku,591751,Address,U Zámku,12.4.2014,8:20,U Zámku,Zákaz zastavení,125c/1k,12.4.2014 8:20,13.8235106203965,50.6368732929244
+820,M,100,A,U zámku,591751,Address,U Zámku,12.4.2014,8:40,U Zámku,Zákaz zastavení,125c/1k,12.4.2014 8:40,13.8235106203965,50.6368732929244
+821,M,100,A,Zámecké náměstí,591971,Address,Zámecké Náměstí,12.4.2014,9:15,Zámecké Náměstí,Zákaz zastavení,125c/1k,12.4.2014 9:15,13.8266227516188,50.6377664098896
+822,M,100,A,Dlouhá,589306,Address,Dlouhá,12.4.2014,9:35,Dlouhá,Zákaz zastavení,125c/1k,12.4.2014 9:35,13.8249902753485,50.6389240362641
+823,M,100,A,Dlouhá,589306,Address,Dlouhá,12.4.2014,9:55,Dlouhá,Zákaz zastavení,125c/1k,12.4.2014 9:55,13.8249902753485,50.6389240362641
+824,M,100,A,Dlouhá,589306,Address,Dlouhá,12.4.2014,10:10,Dlouhá,Zákaz zastavení,125c/1k,12.4.2014 10:10,13.8249902753485,50.6389240362641
+825,M,100,A,Kapelní,589942,Address,Kapelní,12.4.2014,10:30,Kapelní,Zákaz zastavení,125c/1k,12.4.2014 10:30,13.8242927793319,50.6418817149839
+826,M,100,A,Zelená,588903,Address,Zelená,12.4.2014,10:50,Zelená,Zákaz zastavení,125c/1k,12.4.2014 10:50,13.8231702606001,50.6397450381687
+827,M,100,A,Zelená,588903,Address,Zelená,12.4.2014,11:10,Zelená,Zákaz zastavení,125c/1k,12.4.2014 11:10,13.8231702606001,50.6397450381687
+828,M,100,A,Alejní,589004,Address,Alejní,12.4.2014,11:30,Alejní,Zákaz zastavení,125c/1k,12.4.2014 11:30,13.8222726440397,50.6386541630334
+829,M,100,A,Alejní,589004,Address,Alejní,12.4.2014,11:45,Alejní,Zákaz zastavení,125c/1k,12.4.2014 11:45,13.8222726440397,50.6386541630334
+830,M,100,A,Alejní,589004,Address,Alejní,12.4.2014,12:05,Alejní,Zákaz zastavení,125c/1k,12.4.2014 12:05,13.8222726440397,50.6386541630334
+831,M,100,A,Alejní,589004,Address,Alejní,12.4.2014,12:25,Alejní,Zákaz zastavení,125c/1k,12.4.2014 12:25,13.8222726440397,50.6386541630334
+832,M,100,A,Alejní,589004,Address,Alejní,12.4.2014,13:00,Alejní,Zákaz zastavení,125c/1k,12.4.2014 13:00,13.8222726440397,50.6386541630334
+836,M,100,A,28. října,588971,Address,28. října,13.4.2014,8:00,28. října,Zákaz zastavení,125c/1k,13.4.2014 8:00,13.8265930404692,50.6432893274203
+837,M,100,A,28. října,588971,Address,28. října,13.4.2014,8:15,28. října,Zákaz zastavení,125c/1k,13.4.2014 8:15,13.8265930404692,50.6432893274203
+838,M,100,A,28. října,588971,Address,28. října,13.4.2014,8:30,28. října,Zákaz zastavení,125c/1k,13.4.2014 8:30,13.8265930404692,50.6432893274203
+839,M,100,A,Revoluční,591084,Address,Revoluční,13.4.2014,8:55,Revoluční,Zákaz zastavení,125c/1k,13.4.2014 8:55,13.8245874582088,50.6436940048321
+840,M,100,A,Revoluční,591084,Address,Revoluční,13.4.2014,9:15,Revoluční,Zákaz zastavení,125c/1k,13.4.2014 9:15,13.8245874582088,50.6436940048321
+841,M,100,A,Spojenecká,591297,Address,Spojenecká,13.4.2014,9:30,Spojenecká,Zákaz zastavení,125c/1k,13.4.2014 9:30,13.8240413242057,50.6449473362702
+842,M,100,A,Tržní náměstí,591467,Address,Tržní Náměstí,13.4.2014,9:50,Tržní Náměstí,Zákaz zastavení,125c/1k,13.4.2014 9:50,13.8272860034816,50.6444312572291
+843,M,100,A,Tržní náměstí,591467,Address,Tržní Náměstí,13.4.2014,10:05,Tržní Náměstí,Zákaz zastavení,125c/1k,13.4.2014 10:05,13.8272860034816,50.6444312572291
+844,M,100,A,Tržní náměstí,591467,Address,Tržní Náměstí,13.4.2014,10:20,Tržní Náměstí,Zákaz zastavení,125c/1k,13.4.2014 10:20,13.8272860034816,50.6444312572291
+845,M,100,A,Tržní náměstí,591467,Address,Tržní Náměstí,13.4.2014,10:35,Tržní Náměstí,Zákaz zastavení,125c/1k,13.4.2014 10:35,13.8272860034816,50.6444312572291
+846,M,100,A,Tržní náměstí,591467,Address,Tržní Náměstí,13.4.2014,10:50,Tržní Náměstí,Zákaz zastavení,125c/1k,13.4.2014 10:50,13.8272860034816,50.6444312572291
+847,M,100,A,U nádraží,591653,Address,U Nádraží,13.4.2014,11:10,U Nádraží,Zákaz zastavení,12/2c,13.4.2014 11:10,13.8292638087107,50.6443886971589
+848,M,100,A,U nádraží,591653,Address,U Nádraží,13.4.2014,11:40,U Nádraží,Zákaz zastavení,125c/1k,13.4.2014 11:40,13.8292638087107,50.6443886971589
+849,M,100,A,Masarykova třída,590339,Address,Masarykova Třída,13.4.2014,12:00,Masarykova Třída,Zákaz zastavení,125c/1k,13.4.2014 12:00,13.8625621060539,50.6578550483256
+850,M,100,A,Masarykova třída,590339,Address,Masarykova Třída,13.4.2014,12:15,Masarykova Třída,Zákaz zastavení,125c/1k,13.4.2014 12:15,13.8625621060539,50.6578550483256
+851,M,100,A,Masarykova třída,590339,Address,Masarykova Třída,13.4.2014,12:30,Masarykova Třída,Zákaz zastavení,125c/1k,13.4.2014 12:30,13.8625621060539,50.6578550483256
+852,M,100,A,Masarykova třída,590339,Address,Masarykova Třída,13.4.2014,12:50,Masarykova Třída,Zákaz zastavení,125c/1k,13.4.2014 12:50,13.8625621060539,50.6578550483256
+853,M,100,A,U nádraží,591653,Address,U Nádraží,13.4.2014,11:25,U Nádraží,Zákaz zastavení,125c/1k,13.4.2014 11:25,13.8292638087107,50.6443886971589
+854,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,13.4.2014,13:05,Nádražní náměstí,Zákaz zastavení,125c/1k,13.4.2014 13:05,13.8302554575732,50.6464173273859
+855,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,13.4.2014,13:20,Nádražní náměstí,Zákaz zastavení,125c/1k,13.4.2014 13:20,13.8302554575732,50.6464173273859
+856,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,13.4.2014,13:40,Nádražní náměstí,Zákaz zastavení,125c/1k,13.4.2014 13:40,13.8302554575732,50.6464173273859
+857,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,13.4.2014,14:00,Nádražní náměstí,Zákaz zastavení,125c/1k,13.4.2014 14:00,13.8302554575732,50.6464173273859
+858,M,100,A,U Císařských lázní,591521,Address,U Císařských lázní,13.4.2014,14:22,U Císařských lázní,Zákaz zastavení,125c/1k,13.4.2014 14:22,13.8279632854468,50.6406077256121
+859,M,100,A,U Císařských lázní,591521,Address,U Císařských lázní,13.4.2014,14:40,U Císařských lázní,Zákaz zastavení,125c/1k,13.4.2014 14:40,13.8279632854468,50.6406077256121
+860,M,100,A,Mírové náměstí,590282,Address,Mírové náměstí,13.4.2014,15:05,Mírové náměstí,Zákaz zastavení,125c/1k,13.4.2014 15:05,13.8258942360005,50.6401562517243
+861,M,100,A,Mírové náměstí,590282,Address,Mírové náměstí,13.4.2014,15:20,Mírové náměstí,Zákaz zastavení,125c/1k,13.4.2014 15:20,13.8258942360005,50.6401562517243
+862,M,100,A,Mírové náměstí,590282,Address,Mírové náměstí,13.4.2014,15:40,Mírové náměstí,Zákaz zastavení,125c/1k,13.4.2014 15:40,13.8258942360005,50.6401562517243
+863,M,100,A,Mírové náměstí,590282,Address,Mírové náměstí,13.4.2014,15:55,Mírové náměstí,Zákaz zastavení,125c/1k,13.4.2014 15:55,13.8258942360005,50.6401562517243
+864,M,100,A,Mírové náměstí,590282,Address,Mírové náměstí,13.4.2014,16:15,Mírové náměstí,Zákaz zastavení,125c/1k,13.4.2014 16:15,13.8258942360005,50.6401562517243
+865,M,100,A,Mírové náměstí,590282,Address,Mírové náměstí,13.4.2014,16:35,Mírové náměstí,Zákaz zastavení,125c/1k,13.4.2014 16:35,13.8258942360005,50.6401562517243
+866,M,100,A,Mírové náměstí,590282,Address,Mírové náměstí,13.4.2014,16:50,Mírové náměstí,Zákaz zastavení,125c/1k,13.4.2014 16:50,13.8258942360005,50.6401562517243
+867,M,100,A,Palackého,590789,Address,Palackého,14.4.2014,14:10,Palackého,Stání v křižovatce,125c/1k,14.4.2014 14:10,13.8385748741976,50.6490347488372
+868,M,100,A,Na spravedlnosti,590550,Address,Na spravedlnosti,15.4.2014,7:30,Na spravedlnosti,Zákaz zastavení,125c/1k,15.4.2014 7:30,13.8181952785983,50.636368778599
+869,M,100,A,Na spravedlnosti,590550,Address,Na spravedlnosti,15.4.2014,7:50,Na spravedlnosti,Zákaz zastavení,125c/1k,15.4.2014 7:50,13.8181952785983,50.636368778599
+870,M,100,A,Svojsíkova,591408,Address,Svojsíkova,15.4.2014,8:15,Svojsíkova,Vrak,19/4,15.4.2014 8:15,13.8186466601484,50.6368420309487
+871,M,100,A,Cajthamlova,589250,Address,Cajthamlova,15.4.2014,8:35,Cajthamlova,Zákaz zastavení,125c/1k,15.4.2014 8:35,13.8130451043168,50.6372725448975
+872,M,100,A,Cajthamlova,589250,Address,Cajthamlova,15.4.2014,8:55,Cajthamlova,Zákaz zastavení,125c/1k,15.4.2014 8:55,13.8130451043168,50.6372725448975
+873,M,100,A,Cajthamlova,589250,Address,Cajthamlova,15.4.2014,9:20,Cajthamlova,Zákaz zastavení,125c/1k,15.4.2014 9:20,13.8130451043168,50.6372725448975
+874,M,100,A,Svojsíkova,591408,Address,Svojsíkova,15.4.2014,9:40,Svojsíkova,Zákaz zastavení,125c/1k,15.4.2014 9:40,13.8186466601484,50.6368420309487
+875,M,100,A,Na spravedlnosti,590550,Address,Na spravedlnosti,15.4.2014,10:00,Na spravedlnosti,Zákaz zastavení,125c/1k,15.4.2014 10:00,13.8181952785983,50.636368778599
+876,M,100,A,Na spravedlnosti,590550,Address,Na spravedlnosti,15.4.2014,10:20,Na spravedlnosti,Zákaz zastavení,125c/1k,15.4.2014 10:20,13.8181952785983,50.636368778599
+877,M,100,A,Na spravedlnosti,590550,Address,Na spravedlnosti,15.4.2014,10:40,Na spravedlnosti,Zákaz zastavení,125c/1k,15.4.2014 10:40,13.8181952785983,50.636368778599
+878,M,100,A,Duchcovská,589390,Address,Duchcovská,15.4.2014,11:15,Duchcovská,Zákaz zastavení,125c/1k,15.4.2014 11:15,13.7915274585233,50.6371281287959
+879,M,100,A,Duchcovská,589390,Address,Duchcovská,15.4.2014,11:35,Duchcovská,Zákaz zastavení,125c/1k,15.4.2014 11:35,13.7915274585233,50.6371281287959
+880,M,100,A,Cajthamlova,589250,Address,Cajthamlova,15.4.2014,12:05,Cajthamlova,Odpad,37/3,15.4.2014 12:05,13.8130451043168,50.6372725448975
+881,M,100,A,Litoměřická,590223,Address,Litoměřická,15.4.2014,14:25,Litoměřická,Zákaz zastavení,125c/1k,15.4.2014 14:25,13.8160315067064,50.6336672286845
+884,M,100,A,Libušina,590215,Address,Libušina,16.4.2014,7:35,Libušina,Zákaz zastavení,125c/1k,16.4.2014 7:35,13.8087204088459,50.6376820169418
+885,M,100,A,Liberecká,590207,Address,Liberecká,16.4.2014,7:55,Liberecká,Zákaz zastavení,125c/1k,16.4.2014 7:55,13.8142707814802,50.6357660858736
+886,M,100,A,Londýnská,590240,Address,Londýnská,16.4.2014,8:15,Londýnská,Zákaz zastavení,125c/1k,16.4.2014 8:15,13.8160487163216,50.6360172103659
+887,M,100,A,Londýnská,590240,Address,Londýnská,16.4.2014,8:35,Londýnská,Zákaz zastavení,125c/1k,16.4.2014 8:35,13.8160487163216,50.6360172103659
+888,M,100,A,Mostecká,590410,Address,Mostecká,16.4.2014,9:05,Mostecká,Zákaz zastavení,125c/1k,16.4.2014 9:05,13.8179364904871,50.63559986943
+889,M,100,A,Mostecká,590410,Address,Mostecká,16.4.2014,9:25,Mostecká,Podání vysvětlení,125c/1k,16.4.2014 9:25,13.8179364904871,50.63559986943
+890,M,100,A,Duchcovská,589390,Address,Duchcovská,16.4.2014,14:30,Duchcovská,Zákaz zastavení,125c/1k,16.4.2014 14:30,13.7915274585233,50.6371281287959
+891,M,100,A,Duchcovská,589390,Address,Duchcovská,16.4.2014,14:55,Duchcovská,Zákaz zastavení,125c/1k,16.4.2014 14:55,13.7915274585233,50.6371281287959
+892,M,100,A,Duchcovská,589390,Address,Duchcovská,16.4.2014,15:10,Duchcovská,Zákaz zastavení,125c/1k,16.4.2014 15:10,13.7915274585233,50.6371281287959
+893,M,100,A,Bílinská,589098,Address,Bílinská,16.4.2014,16:00,Bílinská,Zákaz zastavení,125c/1k,16.4.2014 16:00,13.8223839494829,50.6314957520815
+894,M,100,A,Lounská,590258,Address,Lounská,16.4.2014,16:25,Lounská,Zákaz zastavení,125c/1k,16.4.2014 16:25,13.8188008521635,50.6340000278509
+895,M,100,A,Lounská,590258,Address,Lounská,16.4.2014,16:40,Lounská,Zákaz zastavení,125c/1k,16.4.2014 16:40,13.8188008521635,50.6340000278509
+896,M,100,A,Lounská,590258,Address,Lounská,16.4.2014,17:00,Lounská,Zákaz zastavení,125c/1k,16.4.2014 17:00,13.8188008521635,50.6340000278509
+897,M,100,A,Lounská,590258,Address,Lounská,16.4.2014,17:20,Lounská,Zákaz zastavení,125c/1k,16.4.2014 17:20,13.8188008521635,50.6340000278509
+898,M,100,A,V závětří,591807,Address,V Závětří,17.4.2014,7:25,V Závětří,Zákaz zastavení,125c/1k,17.4.2014 7:25,13.8579438832525,50.6446971382014
+899,M,100,A,V závětří,591807,Address,V Závětří,17.4.2014,8:00,V Závětří,Zákaz zastavení,125c/1k,17.4.2014 8:00,13.8579438832525,50.6446971382014
+900,M,100,A,Českobratrská,588733,Address,Českobratrská,17.4.2014,8:20,Českobratrská,Zákaz zastavení,125c/1k,17.4.2014 8:20,13.8335854194535,50.6419506796493
+901,M,100,A,Českobratrská,588733,Address,Českobratrská,17.4.2014,8:45,Českobratrská,Zákaz zastavení,125c/1k,17.4.2014 8:45,13.8335854194535,50.6419506796493
+902,M,100,A,Českobratrská,588733,Address,Českobratrská,17.4.2014,9:15,Českobratrská,Zákaz zastavení,125c/1k,17.4.2014 9:15,13.8335854194535,50.6419506796493
+903,M,100,A,Českobratrská,588733,Address,Českobratrská,17.4.2014,9:50,Českobratrská,Zákaz zastavení,125c/1k,17.4.2014 9:50,13.8335854194535,50.6419506796493
+904,M,100,A,Českobratrská,588733,Address,Českobratrská,17.4.2014,10:10,Českobratrská,Zákaz zastavení,125c/1k,17.4.2014 10:10,13.8335854194535,50.6419506796493
+905,M,100,A,Vítězslava Hálka,591815,Address,Vítězslava Hálka,17.4.2014,10:35,Vítězslava Hálka,Zákaz zastavení,125c/1k,17.4.2014 10:35,13.8338948299784,50.6415477608893
+906,M,100,A,Vítězslava Hálka,591815,Address,Vítězslava Hálka,17.4.2014,10:50,Vítězslava Hálka,Zákaz zastavení,125c/1k,17.4.2014 10:50,13.8338948299784,50.6415477608893
+907,M,100,A,Doubravická,589349,Address,Doubravická,17.4.2014,14:20,Doubravická,Zákaz zastavení,125c/1k,17.4.2014 14:20,13.858429610955,50.6440488716119
+908,M,100,A,Doubravická,589349,Address,Doubravická,17.4.2014,14:50,Doubravická,Zákaz zastavení,125c/1k,17.4.2014 14:50,13.858429610955,50.6440488716119
+909,M,100,A,Kosmonautů,590045,Address,Kosmonautů,17.4.2014,15:20,Kosmonautů,Zákaz zastavení,125c/1k,17.4.2014 15:20,13.8555092577354,50.6486482239958
+910,M,99.14,A,Lípová,590151,Address,Lipová,17.4.2014,15:45,Lipová,Zákaz zastavení,125c/1k,17.4.2014 15:45,13.8328028069191,50.6406562083547
+911,M,99.14,A,Lípová,590151,Address,Lipová,17.4.2014,16:10,Lipová,Zákaz zastavení,125c/1k,17.4.2014 16:10,13.8328028069191,50.6406562083547
+912,M,99.14,A,Lípová,590151,Address,Lipová,17.4.2014,16:30,Lipová,Zákaz zastavení,125c/1k,17.4.2014 16:30,13.8328028069191,50.6406562083547
+913,M,99.14,A,Lípová,590151,Address,Lipová,17.4.2014,16:50,Lipová,Zákaz zastavení,125c/1k,17.4.2014 16:50,13.8328028069191,50.6406562083547
+914,M,100,A,V závětří,591807,Address,V Závětří,18.4.2014,7:25,V Závětří,Zákaz zastavení,125c/1k,18.4.2014 7:25,13.8579438832525,50.6446971382014
+915,M,100,A,V závětří,591807,Address,V Závětří,18.4.2014,7:50,V Závětří,Zákaz zastavení,125c/1k,18.4.2014 7:50,13.8579438832525,50.6446971382014
+927,M,100,A,Trnovanská,591475,Address,Trnovanská,22.4.2014,7:25,Trnovanská,Zákaz zastavení,125c/1k,22.4.2014 7:25,13.8542182143318,50.6456297654354
+928,M,100,A,Trnovanská,591475,Address,Trnovanská,22.4.2014,7:50,Trnovanská,Zákaz zastavení,125c/1k,22.4.2014 7:50,13.8542182143318,50.6456297654354
+929,M,100,A,Trnovanská,591475,Address,Trnovanská,22.4.2014,8:20,Trnovanská,Zákaz zastavení,125c/1k,22.4.2014 8:20,13.8542182143318,50.6456297654354
+930,M,100,A,Trnovanská,591475,Address,Trnovanská,22.4.2014,8:50,Trnovanská,Zákaz zastavení,125c/1k,22.4.2014 8:50,13.8542182143318,50.6456297654354
+931,M,100,A,Trnovanská,591475,Address,Trnovanská,22.4.2014,9:15,Trnovanská,Zákaz zastavení,125c/1k,22.4.2014 9:15,13.8542182143318,50.6456297654354
+932,M,100,A,Trnovanská,591475,Address,Trnovanská,22.4.2014,9:40,Trnovanská,Zákaz zastavení,125c/1k,22.4.2014 9:40,13.8542182143318,50.6456297654354
+934,M,100,A,Hrázní,589641,Address,Hrázní,22.4.2014,12:40,Hrázní,Stání na vyhr.park.TAXI,125c/1k,22.4.2014 12:40,13.8319670821542,50.6471581281543
+936,M,100,A,Josefa Šafaříka,589802,Address,Josefa Šafaříka,23.4.2014,7:30,Josefa Šafaříka,Zákaz zastavení,125c/1k,23.4.2014 7:30,13.846439912933,50.6441717000517
+937,M,100,A,Josefa Suka,589845,Address,Josefa Suka,23.4.2014,7:55,Josefa Suka,Zákaz zastavení,125c/1k,23.4.2014 7:55,13.8436575538102,50.6412428194116
+938,M,100,A,Novákova,590657,Address,Novákova,23.4.2014,8:20,Novákova,Zákaz zastavení,125c/1k,23.4.2014 8:20,13.844725961277,50.6397795578661
+939,M,100,A,Pod Doubravkou,590878,Address,Pod Doubravkou,23.4.2014,14:50,Pod Doubravkou,Zákaz zastavení,125c/1k,23.4.2014 14:50,13.8440485031141,50.6415354810872
+940,M,100,A,Pod Doubravkou,590878,Address,Pod Doubravkou,23.4.2014,15:15,Pod Doubravkou,Zákaz zastavení,125c/1k,23.4.2014 15:15,13.8440485031141,50.6415354810872
+941,M,100,A,Pod Doubravkou,590878,Address,Pod Doubravkou,23.4.2014,15:40,Pod Doubravkou,Zákaz zastavení,125c/1k,23.4.2014 15:40,13.8440485031141,50.6415354810872
+942,M,88.33,A,J. V. Sládka,589713,Address,J.V . Sládka,23.4.2014,16:10,J.V . Sládka,Zákaz zastavení ,125c/1k,23.4.2014 16:10,13.8394071034991,50.6437405292011
+943,M,88.33,A,J. V. Sládka,589713,Address,J.V . Sládka,23.4.2014,16:30,J.V . Sládka,Zákaz zastavení,125c/1k,23.4.2014 16:30,13.8394071034991,50.6437405292011
+944,M,88.33,A,J. V. Sládka,589713,Address,J.V . Sládka,23.4.2014,16:50,J.V . Sládka,Zákaz zastavení,125c/1k,23.4.2014 16:50,13.8394071034991,50.6437405292011
+945,M,88.33,A,J. V. Sládka,589713,Address,J.V . Sládka,23.4.2014,17:15,J.V . Sládka,Zákaz zastavení,125c/1k,23.4.2014 17:15,13.8394071034991,50.6437405292011
+946,M,88.33,A,J. V. Sládka,589713,Address,J.V . Sládka,23.4.2014,17:35,J.V . Sládka,Zákaz zastavení,125c/1k,23.4.2014 17:35,13.8394071034991,50.6437405292011
+947,M,100,A,Mrštíkova,590428,Address,Mrštíkova,24.4.2014,7:20,Mrštíkova,Zákaz zastavení,17a/6,24.4.2014 7:20,13.8312687397403,50.6438301779275
+948,M,100,A,Hrázní,589641,Address,Hrázní,24.4.2014,7:40,Hrázní,Zákaz zastavení,125c/1k,24.4.2014 7:40,13.8319670821542,50.6471581281543
+949,M,100,A,Hrázní,589641,Address,Hrázní,24.4.2014,8:00,Hrázní,Zákaz zastavení,125c/1k,24.4.2014 8:00,13.8319670821542,50.6471581281543
+950,M,100,A,Hrázní,589641,Address,Hrázní,24.4.2014,8:20,Hrázní,Zákaz zastavení,125c/1k,24.4.2014 8:20,13.8319670821542,50.6471581281543
+951,M,100,A,Hrázní,589641,Address,Hrázní,24.4.2014,8:35,Hrázní,Zákaz zastavení,125c/1k,24.4.2014 8:35,13.8319670821542,50.6471581281543
+952,M,100,A,Hrázní,589641,Address,Hrázní,24.4.2014,8:50,Hrázní,Zákaz zastavení,125c/1k,24.4.2014 8:50,13.8319670821542,50.6471581281543
+953,M,100,A,Hrázní,589641,Address,Hrázní,24.4.2014,9:10,Hrázní,Zákaz zastavení,125c/1k,24.4.2014 9:10,13.8319670821542,50.6471581281543
+954,M,100,A,Hrázní,589641,Address,Hrázní,24.4.2014,9:25,Hrázní,Zákaz zastavení,125c/1k,24.4.2014 9:25,13.8319670821542,50.6471581281543
+955,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,24.4.2014,9:40,Nádražní náměstí,Zákaz zastavení,125c/1k,24.4.2014 9:40,13.8302554575732,50.6464173273859
+956,M,100,A,Hrázní,589641,Address,Hrázní,24.4.2014,9:55,Hrázní,Zákaz zastavení,125c/1k,24.4.2014 9:55,13.8319670821542,50.6471581281543
+957,M,100,A,U Nových lázní,591645,Address,U Nových lázní,24.4.2014,10:20,U Nových lázní,Zákaz zastavení,125c/1k,24.4.2014 10:20,13.8416142958154,50.6439220037422
+958,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,24.4.2014,10:45,U Hadích lázní,Zákaz zastavení,125c/1k,24.4.2014 10:45,13.837229476084,50.6399229755375
+959,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,24.4.2014,11:15,U Hadích lázní,Zákaz zastavení,125c/1k,24.4.2014 11:15,13.837229476084,50.6399229755375
+960,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,24.4.2014,11:35,U Hadích lázní,Zákaz zastavení,125c/1k,24.4.2014 11:35,13.837229476084,50.6399229755375
+961,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,24.4.2014,11:45,U Hadích lázní,Zákaz zastavení,125c/1k,24.4.2014 11:45,13.837229476084,50.6399229755375
+962,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,24.4.2014,12:05,U Hadích lázní,Zákaz zastavení,125c/1k,24.4.2014 12:05,13.837229476084,50.6399229755375
+963,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,24.4.2014,12:30,U Hadích lázní,Zákaz zastavení,125c/1k,24.4.2014 12:30,13.837229476084,50.6399229755375
+964,M,100,A,Celní,589268,Address,Celní,24.4.2014,14:20,Celní,Zákaz zastavení,125c/1k,24.4.2014 14:20,13.8325334107073,50.6467571861442
+965,M,75,A,J. K. Tyla,589705,Address,J.K Tyla,24.4.2014,14:50,J.K Tyla,Zákaz zastavení,125c/1k,24.4.2014 14:50,13.8362310338909,50.6436803705664
+966,M,100,A,Jiřího Wolkera,589781,Address,Jiřího Wolkera,24.4.2014,15:05,Jiřího Wolkera,Zákaz zastavení,125c/1k,24.4.2014 15:05,13.835663541619,50.6470418957506
+967,M,100,A,Jiřího Wolkera,589781,Address,Jiřího Wolkera,24.4.2014,15:30,Jiřího Wolkera,Zákaz zastavení,125c/1k,24.4.2014 15:30,13.835663541619,50.6470418957506
+968,M,70,A,Masarykova třída,590339,Address,Masarykova,24.4.2014,16:10,Masarykova,Zákaz zastavení,125c/1k,24.4.2014 16:10,13.8625621060539,50.6578550483256
+969,M,70,A,Masarykova třída,590339,Address,Masarykova,24.4.2014,16:25,Masarykova,Zákaz zastavení,125c/1k,24.4.2014 16:25,13.8625621060539,50.6578550483256
+970,M,70,A,Masarykova třída,590339,Address,Masarykova,24.4.2014,17:00,Masarykova,Zákaz zastavení,125c/1k,24.4.2014 17:00,13.8625621060539,50.6578550483256
+971,M,70,A,Masarykova třída,590339,Address,Masarykova,24.4.2014,17:05,Masarykova,Zákaz zastavení,125c/1k,24.4.2014 17:05,13.8625621060539,50.6578550483256
+972,M,100,A,Potěminova,590932,Address,Potěminova,25.4.2014,7:50,Potěminova,Zákaz zastavení,125c/1k,25.4.2014 7:50,13.8402457148817,50.6443168290441
+973,M,100,A,Karla Čapka,589951,Address,Karla Čapka,25.4.2014,8:15,Karla Čapka,Zákaz zastavení,125c/1k,25.4.2014 8:15,13.8373874613568,50.6433328376385
+974,M,100,A,Potěminova,590932,Address,Potěminova,25.4.2014,8:35,Potěminova,Zákaz zastavení,125c/1k,25.4.2014 8:35,13.8402457148817,50.6443168290441
+975,M,100,A,Karla Čapka,589951,Address,Karla Čapka,25.4.2014,8:55,Karla Čapka,Zákaz zastavení,125c/1k,25.4.2014 8:55,13.8373874613568,50.6433328376385
+976,M,100,A,Karla Čapka,589951,Address,Karla Čapka,25.4.2014,9:50,Karla Čapka,Zákaz zastavení,125c/1k,25.4.2014 9:50,13.8373874613568,50.6433328376385
+977,M,100,A,Kollárova,590037,Address,Kollárova,25.4.2014,14:55,Kollárova,Zákaz zastavení,125c/1k,25.4.2014 14:55,13.8319714363972,50.6429226055677
+978,M,100,A,Kollárova,590037,Address,Kollárova,25.4.2014,15:20,Kollárova,Zákaz zastavení,125c/1k,25.4.2014 15:20,13.8319714363972,50.6429226055677
+979,M,100,A,Vrchlického,591874,Address,Vrchlického,25.4.2014,15:40,Vrchlického,Zakaz zastavení,125c/1k,25.4.2014 15:40,13.8320623701633,50.6445594025235
+980,M,100,A,Vrchlického,591874,Address,Vrchlického,25.4.2014,16:00,Vrchlického,Zákaz zastavení,125c/1k,25.4.2014 16:00,13.8320623701633,50.6445594025235
+981,M,100,A,Vrchlického,591874,Address,Vrchlického,25.4.2014,16:20,Vrchlického,Zákaz zastavení,125c/1k,25.4.2014 16:20,13.8320623701633,50.6445594025235
+982,M,100,A,Kollárova,590037,Address,Kollárova,25.4.2014,16:45,Kollárova,Zákaz zastavení,125c/1k,25.4.2014 16:45,13.8319714363972,50.6429226055677
+983,M,100,A,Kollárova,590037,Address,Kollárova,25.4.2014,13:12,Kollárova,Zákaz zastavení,125c/1k,25.4.2014 13:12,13.8319714363972,50.6429226055677
+984,M,100,A,Kollárova,590037,Address,Kollárova,25.4.2014,17:15,Kollárova,Zákaz zastavení,125c/1k,25.4.2014 17:15,13.8319714363972,50.6429226055677
+985,M,100,A,Kollárova,590037,Address,Kollárova,25.4.2014,17:35,Kollárova,Zákaz zastavení ,125c/1k,25.4.2014 17:35,13.8319714363972,50.6429226055677
+986,M,100,A,U horského pramene,591564,Address,U Horského pramene,28.4.2014,7:30,U Horského pramene,Zákaz zastavení,125c/1k,28.4.2014 7:30,13.8435660127495,50.644179504397
+987,M,100,A,U horského pramene,591564,Address,U Horského pramene,28.4.2014,7:50,U Horského pramene,Zákaz zastavení,125c/1k,28.4.2014 7:50,13.8435660127495,50.644179504397
+988,M,100,A,U horského pramene,591564,Address,U Horského pramene,28.4.2014,8:15,U Horského pramene,Zákaz zastavení,125c/1k,28.4.2014 8:15,13.8435660127495,50.644179504397
+991,M,100,A,Spojenecká,591297,Address,Spojenecká,28.4.2014,17:05,Spojenecká,Stání před výjezdem,27/1n,28.4.2014 17:05,13.8240413242057,50.6449473362702
+992,M,75,A,kpt. Jaroše,590061,Address,kpt.Jaroše  ,29.4.2014,7:25,kpt.Jaroše  ,Zákaz zastavení,125c/1k,29.4.2014 7:25,13.8485133891194,50.647014845034
+993,M,75,A,kpt. Jaroše,590061,Address,Kpt.Jaroše ,29.4.2014,7:50,Kpt.Jaroše ,Zákaz zastavení,125c/1k,29.4.2014 7:50,13.8485133891194,50.647014845034
+994,M,100,A,Antonína Sochora,589063,Address,Antonína Sochora,29.4.2014,8:15,Antonína Sochora,Zákaz zastavení,125c/1k,29.4.2014 8:15,13.8524318122332,50.64732123467
+995,M,100,A,Antonína Sochora,589063,Address,Antonína Sochora,29.4.2014,8:40,Antonína Sochora,Zákaz zastavení,125c/1k,29.4.2014 8:40,13.8524318122332,50.64732123467
+996,M,100,A,Nedbalova,590592,Address,Nedbalova,29.4.2014,9:50,Nedbalova,Stání v křižovatce,125c/1k,29.4.2014 9:50,13.840072029353,50.6565175251949
+997,M,100,A,Nedbalova,590592,Address,Nedbalova,29.4.2014,10:20,Nedbalova,Stání v křižovatce,125c/1k,29.4.2014 10:20,13.840072029353,50.6565175251949
+998,M,100,A,U Nových lázní,591645,Address,U Nových lázní,29.4.2014,10:45,U Nových lázní,Stání před přechodem,125c/1k,29.4.2014 10:45,13.8416142958154,50.6439220037422
+999,M,100,A,Purkyňova,591017,Address,Purkyňova,29.4.2014,14:25,Purkyňova,Zákaz zastavení,125c/1k,29.4.2014 14:25,13.8305237664461,50.6337755375213
+1000,M,100,A,Štúrova,588954,Address,Štúrova,29.4.2014,14:45,Štúrova,Zákaz zastavení,125c/1k,29.4.2014 14:45,13.8437531498281,50.6510183637329
+1001,M,100,A,Štúrova,588954,Address,Štúrova,29.4.2014,15:10,Štúrova,Zákaz zastavení,125c/1k,29.4.2014 15:10,13.8437531498281,50.6510183637329
+1002,M,100,A,Havlíčkova,589578,Address,Havlíčkova,29.4.2014,15:40,Havlíčkova,Zákaz zastavení,125c/1k,29.4.2014 15:40,13.8456513558367,50.6517319643931
+1003,M,100,A,Thámova,591432,Address,Thámova,29.4.2014,16:15,Thámova,Zákaz zastavení,125c/1k,29.4.2014 16:15,13.8427832630188,50.6491448487662
+1004,M,100,A,Thámova,591432,Address,Thámova,29.4.2014,16:40,Thámova,Zákaz zastavení,125c/1k,29.4.2014 16:40,13.8427832630188,50.6491448487662
+1005,M,100,A,Gagarinova,589527,Address,Gagarinova,30.4.2014,7:20,Gagarinova,Zákaz zastavení,125c/1k,30.4.2014 7:20,13.8545685827816,50.6540365439269
+1006,M,80,A,Dr. Vrbenského,589365,Address,Dr.Vrbenského,30.4.2014,7:55,Dr.Vrbenského,Zákaz zastavení,125c/1k,30.4.2014 7:55,13.8289201090712,50.6363387067364
+1007,M,80,A,Dr. Vrbenského,589365,Address,Dr.Vrbenského,30.4.2014,7:55,Dr.Vrbenského,Zákaz zastavení,125c/1k,30.4.2014 7:55,13.8289201090712,50.6363387067364
+1008,M,100,A,Rooseveltova,588806,Address,Rooseveltova,2.5.2014,7:35,Rooseveltova,Zákaz zastavení,125c/1k,2.5.2014 7:35,13.8281031464392,50.6367635703637
+1009,M,100,A,Rooseveltova,588806,Address,Rooseveltova,2.5.2014,8:00,Rooseveltova,Zákaz zastavení,125c/1k,2.5.2014 8:00,13.8281031464392,50.6367635703637
+1010,M,100,A,Fügnerova,589501,Address,Fügnerova,2.5.2014,8:15,Fügnerova,Zákaz zastavení,125c/1k,2.5.2014 8:15,13.8371833998028,50.648805503899
+1011,M,70,A,14. října,588962,Address,14.Října,2.5.2014,8:25,14.Října,Zákaz zastavení,125c/1k,2.5.2014 8:25,13.8358272194812,50.6485952205517
+1012,M,70,A,14. října,588962,Address,14.Října,2.5.2014,8:45,14.Října,Zákaz zastavení,125c/1k,2.5.2014 8:45,13.8358272194812,50.6485952205517
+1013,M,100,A,Doubravská,589357,Address,Doubravská,2.5.2014,9:10,Doubravská,Zákaz zastavení,125c/1k,2.5.2014 9:10,13.8420913818779,50.648934918067
+1014,M,100,A,Skupova,591220,Address,Skupova,2.5.2014,9:30,Skupova,Zákaz zastavení,125c/1k,2.5.2014 9:30,13.8456278548357,50.6507957542927
+1015,M,100,A,Alejní,589004,Address,Alejní,3.5.2014,20:30,Alejní,Stání na vyhr.park.,125c/1k,3.5.2014 20:30,13.8222726440397,50.6386541630334
+1016,M,100,A,Na konečné,590509,Address,Na Konečné,5.5.2014,7:35,Na Konečné,Zákaz zastavení,125c/1k,5.5.2014 7:35,13.8470109513979,50.6320953265432
+1017,M,100,A,Na konečné,590509,Address,Na Konečné,5.5.2014,8:00,Na Konečné,Zákaz zastavení,125c/1k,5.5.2014 8:00,13.8470109513979,50.6320953265432
+1018,M,100,A,Jankovcova,589730,Address,Jankovcova,5.5.2014,8:20,Jankovcova,Zákaz zastavení,125c/1k,5.5.2014 8:20,13.8375339081974,50.6461257002093
+1019,M,100,A,Pod hvězdárnou,590886,Address,Pod Hvězdárnou,5.5.2014,8:50,Pod Hvězdárnou,Zákaz zastavení,125c/1k,5.5.2014 8:50,13.8452822663268,50.6335463581428
+1020,M,100,A,Pod hvězdárnou,590886,Address,Pod Hvězdárnou,5.5.2014,9:20,Pod Hvězdárnou,Zákaz zastavení,125c/1k,5.5.2014 9:20,13.8452822663268,50.6335463581428
+1021,M,100,A,Pod hvězdárnou,590886,Address,Pod Hvězdárnou,5.5.2014,9:40,Pod Hvězdárnou,Zákaz zastavení,125c/1k,5.5.2014 9:40,13.8452822663268,50.6335463581428
+1022,M,100,A,Pod školou,590860,Address,Pod Školou,5.5.2014,10:05,Pod Školou, Zákaz zastavení,125c/1k,5.5.2014 10:05,13.843080072409,50.6341165321896
+1023,M,100,A,Pod školou,590860,Address,Pod Školou,5.5.2014,10:30,Pod Školou,Zákaz zastavení,125c/1k,5.5.2014 10:30,13.843080072409,50.6341165321896
+1024,M,100,A,Pod školou,590860,Address,Pod Školou,5.5.2014,10:55,Pod Školou,Zákaz zastavení,125c/1k,5.5.2014 10:55,13.843080072409,50.6341165321896
+1026,M,100,A,Stará Mlýnská,661538,Address,Stará Mlýnská,5.5.2014,14:30,Stará Mlýnská,Zákaz zastavení,125c/1k,5.5.2014 14:30,13.8425718878549,50.6333691312714
+1027,M,100,A,Obránců míru,590711,Address,Obránců Míru,5.5.2014,14:55,Obránců Míru,Zákaz zastavení,125c/1k,5.5.2014 14:55,13.8425915103425,50.659562431914
+1028,M,100,A,Obránců míru,590711,Address,Obránců Míru,5.5.2014,15:20,Obránců Míru,Zákaz zastavení,125c/1k,5.5.2014 15:20,13.8425915103425,50.659562431914
+1029,M,100,A,Unčínská,591777,Address,Unčínská,5.5.2014,15:40,Unčínská,Zákaz zastavení,125c/1k,5.5.2014 15:40,13.8436211907183,50.6607441500887
+1030,M,100,A,Prosetická,590991,Address,Prosetická,6.5.2014,7:25,Prosetická,Zákaz zastavení,125c/1k,6.5.2014 7:25,13.8428070803066,50.6339874521766
+1031,M,100,A,Přítkovská,591041,Address,Přítkovská,6.5.2014,7:50,Přítkovská,Zákaz zastavení,125c/1k,6.5.2014 7:50,13.8443196669161,50.6538919568068
+1032,M,100,A,Přítkovská,591041,Address,Přítkovská,6.5.2014,8:10,Přítkovská,Zákaz zastavení,125c/1k,6.5.2014 8:10,13.8443196669161,50.6538919568068
+1033,M,100,A,Přítkovská,591041,Address,Přítkovská,6.5.2014,8:30,Přítkovská,Zákaz zastavení,125c/1k,6.5.2014 8:30,13.8443196669161,50.6538919568068
+1034,M,100,A,Prosetická,590991,Address,Prosetická,6.5.2014,8:50,Prosetická,Zákaz zastavení,125c/1k,6.5.2014 8:50,13.8428070803066,50.6339874521766
+1035,M,100,A,Prosetická,590991,Address,Prosetická,6.5.2014,9:10,Prosetická,Zákaz zastavení,125c/1k,6.5.2014 9:10,13.8428070803066,50.6339874521766
+1036,M,100,A,Prosetická,590991,Address,Prosetická,6.5.2014,9:35,Prosetická,Zákaz zastavení,125c/1k,6.5.2014 9:35,13.8428070803066,50.6339874521766
+1037,M,100,A,Krajní,590070,Address,Krajní,6.5.2014,10:10,Krajní,Zákaz zastavení,125c/1k,6.5.2014 10:10,13.8427919330491,50.6356571224979
+1038,M,100,A,Jankovcova,589730,Address,Jankovcova,6.5.2014,14:00,Jankovcova,Stání před přechodem,125c/1k,6.5.2014 14:00,13.8375339081974,50.6461257002093
+1039,M,100,A,Plynárenská,590835,Address,Plynárenská   ,6.5.2014,14:25,Plynárenská   ,Zákaz zastavení,125c/1k,6.5.2014 14:25,13.8388437698254,50.6331663368641
+1042,M,100,A,Plynárenská,590835,Address,Plynárenská   ,6.5.2014,15:35,Plynárenská   ,Zákaz zastavení,125c/1k,6.5.2014 15:35,13.8388437698254,50.6331663368641
+1046,M,100,A,Pražská,590967,Address,Pražská,7.5.2014,8:35,Pražská,Zákaz zastavení,125c/1k,7.5.2014 8:35,13.8369363496562,50.6384120190525
+1049,M,100,A,Maršovská,590312,Address,Maršovská,7.5.2014,14:40,Maršovská,Zákaz zastavení,125c/1k,7.5.2014 14:40,13.8461602778926,50.660087241563
+1050,M,100,A,Proboštovská,590975,Address,Proboštovská,9.5.2014,7:35,Proboštovská,Zákaz zastavení,125c/1k,9.5.2014 7:35,13.8405364939516,50.6584199572229
+1051,M,100,A,Proboštovská,590975,Address,Proboštovská,9.5.2014,7:50,Proboštovská,Zákaz zastavení,125c/1k,9.5.2014 7:50,13.8405364939516,50.6584199572229
+1053,M,100,A,Nábřežní,590665,Address,Nábřežní,9.5.2014,8:40,Nábřežní,Zákaz zastavení,125c/1k,9.5.2014 8:40,13.8365196064859,50.6565608476499
+1054,M,70,A,5. května,588989,Address,5.května,9.5.2014,9:20,5.května,Zákaz zastavení,125c/1k,9.5.2014 9:20,13.8499115487697,50.6574980040329
+1056,M,100,A,Husova,589667,Address,Husova,9.5.2014,14:55,Husova,Zákaz zastavení,125c/1k,9.5.2014 14:55,13.8512171496383,50.6550090011908
+1057,M,70,A,Masarykova třída,590339,Address,Masarykova,9.5.2014,16:00,Masarykova,Zákaz zastavení,125c/1k,9.5.2014 16:00,13.8625621060539,50.6578550483256
+1058,M,100,A,Dubská,589381,Address,Dubská,12.5.2014,7:15,Dubská,Zákaz zastavení,125c/1k,12.5.2014 7:15,13.8211854973018,50.6449972906915
+1059,M,100,A,Dubská,589381,Address,Dubská,12.5.2014,7:30,Dubská,Zákaz zastavení,125c/1k,12.5.2014 7:30,13.8211854973018,50.6449972906915
+1060,M,100,A,Brožíkova,589187,Address,Brožíkova,12.5.2014,7:45,Brožíkova,Zákaz zastavení,125c/1k,12.5.2014 7:45,13.8222133508325,50.6446006746645
+1061,M,100,A,Rohová,591106,Address,Rohová,12.5.2014,9:20,Rohová,Zákaz zastavení,125c/1k,12.5.2014 9:20,13.8447899628511,50.6318270660455
+1062,M,100,A,Rohová,591106,Address,Rohová,12.5.2014,9:45,Rohová,Zákaz zastavení,125c/1k,12.5.2014 9:45,13.8447899628511,50.6318270660455
+1063,M,100,A,U Kamenných lázní,591599,Address,U Kamenných Lázní,12.5.2014,10:55,U Kamenných Lázní,Stání ne réservé,125c/1k,12.5.2014 10:55,13.8363272908239,50.6396818112202
+1065,M,100,A,U pivovaru,591661,Address,U Pivovaru,12.5.2014,14:20,U Pivovaru,Zákaz zastavení,125c/1k,12.5.2014 14:20,13.8355438546294,50.6490162544656
+1066,M,100,A,Josefská,589853,Address,Josefská,13.5.2014,7:25,Josefská,Zákaz zastavení,125c/1k,13.5.2014 7:25,13.8384314469257,50.6515504728979
+1067,M,100,A,Josefská,589853,Address,Josefská,13.5.2014,7:45,Josefská,Zákaz zastavení,125c/1k,13.5.2014 7:45,13.8384314469257,50.6515504728979
+1068,M,100,A,Krušnohorská,590088,Address,Krušnohorská,13.5.2014,8:18,Krušnohorská,Zákaz zastavení,125c/1k,13.5.2014 8:18,13.8469508932156,50.6619974617876
+1069,M,100,A,Krušnohorská,590088,Address,Krušnohorská,13.5.2014,8:42,Krušnohorská,Zákaz zastavení,125c/1k,13.5.2014 8:42,13.8469508932156,50.6619974617876
+1070,M,100,A,Krušnohorská,590088,Address,Krušnohorská,13.5.2014,9:06,Krušnohorská,Zákaz zastavení,125c/1k,13.5.2014 9:06,13.8469508932156,50.6619974617876
+1071,M,100,A,Přítkovská,591041,Address,Přítkovská,13.5.2014,14:25,Přítkovská,Zákaz zastavení,125c/1k,13.5.2014 14:25,13.8443196669161,50.6538919568068
+1072,M,100,A,Májová,590452,Address,Májová,13.5.2014,14:50,Májová,Zákaz zastavení,125c/1k,13.5.2014 14:50,13.8448966089101,50.6563384196785
+1073,M,99.57,A,Emilie Dvořákové,589446,Address,Emílie Dvořákové,14.5.2014,7:35,Emílie Dvořákové,Zákaz zastavení,125c/1k,14.5.2014 7:35,13.828321714633,50.6566218007371
+1074,M,100,A,Nedbalova,590592,Address,Nedbalova,14.5.2014,7:55,Nedbalova,Zákaz zastavení,125c/1k,14.5.2014 7:55,13.840072029353,50.6565175251949
+1075,M,100,A,Nedbalova,590592,Address,Nedbalova,14.5.2014,8:10,Nedbalova,Zákaz zastavení,125c/1k,14.5.2014 8:10,13.840072029353,50.6565175251949
+1076,M,100,A,Nedbalova,590592,Address,Nedbalova,14.5.2014,8:30,Nedbalova,Zákaz zastavení,125c/1k,14.5.2014 8:30,13.840072029353,50.6565175251949
+1077,M,100,A,Nedbalova,590592,Address,Nedbalova,14.5.2014,8:45,Nedbalova,Zákaz zastavení,125c/1k,14.5.2014 8:45,13.840072029353,50.6565175251949
+1078,M,100,A,Tržní náměstí,591467,Address,Tržní Náměstí,14.5.2014,9:10,Tržní Náměstí,Neponechání průjezdu    ,125c/1k,14.5.2014 9:10,13.8272860034816,50.6444312572291
+1079,M,100,A,Zemská,591947,Address,Zemská,14.5.2014,9:25,Zemská,Zákaz zastavení,125c/1k,14.5.2014 9:25,13.8347755401827,50.658652890313
+1080,M,100,A,Zemská,591947,Address,Zemská,14.5.2014,9:50,Zemská,Zákaz zastavení,125c/1k,14.5.2014 9:50,13.8347755401827,50.658652890313
+1081,M,100,A,Bohosudovská,589136,Address,Bohosudovská,14.5.2014,10:15,Bohosudovská,Zákaz zastavení,125c/1k,14.5.2014 10:15,13.8451528591184,50.6557442940715
+1082,M,100,A,Bohosudovská,589136,Address,Bohosudovská,14.5.2014,10:35,Bohosudovská,Zákaz zastavení,125c/1k,14.5.2014 10:35,13.8451528591184,50.6557442940715
+1083,M,100,A,Bohosudovská,589136,Address,Bohosudovská,14.5.2014,10:55,Bohosudovská,Zákaz zastavení,125c/1k,14.5.2014 10:55,13.8451528591184,50.6557442940715
+1084,M,100,A,Edisonova,589420,Address,Edisonova,14.5.2014,14:35,Edisonova,Zákaz zastavení,125c/1k,14.5.2014 14:35,13.8419005952647,50.6543716700779
+1085,M,100,A,Nedbalova,590592,Address,Nedbalova,14.5.2014,14:55,Nedbalova,Zákaz zastavení,125c/1k,14.5.2014 14:55,13.840072029353,50.6565175251949
+1086,M,100,A,Fibichova,589454,Address,Fibichova,14.5.2014,15:20,Fibichova,Zákaz zastavení,125c/1k,14.5.2014 15:20,13.8400441184444,50.6543611840562
+1087,M,100,A,Nedbalova,590592,Address,Nedbalova,14.5.2014,15:40,Nedbalova,Zákaz zastavení,125c/1k,14.5.2014 15:40,13.840072029353,50.6565175251949
+1088,M,100,A,Hlávkova,589608,Address,Hlávkova,14.5.2014,16:15,Hlávkova,Zákaz zastavení,125c/1k,14.5.2014 16:15,13.840049340513,50.656382784172
+1089,M,100,A,Josefa Ressla,589837,Address,Josefa Ressla,15.5.2014,7:35,Josefa Ressla,Zákaz zastavení,125c/1k,15.5.2014 7:35,13.8432361834323,50.6542077825208
+1090,M,62.94,A,J. Á. Komenského,589691,Address,J.A.Komenského,15.5.2014,8:00,J.A.Komenského,Zákaz zastavení,125c/1k,15.5.2014 8:00,13.8431512207245,50.6524274251356
+1091,M,100,A,Bohuslava Martinů,589144,Address,Bohuslava Martinů,15.5.2014,8:55,Bohuslava Martinů,Neponechání průjezdu    ,25//3,15.5.2014 8:55,13.8421342491952,50.6538043891545
+1092,M,100,A,Přítkovská,591041,Address,Přítkovská,15.5.2014,14:25,Přítkovská,Zákaz zastavení,125c/1k,15.5.2014 14:25,13.8443196669161,50.6538919568068
+1093,M,100,A,U Červeného kostela,591513,Address,U Červeného kostela,15.5.2014,14:45,U Červeného kostela,Zákaz zastavení,125c/1k,15.5.2014 14:45,13.8387766767753,50.654544952013
+1094,M,100,A,U Červeného kostela,591513,Address,U Červeného kostela,15.5.2014,15:10,U Červeného kostela,Zákaz zastavení,125c/1k,15.5.2014 15:10,13.8387766767753,50.654544952013
+1095,M,100,A,U Červeného kostela,591513,Address,U Červeného kostela,15.5.2014,15:45,U Červeného kostela,Zákaz zastavení,125c/1k,15.5.2014 15:45,13.8387766767753,50.654544952013
+1096,M,100,A,U Červeného kostela,591513,Address,U Červeného kostela,15.5.2014,15:30,U Červeného kostela,Zákaz zastavení,125c/1k,15.5.2014 15:30,13.8387766767753,50.654544952013
+1097,M,100,A,Přítkovská,591041,Address,Přítkovská,16.5.2014,7:20,Přítkovská,Zákaz zastavení,125c/1k,16.5.2014 7:20,13.8443196669161,50.6538919568068
+1098,M,100,A,Přítkovská,591041,Address,Přítkovská,16.5.2014,7:50,Přítkovská,Zákaz zastavení,125c/1k,16.5.2014 7:50,13.8443196669161,50.6538919568068
+1099,M,100,A,Přítkovská,591041,Address,Přítkovská,16.5.2014,8:10,Přítkovská,Zákaz zastavení,125c/1k,16.5.2014 8:10,13.8443196669161,50.6538919568068
+1100,M,100,A,U Červeného kostela,591513,Address,U Červeného kostela,16.5.2014,14:20,U Červeného kostela,Zákaz zastavení,125c/1k,16.5.2014 14:20,13.8387766767753,50.654544952013
+1101,M,70,A,Masarykova třída,590339,Address,Masarykova,16.5.2014,14:55,Masarykova,Zákaz zastavení,125c/1k,16.5.2014 14:55,13.8625621060539,50.6578550483256
+1102,M,70,A,Masarykova třída,590339,Address,Masarykova,16.5.2014,15:20,Masarykova,Zákaz zastavení,125c/1k,16.5.2014 15:20,13.8625621060539,50.6578550483256
+1103,M,100,A,Dlouhá,589306,Address,Dlouhá,19.5.2014,9:30,Dlouhá,Zákaz zastavení,125c/1k,19.5.2014 9:30,13.8249902753485,50.6389240362641
+1104,M,100,A,Dlouhá,589306,Address,Dlouhá,19.5.2014,9:50,Dlouhá,Zákaz zastavení,125c/1k,19.5.2014 9:50,13.8249902753485,50.6389240362641
+1105,M,100,A,Dlouhá,589306,Address,Dlouhá,19.5.2014,10:05,Dlouhá,Zákaz zastavení,125c/1k,19.5.2014 10:05,13.8249902753485,50.6389240362641
+1106,M,100,A,Dlouhá,589306,Address,Dlouhá,19.5.2014,10:25,Dlouhá,Zákaz zastavení,125c/1k,19.5.2014 10:25,13.8249902753485,50.6389240362641
+1107,M,100,A,Papírová,764345,Address,Papírová,19.5.2014,11:00,Papírová,Neponechání průjezdu 3 m,125c/1k,19.5.2014 11:00,13.8266223059576,50.6388614804865
+1109,M,100,A,Alejní,589004,Address,Alejní,28.5.2014,14:15,Alejní,Stání na vyhr. Park. Pro Billu,125c/1k,28.5.2014 14:15,13.8222726440397,50.6386541630334
+1110,M,100,A,Alejní,589004,Address,Alejní,28.5.2014,14:45,Alejní,Stání na vyhr. Park. Pro Billu,125c/1k,28.5.2014 14:45,13.8222726440397,50.6386541630334
+1112,M,100,A,Na spravedlnosti,590550,Address,Na spravedlnosti,30.5.2014,10:25,Na spravedlnosti,Stání na reservé parkovišti,125c/1k,30.5.2014 10:25,13.8181952785983,50.636368778599
+1113,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,30.5.2014,19:10,U Hadích lázní,Stání v křižovatce,27/1d,30.5.2014 19:10,13.837229476084,50.6399229755375
+1114,M,100,A,Mírové náměstí,590282,Address,Mírové náměstí,31.5.2014,5:50,Mírové náměstí,Stání na reservé parkovišti,125c/1k,31.5.2014 5:50,13.8258942360005,50.6401562517243
+1115,M,100,A,Mírové náměstí,590282,Address,Mírové náměstí,31.5.2014,6:05,Mírové náměstí,Stání na reservé parkovišti,125c/1k,31.5.2014 6:05,13.8258942360005,50.6401562517243
+1116,M,100,A,Alejní,589004,Address,Alejní,31.5.2014,18:15,Alejní,Stání na reservé parkovišti,125c/1k,31.5.2014 18:15,13.8222726440397,50.6386541630334
+1117,M,100,A,Chelčického,589683,Address,Chelčického,1.6.2014,16:10,Chelčického,Stání před vjezdem,125c/1k,1.6.2014 16:10,13.8321492507545,50.6417428179401
+1118,M,100,A,Maxe Švabinského,590347,Address,Maxe Švabinského,1.6.2014,17:00,Maxe Švabinského,Neponechání průjezdu    ,125c/1k,1.6.2014 17:00,13.8180823685262,50.6372561460477
+1119,M,100,A,Českobratrská,588733,Address,Českobratrská,4.6.2014,10:30,Českobratrská,Stání v křižovatce,125c/1k,4.6.2014 10:30,13.8335854194535,50.6419506796493
+1120,M,100,A,Chelčického,589683,Address,Chelčického,6.6.2014,9:50,Chelčického,Stání před přechodem,125c/1k,6.6.2014 9:50,13.8321492507545,50.6417428179401
+1121,M,100,A,Ševčíkova,588911,Address,Ševčíkova,8.6.2014,9:30,Ševčíkova,Stání před výjezdem,27/1n,8.6.2014 9:30,13.8440172583014,50.6394052739216
+1122,M,100,A,Gagarinova,589527,Address,Gagarinova,12.6.2014,11:25,Gagarinova,Stání na reservé parkovišti,27/1o,12.6.2014 11:25,13.8545685827816,50.6540365439269
+1123,M,100,A,Novákova,590657,Address,Novákova,13.6.2014,10:50,Novákova,Stání na křižovatce,125c/1k,13.6.2014 10:50,13.844725961277,50.6397795578661
+1124,M,100,A,Rooseveltova,588806,Address,Rooseveltova,16.6.2014,9:00,Rooseveltova,Stání na réservé parkovišti,27/1o,16.6.2014 9:00,13.8281031464392,50.6367635703637
+1125,M,100,A,Koperníkova,588725,Address,Koperníkova,16.6.2014,9:25,Koperníkova,Stání v křižovatce,27/1d,16.6.2014 9:25,13.8544976808998,50.6435841558866
+1126,M,100,A,Husitská,589659,Address,Husitská,16.6.2014,12:20,Husitská,Stání na reservé parkovišti,125c/1k,16.6.2014 12:20,13.8294878109652,50.6450544901626
+1127,M,100,A,Čelakovského,588661,Address,Čelakovského,16.6.2014,13:50,Čelakovského,Stání před přechodem,125c/1k,16.6.2014 13:50,13.8323849173457,50.6410360397055
+1128,M,100,A,Doubravská,589357,Address,Doubravská,17.6.2014,12:50,Doubravská,Stání v křižovatce,125c/1k,17.6.2014 12:50,13.8420913818779,50.648934918067
+1129,M,100,A,Jaselská,589756,Address,Jaselská,18.6.2014,11:15,Jaselská,Stání před přechodem,125c/1k,18.6.2014 11:15,13.8063891797587,50.6352422274686
+1130,M,100,A,Alejní,589004,Address,Alejní,19.6.2014,16:40,Alejní,Stání na reservé parkovišti,125c/1k,19.6.2014 16:40,13.8222726440397,50.6386541630334
+1131,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,23.6.2014,13:10,U Hadích lázní,Zákaz zastavení,125c/1k,23.6.2014 13:10,13.837229476084,50.6399229755375
+1132,M,100,A,Thámova,591432,Address,Thámova,25.6.2014,10:50,Thámova,Stání v křižovatce,125c/1k,25.6.2014 10:50,13.8427832630188,50.6491448487662
+1133,M,100,A,Trnovanská,591475,Address,Trnovanská,27.6.2014,13:40,Trnovanská,Stání v křižovatce,125c/1k,27.6.2014 13:40,13.8542182143318,50.6456297654354
+1134,M,100,A,U Červeného kostela,591513,Address,U Červeného kostela,28.6.2014,8:50,U Červeného kostela,Stání před vjezdem,125c/1k,28.6.2014 8:50,13.8387766767753,50.654544952013
+1136,M,100,A,Vrchlického,591874,Address,Vrchlického,1.7.2014,10:55,Vrchlického,Znemožnění vyjetí z řady stojících vozidel,125c/1k,1.7.2014 10:55,13.8320623701633,50.6445594025235
+1137,M,100,A,Dubská,589381,Address,Dubská,1.7.2014,15:38,Dubská,PRŮCHOD CHODCŮ,53/2,1.7.2014 15:38,13.8211854973018,50.6449972906915
+1138,M,100,A,Nádražní náměstí,590673,Address,Nádražní náměstí,2.7.2014,9:00,Nádražní náměstí,Reservé pro O 7,125c/1k,2.7.2014 9:00,13.8302554575732,50.6464173273859
+1139,M,100,A,U Nových lázní,591645,Address,U Nových lázní,3.7.2014,13:40,U Nových lázní,Stání před přechodem,125c/1k,3.7.2014 13:40,13.8416142958154,50.6439220037422
+1141,M,100,A,gen. Svobody,589535,Address,Gen. Svobody,8.7.2014,9:20,Gen. Svobody,"Neponechal boční odstup 1,2m pro O1",125c/1k,8.7.2014 9:20,13.8378572480033,50.6577459823414
+1142,M,100,A,U Nových lázní,591645,Address,U Nových lázní,9.7.2014,13:00,U Nových lázní,Stání před přechodem,125c/1k,9.7.2014 13:00,13.8416142958154,50.6439220037422
+1143,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,10.7.2014,9:40,U Hadích lázní,Stání před vjezdem,125c/1k,10.7.2014 9:40,13.837229476084,50.6399229755375
+1144,M,100,A,Palackého,590789,Address,Palackého,14.7.2014,9:00,Palackého,Stání v křižovatce,125c/1k,14.7.2014 9:00,13.8385748741976,50.6490347488372
+1145,M,100,A,Vrchlického,591874,Address,Vrchlického,15.7.2014,8:40,Vrchlického,Stání před vjezdem,125c/1k,15.7.2014 8:40,13.8320623701633,50.6445594025235
+1146,M,100,A,Metelkovo náměstí,590355,Address,Metelkovo náměstí,17.7.2014,12:15,Metelkovo náměstí,Stání v křižovatce,125c/1k,17.7.2014 12:15,13.8374531098063,50.6486587928598
+1148,M,100,A,Tržní náměstí,591467,Address,Tržní Náměstí,18.7.2014,9:40,Tržní Náměstí,Stání na reser. Pro Bernarda,125c/1k,18.7.2014 9:40,13.8272860034816,50.6444312572291
+1149,M,100,A,Jankovcova,589730,Address,Jankovcova,18.7.2014,10:00,Jankovcova,Stání před přechodem,125c/1k,18.7.2014 10:00,13.8375339081974,50.6461257002093
+1153,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,28.7.2014,8:35,Náměstí Svobody,Stání na reservé pro MgM,125c/1k,28.7.2014 8:35,13.8235358058291,50.6405513843127
+1154,M,100,A,Alejní,589004,Address,Alejní,28.7.2014,16:15,Alejní,Stání na reserve č.5,125c/1k,28.7.2014 16:15,13.8222726440397,50.6386541630334
+1155,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,29.7.2014,7:45,U Hadích lázní,Stání na reservé parkovišti,125c/1k,29.7.2014 7:45,13.837229476084,50.6399229755375
+1156,M,100,A,U Hadích lázní,591556,Address,U Hadích lázní,29.7.2014,7:45,U Hadích lázní,Stání na reservé parkovišti,125c/1k,29.7.2014 7:45,13.837229476084,50.6399229755375
+1157,M,100,A,Pod Doubravkou,590878,Address,Pod Doubravkou,29.7.2014,8:50,Pod Doubravkou,Stání před přechodem,125c/1k,29.7.2014 8:50,13.8440485031141,50.6415354810872
+1158,M,100,A,Přítkovská,591041,Address,Přítkovská,29.7.2014,10:05,Přítkovská,Stání v křižovatce,27/1d,29.7.2014 10:05,13.8443196669161,50.6538919568068
+1159,M,100,A,Českobratrská,588733,Address,Českobratrská,22.9.2014,12:40,Českobratrská,Stání na vyhr.park.pro ZTP,125c/1k,22.9.2014 12:40,13.8335854194535,50.6419506796493
+1160,M,100,A,Zelená,588903,Address,Zelená,22.9.2014,13:00,Zelená,Stání na vyhr.park.pro SBD Mír,125c/1k,22.9.2014 13:00,13.8231702606001,50.6397450381687
+1162,M,100,A,Havířská,589560,Address,Havířská ,22.9.2014,16:50,Havířská ,Stání ve výjezdu  ,125c/1k,22.9.2014 16:50,13.8402005183948,50.6579740518047
+1164,M,100,A,Rovná,591131,Address,Rovná,23.9.2014,10:05,Rovná,Zákaz zastavení,19/6,23.9.2014 10:05,13.8427901579919,50.6343481092649
+1165,M,100,A,Rovná,591131,Address,Rovná,23.9.2014,9:30,Rovná,Zákaz zastavení,19/6,23.9.2014 9:30,13.8427901579919,50.6343481092649
+1166,M,100,A,Ševčíkova,588911,Address,Ševčíkova,24.9.2014,14:30,Ševčíkova,Stání v křižovatce,27/1d,24.9.2014 14:30,13.8440172583014,50.6394052739216
+1168,M,100,A,Českobratrská,588733,Address,Českobratrská,25.9.2014,15:35,Českobratrská,Stání v křižovatce,125c/1k,25.9.2014 15:35,13.8335854194535,50.6419506796493
+1169,M,100,A,Husitská,589659,Address,Husitská,26.9.2014,11:30,Husitská,Stání na reservé,125c/1k,26.9.2014 11:30,13.8294878109652,50.6450544901626
+1170,M,100,A,Thámova,591432,Address,Thámova,28.9.2014,5:55,Thámova,Stání ve vjezdu,125c/1k,28.9.2014 5:55,13.8427832630188,50.6491448487662
+1171,M,100,A,náměstí Svobody,590703,Address,Náměstí Svobody,29.9.2014,10:05,Náměstí Svobody,Stání na vyhr.park ,125c/1k,29.9.2014 10:05,13.8235358058291,50.6405513843127
+1172,M,100,A,Čelakovského,588661,Address,Čelakovského,29.9.2014,11:10,Čelakovského,Stání před přechodem pro chodce,125c/1k,29.9.2014 11:10,13.8323849173457,50.6410360397055
+1173,M,70,A,Masarykova třída,590339,Address,Masarykova,30.9.2014,12:40,Masarykova,Stání ve vjezdu,125c/1k,30.9.2014 12:40,13.8625621060539,50.6578550483256
+1174,M,100,A,U zámku,591751,Address,U Zámku,30.9.2014,13:45,U Zámku,Stání na vyhr.park ,125c/1k,30.9.2014 13:45,13.8235106203965,50.6368732929244
+1175,M,100,A,Čelakovského,588661,Address,Čelakovského,1.10.2014,14:30,Čelakovského,Stání na přechodu pro chodce,125c/1k,1.10.2014 14:30,13.8323849173457,50.6410360397055
+1176,M,100,A,Zelená,588903,Address,Zelená,1.10.2014,14:50,Zelená,Stání na reserve pro SBD mír,125c/1k,1.10.2014 14:50,13.8231702606001,50.6397450381687
+1179,M,100,A,Josefa Suka,589845,Address,Josefa Suka,7.10.2014,9:35,Josefa Suka,Stání v křižovatce,125c/1k,7.10.2014 9:35,13.8436575538102,50.6412428194116
+1180,M,100,A,Josefa Suka,589845,Address,Josefa Suka,7.10.2014,15:20,Josefa Suka,Stání v křižovatce,125c/1k,7.10.2014 15:20,13.8436575538102,50.6412428194116
+1181,M,100,A,Havířská,589560,Address,Havířská ,8.10.2014,11:15,Havířská ,Stání v křižovatce,125c/1k,8.10.2014 11:15,13.8402005183948,50.6579740518047
