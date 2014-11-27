@@ -158,7 +158,6 @@ window.ig.Map = class Map
           yes
       else
         no
-    latLngsToDisplay.sort (a, b) -> b.alt - a.alt
     latLngsToDisplay.forEach (latLng) ~>
       count = latLng.alt
       color = @markerColorScale count

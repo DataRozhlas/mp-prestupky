@@ -5,10 +5,9 @@ init = ->
   ig.dir = dir = dir || "praha-prestupky"
   ig.isRychlost = \rychlost == ig.dir.substr -8
   container = d3.select ig.containers.base
+  if ig.isRychlost then container.classed \rychlost yes
   map = new ig.Map ig.containers.base
     ..drawHeatmap dir
-
-
   (err, data) <~ d3.text "../data/processed/#dir/typy.tsv"
   ig.typy = typy = for text, id in data.split "\n"
     {text, id}
