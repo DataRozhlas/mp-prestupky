@@ -1,6 +1,7 @@
 
 window.ig.Map = class Map
   (parentElement) ->
+    @tooltip = new Tooltip!
     mapElement = document.createElement 'div'
       ..id = \map
     @markerDrawn = yes
@@ -169,6 +170,11 @@ window.ig.Map = class Map
         ..on \click ~>
           @emit \markerClicked marker
           @addMicroRectangle latLng
+      if latLng.address
+        marker
+          ..on \mouseover ~> @tooltip.display latLng.address
+          ..on \mouseout ~> @tooltip.hide!
+
       @currentMarkers.push marker
       @markerLayer.addLayer marker
 
@@ -189,6 +195,7 @@ window.ig.Map = class Map
     latLngs = for item in data
       latlng = L.latLng item.y, item.x
         ..alt = item.count
+        ..address = item.address
       latlng
     @groupedLatLngs = latLngs
 

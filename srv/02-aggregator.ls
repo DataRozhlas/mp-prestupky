@@ -35,11 +35,13 @@ isRychlost = 'rychlost' is targetDir.split '-' .1
 out = {}
 typIndices = {}
 currentTypIndex = 0
+addresses = {}
 reader.on \data (line) ->
   if 'praha_prest_6_13_5_14' == file
     [..._, spachano,oblast,addr,ulice,cislo,typ,x,y] = line
   else
-    [..._, spachano,_,typ,_,x,y] = line
+    cislo = ''
+    [..._, spachano,_,typ,ulice,x,y] = line
   return if x == 'X'
   x = parseFloat x
   # x -= 0.0011
@@ -63,10 +65,14 @@ reader.on \data (line) ->
   # if !isRychlost or -1 != typ.indexOf 'rychlozt'
   if !isRychlost or typ.match /125codzt1pzmfbod[2-4]/
     out[id] = out[id] + 1 || 1
+    addresses[id] ?= "#ulice #cislo"
 
 <~ reader.on \end
 output = for id, count of out
-  id += "\t#count"
+  line = id + "\t#count"
+  if isRychlost then line += "\t#{addresses[id]}"
+  line
+
 console.log "writing #{output.length} lines"
-output.unshift "x\ty\tcount"
+output.unshift unless isRychlost then "x\ty\tcount" else "x\ty\tcount\taddress"
 <~ fs.writeFile "#__dirname/../data/processed/#targetDir/grouped.tsv" output.join "\n"
