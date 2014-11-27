@@ -3,6 +3,7 @@ init = ->
   tooltip = new Tooltip!watchElements!
   [dir, location] = window.location.hash.substr 1 .split ':'
   ig.dir = dir = dir || "praha-prestupky"
+  ig.isRychlost = \rychlost == ig.dir.substr -8
   container = d3.select ig.containers.base
   map = new ig.Map ig.containers.base
     ..drawHeatmap dir

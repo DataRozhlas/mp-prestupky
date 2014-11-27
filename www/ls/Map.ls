@@ -7,12 +7,22 @@ window.ig.Map = class Map
     window.ig.Events @
     parentElement.appendChild mapElement
     @groupedLatLngs = []
-    @markerRadiusScale = d3.scale.sqrt!
-      ..domain [1 50 150 999999]
-      ..range [30 35 45 45]
-    @markerColorScale = d3.scale.linear!
-      ..domain [1 10 100 1000 10000 999999]
-      ..range <[#fd8d3c #fc4e2a #e31a1c #bd0026 #800026 #800026]>
+    @markerRadiusScale = if ig.isRychlost
+      d3.scale.sqrt!
+        ..domain [1 50 1000 10000 100000 999999]
+        ..range [20 40 50 60 70 80]
+    else
+      d3.scale.sqrt!
+        ..domain [1 50 150 999999]
+        ..range [30 35 45 45]
+    @markerColorScale = if ig.isRychlost
+      d3.scale.linear!
+        ..domain [1 10 100 1000 10000 50000 999999]
+        ..range <[#feb24c #fd8d3c #fc4e2a #e31a1c #bd0026 #800026 #800026]>
+    else
+      d3.scale.linear!
+        ..domain [1 10 100 1000 10000 999999]
+        ..range <[#fd8d3c #fc4e2a #e31a1c #bd0026 #800026 #800026]>
     @currentMarkers = []
     switch ig.dir.substr 0, 5
     | \praha
@@ -105,7 +115,10 @@ window.ig.Map = class Map
 
   onMapChange: ->
     zoom = @map.getZoom!
-    if zoom >=17 or \teplice is ig.dir.substr 0, 7 and zoom >= 15
+    shouldDrawMarkers = zoom >= 17
+      or (\teplice is ig.dir.substr 0, 7 and zoom >= 15)
+      or (ig.isRychlost)
+    if shouldDrawMarkers
       @drawMarkers! if !@markersDrawn
       @updateMarkers!
     else if zoom < 17 and @markersDrawn
@@ -139,12 +152,13 @@ window.ig.Map = class Map
           yes
       else
         no
+    latLngsToDisplay.sort (a, b) -> b.alt - a.alt
     latLngsToDisplay.forEach (latLng) ~>
       count = latLng.alt
       color = @markerColorScale count
       radius = Math.floor @markerRadiusScale count
       icon = L.divIcon do
-        html: "<div style='background-color: #color;line-height:#{radius}px'>#count</div>"
+        html: "<div style='background-color: #color;line-height:#{radius}px'>#{ig.utils.formatNumber count}</div>"
         iconSize: [radius + 10, radius + 10]
       marker = L.marker latLng, {icon}
         ..on \click ~>
