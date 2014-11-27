@@ -5,12 +5,14 @@ require! {
   diacritics
 }
 
-file = "teplice_odtahy"
-targetDir = "teplice-odtahy"
+file = "praha_prest_6_13_5_14"
+targetDir = "praha-rychlost"
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
 stream.pipe reader
+
+isRychlost = 'rychlost' is targetDir.split '-' .1
 
 i = 0
 out = {}
@@ -57,10 +59,12 @@ reader.on \data (line) ->
   yIndex = (Math.floor y / 0.005)
   spachano = spachano.substr 2, 8
   originalTyp = typ
-  typ = diacritics.remove typ
+  # typ = diacritics.remove typ
   typ .= toLowerCase!
   typ .= replace /[^a-z0-9]/gi ''
   typ .= replace /s/g 'z'
+  if isRychlost and -1 == typ.indexOf 'rychlozt'
+    return
   typId = if typIndices[typ]
     that
   else

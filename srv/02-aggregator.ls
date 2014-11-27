@@ -17,14 +17,18 @@ require! {
 # file = "praha_prest_6_13_5_14"
 # targetDir = "praha-prestupky"
 
-file = "teplice_odtahy"
-targetDir = "teplice-odtahy"
+file = "praha_prest_6_13_5_14"
+targetDir = "praha-rychlost"
+
+# file = "teplice_odtahy"
+# targetDir = "teplice-odtahy"
 
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
 stream.pipe reader
 
+isRychlost = 'rychlost' is targetDir.split '-' .1
 out = {}
 typIndices = {}
 currentTypIndex = 0
@@ -41,7 +45,7 @@ reader.on \data (line) ->
   return unless x > 0 and y > 0
   x .= toFixed 5
   y .= toFixed 5
-  typ = diacritics.remove typ
+  # typ = diacritics.remove typ
   typ .= toLowerCase!
   typ .= replace /[^a-z0-9]/gi ''
   typ .= replace /s/g 'z'
@@ -53,7 +57,8 @@ reader.on \data (line) ->
     typIndices[typ] = i
     i
   id = [x, y].join "\t"
-  out[id] = out[id] + 1 || 1
+  if !isRychlost or -1 != typ.indexOf 'rychlozt'
+    out[id] = out[id] + 1 || 1
 
 <~ reader.on \end
 output = for id, count of out
