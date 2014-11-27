@@ -33,6 +33,9 @@ window.ig.Map = class Map
       center.0 += 0.023
       center.1 -= 0.04
       zoom = 13
+      if ig.isRychlost
+        zoom = 12
+        center = [50.06199 14.4070]
       maxBounds = [[49.94,14.24], [50.18,14.7]]
     | \tepli
       bounds =
@@ -52,6 +55,9 @@ window.ig.Map = class Map
       center = [(bounds.y.0 + bounds.y.1) / 2, (bounds.x.0 + bounds.x.1) / 2]
       center.0 -= 0.01
       center.1 += 0.01
+      if ig.isRychlost
+        zoom = 13
+        center = [49.1849 16.6344]
       maxBounds = [[49.11 16.46] [49.30 16.74]]
 
     @map = L.map do
