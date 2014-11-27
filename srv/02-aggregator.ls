@@ -17,8 +17,11 @@ require! {
 # file = "praha_prest_6_13_5_14"
 # targetDir = "praha-prestupky"
 
-file = "praha_prest_6_13_5_14"
-targetDir = "praha-rychlost"
+# file = "praha_prest_6_13_5_14"
+# targetDir = "praha-rychlost"
+
+file = "brno_prest_6_13_9_14"
+targetDir = "brno-rychlost"
 
 # file = "teplice_odtahy"
 # targetDir = "teplice-odtahy"
@@ -57,7 +60,8 @@ reader.on \data (line) ->
     typIndices[typ] = i
     i
   id = [x, y].join "\t"
-  if !isRychlost or -1 != typ.indexOf 'rychlozt'
+  # if !isRychlost or -1 != typ.indexOf 'rychlozt'
+  if !isRychlost or typ.match /125codzt1pzmfbod[2-4]/
     out[id] = out[id] + 1 || 1
 
 <~ reader.on \end
