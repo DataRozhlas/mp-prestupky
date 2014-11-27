@@ -20,7 +20,7 @@ require! {
 # file = "praha_prest_6_13_5_14"
 # targetDir = "praha-rychlost"
 
-file = "brno_prest_6_13_9_14"
+file = "brno_rychlost"
 targetDir = "brno-rychlost"
 
 # file = "teplice_odtahy"

@@ -5,7 +5,7 @@ require! {
   diacritics
 }
 
-file = "brno_prest_6_13_9_14"
+file = "brno_rychlost"
 targetDir = "brno-rychlost"
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
