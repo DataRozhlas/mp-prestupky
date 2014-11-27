@@ -41,7 +41,7 @@ window.ig.Infobar = class Infobar
     histogramContainer = @element.append \div
       ..attr \class "histogram-container"
       ..append \h3
-        ..html "V kolik hodin se odtahuje"
+        ..html unless ig.isRychlost then "V kolik hodin se odtahuje" else "V kolik hodin se páchá nejvíce přestupků"
     @timeHistogramElm = histogramContainer.append \div
       ..attr \class "histogram time"
     @timeHistogramBars = @timeHistogramElm.selectAll \div.bar .data @timeHistogram .enter!append \div
@@ -117,7 +117,7 @@ window.ig.Infobar = class Infobar
     histogramContainer = @element.append \div
       ..attr \class "histogram-container"
       ..append \h3
-        ..html "Které dny v týdnu se odtahuje"
+        ..html unless ig.isRychlost then "Které dny v týdnu se odtahuje" else "Které dny se nejčastěji páchají přestupky"
     @dayHistogramElm = histogramContainer.append \div
       ..attr \class "histogram day"
     dayHistogramBars = @dayHistogramElm.selectAll \div.bar .data @dayHistogram .enter!append \div
