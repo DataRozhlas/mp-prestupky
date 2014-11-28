@@ -5,8 +5,8 @@ require! {
   diacritics
 }
 
-file = "brno_rychlost"
-targetDir = "brno-rychlost"
+file = "praha_prest_6_13_5_14"
+targetDir = "praha-rychlost"
 
 stream = fs.createReadStream "#__dirname/../data/#file.csv"
 reader = parse {delimiter: ','}
@@ -33,7 +33,7 @@ typFulls = {}
 currentTypIndex = 0
 reader.on \data (line) ->
   if 'praha_prest_6_13_5_14' == file
-    [..._, spachano,oblast,addr,ulice,cislo,typ,x,y] = line
+    [..._, spachano,oblast,ulice,cislo,typ,addr,x,y] = line
   else if 'praha_odtah_6_13_5_14' == file
     [..._, spachano,_,_,_,typ,_,x,y] = line
   else if 'teplice_odtahy' == file
@@ -63,8 +63,8 @@ reader.on \data (line) ->
   typ .= toLowerCase!
   typ .= replace /[^a-z0-9]/gi ''
   typ .= replace /s/g 'z'
-  # if isRychlost and -1 == typ.indexOf 'rychlozt'
-  if isRychlost and not typ.match /125codzt1pzmfbod[2-4]/
+  if isRychlost and -1 == typ.indexOf 'rychlozt'
+  # if isRychlost and not typ.match /125codzt1pzmfbod[2-4]/
     return
   typId = if typIndices[typ]
     that

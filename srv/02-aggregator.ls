@@ -17,11 +17,11 @@ require! {
 # file = "praha_prest_6_13_5_14"
 # targetDir = "praha-prestupky"
 
-# file = "praha_prest_6_13_5_14"
-# targetDir = "praha-rychlost"
+file = "praha_prest_6_13_5_14"
+targetDir = "praha-rychlost"
 
-file = "brno_rychlost"
-targetDir = "brno-rychlost"
+# file = "brno_rychlost"
+# targetDir = "brno-rychlost"
 
 # file = "teplice_odtahy"
 # targetDir = "teplice-odtahy"
@@ -38,10 +38,9 @@ currentTypIndex = 0
 addresses = {}
 reader.on \data (line) ->
   if 'praha_prest_6_13_5_14' == file
-    [..._, spachano,oblast,addr,ulice,cislo,typ,x,y] = line
+    [..._, spachano,oblast,ulice,cislo,typ,addr,x,y] = line
   else
-    cislo = ''
-    [..._, spachano,_,typ,ulice,x,y] = line
+    [..._, spachano,_,typ,addr,x,y] = line
   return if x == 'X'
   x = parseFloat x
   # x -= 0.0011
@@ -62,10 +61,10 @@ reader.on \data (line) ->
     typIndices[typ] = i
     i
   id = [x, y].join "\t"
-  # if !isRychlost or -1 != typ.indexOf 'rychlozt'
-  if !isRychlost or typ.match /125codzt1pzmfbod[2-4]/
+  if !isRychlost or -1 != typ.indexOf 'rychlozt'
+  # if !isRychlost or typ.match /125codzt1pzmfbod[2-4]/
     out[id] = out[id] + 1 || 1
-    addresses[id] ?= "#ulice #cislo"
+    addresses[id] ?= "#addr"
 
 <~ reader.on \end
 output = for id, count of out
