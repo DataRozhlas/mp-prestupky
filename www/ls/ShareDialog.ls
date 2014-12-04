@@ -68,7 +68,7 @@ window.ig.ShareDialog = class ShareDialog
       ..innerHTML = "<a class='embed' href='#'>Zobrazit kód ke vložení do stránky</a>"
       ..onclick = ~>
         ga? \send \event \share \embed window.ig.projectName
-        text = '<iframe width="1000" height="700" src="' + link.normal + '" frameborder="0" allowfullscreen></iframe>'
+        text = '<iframe width="1000" height="700" src="' + link.embedded + '" frameborder="0" allowfullscreen></iframe>'
         elm = document.createElement \input
           ..type = 'text'
           ..value = text
@@ -83,7 +83,8 @@ window.ig.ShareDialog = class ShareDialog
     @shareArea.className = @shareBackground.className = ""
 
   getCurrentLink: ->
-    referrer = document.referrer || document.location.toString!
+    embedded = document.location.toString!
+    referrer = document.referrer || embedded
     referrer = referrer.split '#' .0
     @emit "hashRequested"
     normal = referrer
@@ -91,6 +92,6 @@ window.ig.ShareDialog = class ShareDialog
     entities = normal.replace '#' '%23'
     facebook = "https://www.facebook.com/sharer/sharer.php?u=" + entities
     twitter = "https://twitter.com/home?status=" + entities + " // @dataRozhlas"
-    {normal, entities, facebook, twitter}
+    {normal, entities, facebook, twitter, embedded}
 
   setHash: (@hash) ->
